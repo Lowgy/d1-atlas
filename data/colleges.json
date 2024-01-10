@@ -1,0 +1,4707 @@
+[
+  {
+    "id": 1,
+    "name": "Abilene Christian",
+    "location": {
+      "city": "Abilene",
+      "state": "Texas",
+      "lat": 32.470255102743224,
+      "lng": -99.70803176072836
+    },
+    "mascot": "Wildcats",
+    "colors": ["Purple", "White"],
+    "conference": "WAC"
+  },
+  {
+    "id": 2,
+    "name": "Air Force",
+    "location": {
+      "city": "Colorado Springs",
+      "state": "Colorado",
+      "lat": 38.99838,
+      "lng": -104.96262
+    },
+    "mascot": "Falcons",
+    "colors": ["Blue", "Silver"],
+    "conference": "Mountain West"
+  },
+  {
+    "id": 3,
+    "name": "Akron",
+    "location": {
+      "city": "Akron",
+      "state": "Ohio",
+      "lat": 41.754,
+      "lng": -81.51275
+    },
+    "mascot": "Zips",
+    "colors": ["Blue", "Gold"],
+    "conference": "MAC"
+  },
+  {
+    "id": 4,
+    "name": "Alabama",
+    "location": {
+      "city": "Tuscaloosa",
+      "state": "Alabama",
+      "lat": 33.21161,
+      "lng": -87.53995
+    },
+    "mascot": "Crimson Tide",
+    "colors": ["Crimson", "White"],
+    "conference": "SEC"
+  },
+  {
+    "id": 5,
+    "name": "Alabama A&M",
+    "location": {
+      "city": "Normal",
+      "state": "Alabama",
+      "lat": 34.78409,
+      "lng": -86.57181
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Maroon", "White"],
+    "conference": "SWAC"
+  },
+  {
+    "id": 6,
+    "name": "Alabama State",
+    "location": {
+      "city": "Montgomery",
+      "state": "Alabama",
+      "lat": 32.36308,
+      "lng": -86.29337
+    },
+    "mascot": "Hornets",
+    "colors": ["Black", "Gold"],
+    "conference": "SWAC"
+  },
+  {
+    "id": 7,
+    "name": "Albany",
+    "location": {
+      "city": "Albany",
+      "state": "New York",
+      "lat": 42.68515,
+      "lng": -73.82399
+    },
+    "mascot": "Great Danes",
+    "colors": ["Purple", "Gold"],
+    "conference": "America East"
+  },
+  {
+    "id": 8,
+    "name": "Alcorn State",
+    "location": {
+      "city": "Lorman",
+      "state": "Mississippi",
+      "lat": 31.8743,
+      "lng": -91.13608
+    },
+    "mascot": "Braves",
+    "colors": ["Purple", "Gold"],
+    "conference": "SWAC"
+  },
+  {
+    "id": 9,
+    "name": "American",
+    "location": {
+      "city": "Washington",
+      "state": "District of Columbia",
+      "lat": 38.93822,
+      "lng": -77.08827
+    },
+    "mascot": "Eagles",
+    "colors": ["Red", "Blue"],
+    "conference": "Patriot League"
+  },
+  {
+    "id": 10,
+    "name": "Appalachian State",
+    "location": {
+      "city": "Boone",
+      "state": "North Carolina",
+      "lat": 36.21368,
+      "lng": -81.68386
+    },
+    "mascot": "Mountaineers",
+    "colors": ["Black", "Gold"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 11,
+    "name": "Arizona",
+    "location": {
+      "city": "Tucson",
+      "state": "Arizona",
+      "lat": 32.23173,
+      "lng": -110.95304
+    },
+    "mascot": "Wildcats",
+    "colors": ["Red", "Blue"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 12,
+    "name": "Arizona State",
+    "location": {
+      "city": "Tempe",
+      "state": "Arizona",
+      "lat": 33.41714,
+      "lng": -111.93652
+    },
+    "mascot": "Sun Devils",
+    "colors": ["Maroon", "Gold"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 13,
+    "name": "Arkansas",
+    "location": {
+      "city": "Fayetteville",
+      "state": "Arkansas",
+      "lat": 36.06878,
+      "lng": -94.17559
+    },
+    "mascot": "Razorbacks",
+    "colors": ["Cardinal", "White"],
+    "conference": "SEC"
+  },
+  {
+    "id": 14,
+    "name": "Arkansas State",
+    "location": {
+      "city": "Jonesboro",
+      "state": "Arkansas",
+      "lat": 35.84311,
+      "lng": -90.67486
+    },
+    "mascot": "Red Wolves",
+    "colors": ["Scarlet", "Black"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 15,
+    "name": "Arkansas-Pine Bluff",
+    "location": {
+      "city": "Pine Bluff",
+      "state": "Arkansas",
+      "lat": 34.24754,
+      "lng": -92.02139
+    },
+    "mascot": "Golden Lions",
+    "colors": ["Black", "Gold"],
+    "conference": "SWAC"
+  },
+  {
+    "id": 16,
+    "name": "Army",
+    "location": {
+      "city": "West Point",
+      "state": "New York",
+      "lat": 41.38894,
+      "lng": -73.95703
+    },
+    "mascot": "Black Knights",
+    "colors": ["Black", "Gold"],
+    "conference": "Patriot League"
+  },
+  {
+    "id": 17,
+    "name": "Auburn",
+    "location": {
+      "city": "Auburn",
+      "state": "Alabama",
+      "lat": 32.59822,
+      "lng": -85.49383
+    },
+    "mascot": "Tigers",
+    "colors": ["Navy Blue", "Burnt Orange"],
+    "conference": "SEC"
+  },
+  {
+    "id": 18,
+    "name": "Austin Peay",
+    "location": {
+      "city": "Clarksville",
+      "state": "Tennessee",
+      "lat": 36.53511,
+      "lng": -87.35524
+    },
+    "mascot": "Governors",
+    "colors": ["Red", "White"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 19,
+    "name": "Ball State",
+    "location": {
+      "city": "Muncie",
+      "state": "Indiana",
+      "lat": 40.2027,
+      "lng": -85.40517
+    },
+    "mascot": "Cardinals",
+    "colors": ["Cardinal", "White"],
+    "conference": "MAC"
+  },
+  {
+    "id": 20,
+    "name": "Baylor",
+    "location": {
+      "city": "Waco",
+      "state": "Texas",
+      "lat": 31.5503,
+      "lng": -97.11294
+    },
+    "mascot": "Bears",
+    "colors": ["Green", "Gold"],
+    "conference": "Big 12"
+  },
+  {
+    "id": 21,
+    "name": "Bellarmine",
+    "location": {
+      "city": "Louisville",
+      "state": "Kentucky",
+      "lat": 38.21865,
+      "lng": -85.70553
+    },
+    "mascot": "Knights",
+    "colors": ["Red", "Black"],
+    "conference": "ASUN"
+  },
+  {
+    "id": 22,
+    "name": "Belmont",
+    "location": {
+      "city": "Nashville",
+      "state": "Tennessee",
+      "lat": 36.1331,
+      "lng": -86.79378
+    },
+    "mascot": "Bruins",
+    "colors": ["Navy Blue", "Red"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 23,
+    "name": "Bethune-Cookman",
+    "location": {
+      "city": "Daytona Beach",
+      "state": "Florida",
+      "lat": 29.21122,
+      "lng": -81.03147
+    },
+    "mascot": "Wildcats",
+    "colors": ["Maroon", "Gold"],
+    "conference": "MEAC"
+  },
+  {
+    "id": 24,
+    "name": "Binghamton",
+    "location": {
+      "city": "Vestal",
+      "state": "New York",
+      "lat": 42.0896,
+      "lng": -75.96942
+    },
+    "mascot": "Bearcats",
+    "colors": ["Green", "White"],
+    "conference": "America East"
+  },
+  {
+    "id": 25,
+    "name": "Boise State",
+    "location": {
+      "city": "Boise",
+      "state": "Idaho",
+      "lat": 43.60247,
+      "lng": -116.20044
+    },
+    "mascot": "Broncos",
+    "colors": ["Blue", "Orange"],
+    "conference": "Mountain West"
+  },
+  {
+    "id": 26,
+    "name": "Boston College",
+    "location": {
+      "city": "Chestnut Hill",
+      "state": "Massachusetts",
+      "lat": 42.33568,
+      "lng": -71.16766
+    },
+    "mascot": "Eagles",
+    "colors": ["Maroon", "Gold"],
+    "conference": "ACC"
+  },
+  {
+    "id": 27,
+    "name": "Boston University",
+    "location": {
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 32.35063,
+      "lng": -71.10479
+    },
+    "mascot": "Terriers",
+    "colors": ["Red", "White"],
+    "conference": "Patriot League"
+  },
+  {
+    "id": 28,
+    "name": "Bowling Green",
+    "location": {
+      "city": "Bowling Green",
+      "state": "Ohio",
+      "lat": 41.3796,
+      "lng": -83.62958
+    },
+    "mascot": "Falcons",
+    "colors": ["Orange", "Brown"],
+    "conference": "MAC"
+  },
+  {
+    "id": 29,
+    "name": "Bradley",
+    "location": {
+      "city": "Peoria",
+      "state": "Illinois",
+      "lat": 40.69794,
+      "lng": -89.61487
+    },
+    "mascot": "Braves",
+    "colors": ["Red", "White"],
+    "conference": "Missouri Valley"
+  },
+  {
+    "id": 30,
+    "name": "Brigham Young",
+    "location": {
+      "city": "Provo",
+      "state": "Utah",
+      "lat": 40.25204,
+      "lng": -111.64904
+    },
+    "mascot": "Cougars",
+    "colors": ["Blue", "White"],
+    "conference": "WCC"
+  },
+  {
+    "id": 31,
+    "name": "Brown",
+    "location": {
+      "city": "Providence",
+      "state": "Rhode Island",
+      "lat": 41.82692,
+      "lng": -71.40249
+    },
+    "mascot": "Bears",
+    "colors": ["Brown", "White"],
+    "conference": "Ivy League"
+  },
+  {
+    "id": 32,
+    "name": "Bryant",
+    "location": {
+      "city": "Smithfield",
+      "state": "Rhode Island",
+      "lat": 41.92224,
+      "lng": -71.53711
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Black", "Gold"],
+    "conference": "Northeast"
+  },
+  {
+    "id": 33,
+    "name": "Bucknell",
+    "location": {
+      "city": "Lewisburg",
+      "state": "Pennsylvania",
+      "lat": 40.95497,
+      "lng": -76.88591
+    },
+    "mascot": "Bison",
+    "colors": ["Orange", "Blue"],
+    "conference": "Patriot League"
+  },
+  {
+    "id": 34,
+    "name": "Buffalo",
+    "location": {
+      "city": "Buffalo",
+      "state": "New York",
+      "lat": 43.00188,
+      "lng": -78.78938
+    },
+    "mascot": "Bulls",
+    "colors": ["Blue", "White"],
+    "conference": "MAC"
+  },
+  {
+    "id": 35,
+    "name": "Butler",
+    "location": {
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "lat": 39.84005,
+      "lng": -86.17214
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Blue", "White"],
+    "conference": "Big East"
+  },
+  {
+    "id": 36,
+    "name": "Cal Poly",
+    "location": {
+      "city": "San Luis Obispo",
+      "state": "California",
+      "lat": 35.30464,
+      "lng": -120.66273
+    },
+    "mascot": "Mustangs",
+    "colors": ["Green", "Gold"],
+    "conference": "Big West"
+  },
+  {
+    "id": 37,
+    "name": "California",
+    "location": {
+      "city": "Berkeley",
+      "state": "California",
+      "lat": 37.87029,
+      "lng": -122.25952
+    },
+    "mascot": "Golden Bears",
+    "colors": ["Blue", "Gold"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 38,
+    "name": "California Baptist",
+    "location": {
+      "city": "Riverside",
+      "state": "California",
+      "lat": 37.87036,
+      "lng": -122.25897
+    },
+    "mascot": "Lancers",
+    "colors": ["Purple", "Gold"],
+    "conference": "WAC"
+  },
+  {
+    "id": 39,
+    "name": "Canisius",
+    "location": {
+      "city": "Buffalo",
+      "state": "New York",
+      "lat": 42.92397,
+      "lng": -78.85474
+    },
+    "mascot": "Golden Griffins",
+    "colors": ["Blue", "Gold"],
+    "conference": "MAAC"
+  },
+  {
+    "id": 40,
+    "name": "Campbell",
+    "location": {
+      "city": "Buies Creek",
+      "state": "North Carolina",
+      "lat": 36.40831,
+      "lng": -78.73912
+    },
+    "mascot": "Fighting Camels",
+    "colors": ["Orange", "Black"],
+    "conference": "Big South"
+  },
+  {
+    "id": 41,
+    "name": "Central Arkansas",
+    "location": {
+      "city": "Conway",
+      "state": "Arkansas",
+      "lat": 35.07834,
+      "lng": -92.45792
+    },
+    "mascot": "Bears",
+    "colors": ["Purple", "White"],
+    "conference": "Southland"
+  },
+  {
+    "id": 42,
+    "name": "Central Connecticut State",
+    "location": {
+      "city": "New Britain",
+      "state": "Connecticut",
+      "lat": 41.69329,
+      "lng": -72.76298
+    },
+    "mascot": "Blue Devils",
+    "colors": ["Blue", "White"],
+    "conference": "Northeast"
+  },
+  {
+    "id": 43,
+    "name": "Central Michigan",
+    "location": {
+      "city": "Mount Pleasant",
+      "state": "Michigan",
+      "lat": 43.58241,
+      "lng": -84.77597
+    },
+    "mascot": "Chippewas",
+    "colors": ["Maroon", "Gold"],
+    "conference": "MAC"
+  },
+  {
+    "id": 44,
+    "name": "Charleston",
+    "location": {
+      "city": "Charleston",
+      "state": "South Carolina",
+      "lat": 38.3337,
+      "lng": -81.61769
+    },
+    "mascot": "Cougars",
+    "colors": ["Maroon", "White"],
+    "conference": "CAA"
+  },
+  {
+    "id": 45,
+    "name": "Charleston Southern",
+    "location": {
+      "city": "Charleston",
+      "state": "South Carolina",
+      "lat": 32.98246,
+      "lng": -80.07002
+    },
+    "mascot": "Buccaneers",
+    "colors": ["Blue", "Gold"],
+    "conference": "Big South"
+  },
+  {
+    "id": 46,
+    "name": "Charlotte",
+    "location": {
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "lat": 35.30731,
+      "lng": -80.73479
+    },
+    "mascot": "49ers",
+    "colors": ["Green", "White"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 47,
+    "name": "Chattanooga",
+    "location": {
+      "city": "Chattanooga",
+      "state": "Tennessee",
+      "lat": 35.04632,
+      "lng": -85.29472
+    },
+    "mascot": "Mocs",
+    "colors": ["Blue", "Gold"],
+    "conference": "Southern"
+  },
+  {
+    "id": 48,
+    "name": "Chicago State",
+    "location": {
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.71842,
+      "lng": -87.6094
+    },
+    "mascot": "Cougars",
+    "colors": ["Green", "White"],
+    "conference": "WAC"
+  },
+  {
+    "id": 49,
+    "name": "Cincinnati",
+    "location": {
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "lat": 39.13317,
+      "lng": -84.51452
+    },
+    "mascot": "Bearcats",
+    "colors": ["Red", "Black"],
+    "conference": "AAC"
+  },
+  {
+    "id": 50,
+    "name": "Citadel",
+    "location": {
+      "city": "Charleston",
+      "state": "South Carolina",
+      "lat": 32.79749,
+      "lng": -79.9592
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Blue", "White"],
+    "conference": "Southern"
+  },
+  {
+    "id": 51,
+    "name": "Clemson",
+    "location": {
+      "city": "Clemson",
+      "state": "South Carolina",
+      "lat": 34.67516,
+      "lng": -82.84033
+    },
+    "mascot": "Tigers",
+    "colors": ["Orange", "Purple"],
+    "conference": "ACC"
+  },
+  {
+    "id": 52,
+    "name": "Cleveland State",
+    "location": {
+      "city": "Cleveland",
+      "state": "Ohio",
+      "lat": 41.50288,
+      "lng": -81.67418
+    },
+    "mascot": "Vikings",
+    "colors": ["Green", "White"],
+    "conference": "Horizon League"
+  },
+  {
+    "id": 53,
+    "name": "Coastal Carolina",
+    "location": {
+      "city": "Conway",
+      "state": "South Carolina",
+      "lat": 33.79623,
+      "lng": -79.01335
+    },
+    "mascot": "Chanticleers",
+    "colors": ["Teal", "Bronze"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 54,
+    "name": "Colgate",
+    "location": {
+      "city": "Hamilton",
+      "state": "New York",
+      "lat": 42.81568,
+      "lng": -75.54033
+    },
+    "mascot": "Raiders",
+    "colors": ["Maroon", "White"],
+    "conference": "Patriot League"
+  },
+  {
+    "id": 55,
+    "name": "Colorado",
+    "location": {
+      "city": "Boulder",
+      "state": "Colorado",
+      "lat": 40.00748,
+      "lng": -105.26544
+    },
+    "mascot": "Buffaloes",
+    "colors": ["Black", "Gold"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 56,
+    "name": "Colorado State",
+    "location": {
+      "city": "Fort Collins",
+      "state": "Colorado",
+      "lat": 40.57311,
+      "lng": -105.08477
+    },
+    "mascot": "Rams",
+    "colors": ["Green", "Gold"],
+    "conference": "Mountain West"
+  },
+  {
+    "id": 57,
+    "name": "Columbia",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.80767,
+      "lng": -73.96233
+    },
+    "mascot": "Lions",
+    "colors": ["Blue", "White"],
+    "conference": "Ivy League"
+  },
+  {
+    "id": 58,
+    "name": "Coppin State",
+    "location": {
+      "city": "Baltimore",
+      "state": "Maryland",
+      "lat": 39.31275,
+      "lng": -76.65788
+    },
+    "mascot": "Eagles",
+    "colors": ["Blue", "Gold"],
+    "conference": "MEAC"
+  },
+  {
+    "id": 59,
+    "name": "Cornell",
+    "location": {
+      "city": "Ithaca",
+      "state": "New York",
+      "lat": 42.45355,
+      "lng": -76.47303
+    },
+    "mascot": "Big Red",
+    "colors": ["Red", "White"],
+    "conference": "Ivy League"
+  },
+  {
+    "id": 60,
+    "name": "Creighton",
+    "location": {
+      "city": "Omaha",
+      "state": "Nebraska",
+      "lat": 41.26576,
+      "lng": -95.94631
+    },
+    "mascot": "Bluejays",
+    "colors": ["Blue", "White"],
+    "conference": "Big East"
+  },
+  {
+    "id": 61,
+    "name": "CSU Bakersfield",
+    "location": {
+      "city": "Bakersfield",
+      "state": "California",
+      "lat": 35.2488,
+      "lng": -119.10272
+    },
+    "mascot": "Roadrunners",
+    "colors": ["Blue", "Gold"],
+    "conference": "WAC"
+  },
+  {
+    "id": 62,
+    "name": "CSU Fullerton",
+    "location": {
+      "city": "Fullerton",
+      "state": "California",
+      "lat": 33.8824,
+      "lng": -117.88484
+    },
+    "mascot": "Titans",
+    "colors": ["Blue", "Orange"],
+    "conference": "Big West"
+  },
+  {
+    "id": 63,
+    "name": "CSU Northridge",
+    "location": {
+      "city": "Northridge",
+      "state": "California",
+      "lat": 34.24073,
+      "lng": -118.52972
+    },
+    "mascot": "Matadors",
+    "colors": ["Red", "Black"],
+    "conference": "Big West"
+  },
+  {
+    "id": 64,
+    "name": "Dartmouth",
+    "location": {
+      "city": "Hanover",
+      "state": "New Hampshire",
+      "lat": 43.70452,
+      "lng": -72.2883
+    },
+    "mascot": "Big Green",
+    "colors": ["Green", "White"],
+    "conference": "Ivy League"
+  },
+  {
+    "id": 65,
+    "name": "Davidson",
+    "location": {
+      "city": "Davidson",
+      "state": "North Carolina",
+      "lat": 35.50169,
+      "lng": -80.84166
+    },
+    "mascot": "Wildcats",
+    "colors": ["Red", "Black"]
+  },
+  {
+    "id": 66,
+    "name": "Dayton",
+    "location": {
+      "city": "Dayton",
+      "state": "Ohio",
+      "lat": 39.74052,
+      "lng": -84.17902
+    },
+    "mascot": "Flyers",
+    "colors": ["Red", "Blue"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 67,
+    "name": "Delaware",
+    "location": {
+      "city": "Newark",
+      "state": "Delaware",
+      "lat": 39.67807,
+      "lng": -75.74986
+    },
+    "mascot": "Blue Hens",
+    "colors": ["Blue", "Gold"],
+    "conference": "CAA"
+  },
+  {
+    "id": 68,
+    "name": "Delaware State",
+    "location": {
+      "city": "Dover",
+      "state": "Delaware",
+      "lat": 39.1854,
+      "lng": -75.54273
+    },
+    "mascot": "Hornets",
+    "colors": ["Red", "Columbia Blue"],
+    "conference": "MEAC"
+  },
+  {
+    "id": 69,
+    "name": "Denver",
+    "location": {
+      "city": "Denver",
+      "state": "Colorado",
+      "lat": 39.67673,
+      "lng": -104.96138
+    },
+    "mascot": "Pioneers",
+    "colors": ["Crimson", "Gold"],
+    "conference": "Summit League"
+  },
+  {
+    "id": 70,
+    "name": "DePaul",
+    "location": {
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.92433,
+      "lng": -87.65414
+    },
+    "mascot": "Blue Demons",
+    "colors": ["Royal Blue", "Scarlet"],
+    "conference": "Big East"
+  },
+  {
+    "id": 71,
+    "name": "Detroit Mercy",
+    "location": {
+      "city": "Detroit",
+      "state": "Michigan",
+      "lat": 42.4142,
+      "lng": -83.13764
+    },
+    "mascot": "Titans",
+    "colors": ["Red", "Blue"],
+    "conference": "Horizon League"
+  },
+  {
+    "id": 72,
+    "name": "Drake",
+    "location": {
+      "city": "Des Moines",
+      "state": "Iowa",
+      "lat": 41.60322,
+      "lng": -93.65379
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Blue", "White"],
+    "conference": "Missouri Valley"
+  },
+  {
+    "id": 73,
+    "name": "Drexel",
+    "location": {
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.95673,
+      "lng": -75.18992
+    },
+    "mascot": "Dragons",
+    "colors": ["Blue", "Gold"],
+    "conference": "CAA"
+  },
+  {
+    "id": 74,
+    "name": "Duke",
+    "location": {
+      "city": "Durham",
+      "state": "North Carolina",
+      "lat": 36.00153,
+      "lng": -78.93827
+    },
+    "mascot": "Blue Devils",
+    "colors": ["Royal Blue", "White"],
+    "conference": "ACC"
+  },
+  {
+    "id": 75,
+    "name": "Duquesne",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "lat": 40.43715,
+      "lng": -79.99029
+    },
+    "mascot": "Dukes",
+    "colors": ["Red", "Blue"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 76,
+    "name": "East Carolina",
+    "location": {
+      "city": "Greenville",
+      "state": "North Carolina",
+      "lat": 35.60708,
+      "lng": -77.36647
+    },
+    "mascot": "Pirates",
+    "colors": ["Purple", "Gold"],
+    "conference": "AAC"
+  },
+  {
+    "id": 77,
+    "name": "East Tennessee State",
+    "location": {
+      "city": "Johnson City",
+      "state": "Tennessee",
+      "lat": 36.30264,
+      "lng": -82.36983
+    },
+    "mascot": "Buccaneers",
+    "colors": ["Blue", "Gold"],
+    "conference": "Southern"
+  },
+  {
+    "id": 78,
+    "name": "Eastern Illinois",
+    "location": {
+      "city": "Charleston",
+      "state": "Illinois",
+      "lat": 39.48381,
+      "lng": -88.17521
+    },
+    "mascot": "Panthers",
+    "colors": ["Blue", "Gray"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 79,
+    "name": "Eastern Kentucky",
+    "location": {
+      "city": "Richmond",
+      "state": "Kentucky",
+      "lat": 37.73612,
+      "lng": -84.29877
+    },
+    "mascot": "Colonels",
+    "colors": ["Maroon", "White"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 80,
+    "name": "Eastern Michigan",
+    "location": {
+      "city": "Ypsilanti",
+      "state": "Michigan",
+      "lat": 42.25086,
+      "lng": -83.6241
+    },
+    "mascot": "Eagles",
+    "colors": ["Green", "White"],
+    "conference": "MAC"
+  },
+  {
+    "id": 81,
+    "name": "Eastern Washington",
+    "location": {
+      "city": "Cheney",
+      "state": "Washington",
+      "lat": 47.4908,
+      "lng": -117.58481
+    },
+    "mascot": "Eagles",
+    "colors": ["Red", "White"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 82,
+    "name": "Elon",
+    "location": {
+      "city": "Elon",
+      "state": "North Carolina",
+      "lat": 36.10299,
+      "lng": -79.50242
+    },
+    "mascot": "Phoenix",
+    "colors": ["Maroon", "Gold"],
+    "conference": "CAA"
+  },
+  {
+    "id": 83,
+    "name": "Evansville",
+    "location": {
+      "city": "Evansville",
+      "state": "Indiana",
+      "lat": 37.97359,
+      "lng": -87.53219
+    },
+    "mascot": "Purple Aces",
+    "colors": ["Purple", "Orange"],
+    "conference": "Missouri Valley"
+  },
+  {
+    "id": 84,
+    "name": "Fairfield",
+    "location": {
+      "city": "Fairfield",
+      "state": "Connecticut",
+      "lat": 41.1601,
+      "lng": -73.25752
+    },
+    "mascot": "Stags",
+    "colors": ["Red", "White"],
+    "conference": "MAAC"
+  },
+  {
+    "id": 85,
+    "name": "Fairleigh Dickinson",
+    "location": {
+      "city": "Teaneck",
+      "state": "New Jersey",
+      "lat": 40.77642,
+      "lng": -74.43219
+    },
+    "mascot": "Knights",
+    "colors": ["Blue", "Red"],
+    "conference": "Northeast"
+  },
+  {
+    "id": 86,
+    "name": "Florida",
+    "location": {
+      "city": "Gainesville",
+      "state": "Florida",
+      "lat": 29.64676,
+      "lng": -82.35339
+    },
+    "mascot": "Gators",
+    "colors": ["Orange", "Blue"],
+    "conference": "SEC"
+  },
+  {
+    "id": 87,
+    "name": "Florida A&M",
+    "location": {
+      "city": "Tallahassee",
+      "state": "Florida",
+      "lat": 30.4231,
+      "lng": -84.28798
+    },
+    "mascot": "Rattlers",
+    "colors": ["Orange", "Green"],
+    "conference": "MEAC"
+  },
+  {
+    "id": 88,
+    "name": "Florida Atlantic",
+    "location": {
+      "city": "Boca Raton",
+      "state": "Florida",
+      "lat": 26.37403,
+      "lng": -80.10195
+    },
+    "mascot": "Owls",
+    "colors": ["Blue", "Red"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 89,
+    "name": "Florida Gulf Coast",
+    "location": {
+      "city": "Fort Myers",
+      "state": "Florida",
+      "lat": 25.75657,
+      "lng": -80.37564
+    },
+    "mascot": "Eagles",
+    "colors": ["Blue", "Green"],
+    "conference": "ASUN"
+  },
+  {
+    "id": 90,
+    "name": "Florida International",
+    "location": {
+      "city": "Miami",
+      "state": "Florida",
+      "lat": 25.75644,
+      "lng": -80.37557
+    },
+    "mascot": "Panthers",
+    "colors": ["Blue", "Gold"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 91,
+    "name": "Florida State",
+    "location": {
+      "city": "Tallahassee",
+      "state": "Florida",
+      "lat": 30.44225,
+      "lng": -84.29844
+    },
+    "mascot": "Seminoles",
+    "colors": ["Garnet", "Gold"],
+    "conference": "ACC"
+  },
+  {
+    "id": 92,
+    "name": "Fordham",
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "lat": 40.86155,
+      "lng": -73.88527
+    },
+    "mascot": "Rams",
+    "colors": ["Maroon", "White"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 93,
+    "name": "Fresno State",
+    "location": {
+      "city": "Fresno",
+      "state": "California",
+      "lat": 36.81443,
+      "lng": -119.74632
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Red", "Blue"],
+    "conference": "Mountain West"
+  },
+  {
+    "id": 94,
+    "name": "Furman",
+    "location": {
+      "city": "Greenville",
+      "state": "South Carolina",
+      "lat": 34.92769,
+      "lng": -82.44007
+    },
+    "mascot": "Paladins",
+    "colors": ["Purple", "White"],
+    "conference": "Southern"
+  },
+  {
+    "id": 95,
+    "name": "Gardner-Webb",
+    "location": {
+      "city": "Boiling Springs",
+      "state": "North Carolina",
+      "lat": 35.24762,
+      "lng": -81.67071
+    },
+    "mascot": "Runnin' Bulldogs",
+    "colors": ["Red", "Black"],
+    "conference": "Big South"
+  },
+  {
+    "id": 96,
+    "name": "Georgia",
+    "location": {
+      "city": "Athens",
+      "state": "Georgia",
+      "lat": 33.95685,
+      "lng": -83.37518
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Red", "Black"],
+    "conference": "SEC"
+  },
+  {
+    "id": 97,
+    "name": "Georgia Southern",
+    "location": {
+      "city": "Statesboro",
+      "state": "Georgia",
+      "lat": 32.42089,
+      "lng": -81.78704
+    },
+    "mascot": "Eagles",
+    "colors": ["Blue", "White"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 98,
+    "name": "Georgia State",
+    "location": {
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.75318,
+      "lng": -84.28531
+    },
+    "mascot": "Panthers",
+    "colors": ["Blue", "White"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 99,
+    "name": "Georgia Tech",
+    "location": {
+      "city": "Atlanta",
+      "state": "Georgia",
+      "lat": 33.77578,
+      "lng": -84.39625
+    },
+    "mascot": "Yellow Jackets",
+    "colors": ["Gold", "White"],
+    "conference": "ACC"
+  },
+  {
+    "id": 100,
+    "name": "George Mason",
+    "location": {
+      "city": "Fairfax",
+      "state": "Virginia",
+      "lat": 38.83162,
+      "lng": -77.31181
+    },
+    "mascot": "Patriots",
+    "colors": ["Green", "Gold"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 101,
+    "name": "George Washington",
+    "location": {
+      "city": "Washington",
+      "state": "D.C.",
+      "lat": 38.90008,
+      "lng": -77.04864
+    },
+    "mascot": "Colonials",
+    "colors": ["Buff", "Blue"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 102,
+    "name": "Georgetown",
+    "location": {
+      "city": "Washington",
+      "state": "D.C.",
+      "lat": 38.90777,
+      "lng": -77.07222
+    },
+    "mascot": "Hoyas",
+    "colors": ["Blue", "Gray"],
+    "conference": "Big East"
+  },
+  {
+    "id": 103,
+    "name": "Gonzaga",
+    "location": {
+      "city": "Spokane",
+      "state": "Washington",
+      "lat": 47.66602,
+      "lng": -117.40208
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Blue", "White"],
+    "conference": "WCC"
+  },
+  {
+    "id": 104,
+    "name": "Grambling State",
+    "location": {
+      "city": "Grambling",
+      "state": "Louisiana",
+      "lat": 32.51997,
+      "lng": -92.71804
+    },
+    "mascot": "Tigers",
+    "colors": ["Black", "Gold"],
+    "conference": "SWAC"
+  },
+  {
+    "id": 105,
+    "name": "Grand Canyon",
+    "location": {
+      "city": "Phoenix",
+      "state": "Arizona",
+      "lat": 33.5100339,
+      "lng": -112.1288588
+    },
+    "mascot": "Antelopes",
+    "colors": ["Purple", "White"],
+    "conference": "WAC"
+  },
+  {
+    "id": 106,
+    "name": "Green Bay",
+    "location": {
+      "city": "Green Bay",
+      "state": "Wisconsin",
+      "lat": 44.5313196,
+      "lng": -87.9210482
+    },
+    "mascot": "Phoenix",
+    "colors": ["Green", "White"],
+    "conference": "Horizon League"
+  },
+  {
+    "id": 107,
+    "name": "Hampton",
+    "location": {
+      "city": "Hampton",
+      "state": "Virginia",
+      "lat": 37.0228392,
+      "lng": -76.3343603
+    },
+    "mascot": "Pirates",
+    "colors": ["Blue", "White"],
+    "conference": "Big South"
+  },
+  {
+    "id": 108,
+    "name": "Hartford",
+    "location": {
+      "city": "West Hartford",
+      "state": "Connecticut",
+      "lat": 41.7984942,
+      "lng": -72.7138039
+    },
+    "mascot": "Hawks",
+    "colors": ["Hawk Green", "White"],
+    "conference": "America East"
+  },
+  {
+    "id": 109,
+    "name": "Harvard",
+    "location": {
+      "city": "Cambridge",
+      "state": "Massachusetts",
+      "lat": 42.3744368,
+      "lng": -71.1182488
+    },
+    "mascot": "Crimson",
+    "colors": ["Crimson", "White"],
+    "conference": "Ivy League"
+  },
+  {
+    "id": 110,
+    "name": "Hawaii",
+    "location": {
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "lat": 21.3008904,
+      "lng": -157.8173481
+    },
+    "mascot": "Rainbow Warriors",
+    "colors": ["Green", "White"],
+    "conference": "Big West"
+  },
+  {
+    "id": 111,
+    "name": "High Point",
+    "location": {
+      "city": "High Point",
+      "state": "North Carolina",
+      "lat": 35.9765381,
+      "lng": -79.9976255
+    },
+    "mascot": "Panthers",
+    "colors": ["Purple", "White"],
+    "conference": "Big South"
+  },
+  {
+    "id": 112,
+    "name": "Hofstra",
+    "location": {
+      "city": "Hempstead",
+      "state": "New York",
+      "lat": 40.7168988,
+      "lng": -73.59903779999999
+    },
+    "mascot": "Pride",
+    "colors": ["Blue", "Gold"],
+    "conference": "CAA"
+  },
+  {
+    "id": 113,
+    "name": "Holy Cross",
+    "location": {
+      "city": "Worcester",
+      "state": "Massachusetts",
+      "lat": 42.2392391,
+      "lng": -71.8079608
+    },
+    "mascot": "Crusaders",
+    "colors": ["Purple", "White"],
+    "conference": "Patriot League"
+  },
+  {
+    "id": 114,
+    "name": "Houston",
+    "location": {
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.7199489,
+      "lng": -95.3422334
+    },
+    "mascot": "Cougars",
+    "colors": ["Red", "White"],
+    "conference": "AAC"
+  },
+  {
+    "id": 115,
+    "name": "Houston Baptist",
+    "location": {
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.6946466,
+      "lng": -95.51621569999999
+    },
+    "mascot": "Huskies",
+    "colors": ["Orange", "Blue"],
+    "conference": "Southland"
+  },
+  {
+    "id": 116,
+    "name": "Howard",
+    "location": {
+      "city": "Washington",
+      "state": "D.C.",
+      "lat": 38.9226843,
+      "lng": -77.0194377
+    },
+    "mascot": "Bison",
+    "colors": ["Blue", "Red"],
+    "conference": "MEAC"
+  },
+  {
+    "id": 117,
+    "name": "Idaho",
+    "location": {
+      "city": "Moscow",
+      "state": "Idaho",
+      "lat": 46.7288124,
+      "lng": -117.0126084
+    },
+    "mascot": "Vandals",
+    "colors": ["Silver", "Gold"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 118,
+    "name": "Idaho State",
+    "location": {
+      "city": "Pocatello",
+      "state": "Idaho",
+      "lat": 42.8627836,
+      "lng": -112.429762
+    },
+    "mascot": "Bengals",
+    "colors": ["Orange", "Black"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 119,
+    "name": "Illinois",
+    "location": {
+      "city": "Champaign",
+      "state": "Illinois",
+      "lat": 40.1019523,
+      "lng": -88.2271615
+    },
+    "mascot": "Fighting Illini",
+    "colors": ["Orange", "Blue"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 120,
+    "name": "Illinois State",
+    "location": {
+      "city": "Normal",
+      "state": "Illinois",
+      "lat": 40.5121009,
+      "lng": -88.99476299999999
+    },
+    "mascot": "Redbirds",
+    "colors": ["Red", "White"],
+    "conference": "Missouri Valley"
+  },
+  {
+    "id": 121,
+    "name": "Incarnate Word",
+    "location": {
+      "city": "San Antonio",
+      "state": "Texas",
+      "lat": 29.4675393,
+      "lng": -98.4676824
+    },
+    "mascot": "Cardinals",
+    "colors": ["Red", "Black"],
+    "conference": "Southland"
+  },
+  {
+    "id": 122,
+    "name": "Indiana",
+    "location": {
+      "city": "Bloomington",
+      "state": "Indiana",
+      "lat": 39.16841,
+      "lng": -86.52299
+    },
+    "mascot": "Hoosiers",
+    "colors": ["Crimson", "Cream"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 123,
+    "name": "Indiana State",
+    "location": {
+      "city": "Terre Haute",
+      "state": "Indiana",
+      "lat": 39.4713985,
+      "lng": -87.40828069999999
+    },
+    "mascot": "Sycamores",
+    "colors": ["Blue", "White"],
+    "conference": "Missouri Valley"
+  },
+  {
+    "id": 124,
+    "name": "Iona",
+    "location": {
+      "city": "New Rochelle",
+      "state": "New York",
+      "lat": 40.9270597,
+      "lng": -73.78634939999999
+    },
+    "mascot": "Gaels",
+    "colors": ["Maroon", "Gold"],
+    "conference": "MAAC"
+  },
+  {
+    "id": 125,
+    "name": "Iowa",
+    "location": {
+      "city": "Iowa City",
+      "state": "Iowa",
+      "lat": 41.66270780000001,
+      "lng": -91.5549771
+    },
+    "mascot": "Hawkeyes",
+    "colors": ["Black", "Gold"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 126,
+    "name": "Iowa State",
+    "location": {
+      "city": "Ames",
+      "state": "Iowa",
+      "lat": 42.0266573,
+      "lng": -93.64645159999999
+    },
+    "mascot": "Cyclones",
+    "colors": ["Cardinal", "Gold"],
+    "conference": "Big 12"
+  },
+  {
+    "id": 127,
+    "name": "IUPUI",
+    "location": {
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "lat": 39.773929,
+      "lng": -86.17626059999999
+    },
+    "mascot": "Jaguars",
+    "colors": ["Crimson", "Gold"],
+    "conference": "Horizon League"
+  },
+  {
+    "id": 128,
+    "name": "Jackson State",
+    "location": {
+      "city": "Jackson",
+      "state": "Mississippi",
+      "lat": 32.2968882,
+      "lng": -90.2063989
+    },
+    "mascot": "Tigers",
+    "colors": ["Blue", "White"],
+    "conference": "SWAC"
+  },
+  {
+    "id": 129,
+    "name": "Jacksonville",
+    "location": {
+      "city": "Jacksonville",
+      "state": "Florida",
+      "lat": 30.3516278,
+      "lng": -81.6035285
+    },
+    "mascot": "Dolphins",
+    "colors": ["Green", "White"],
+    "conference": "ASUN"
+  },
+  {
+    "id": 130,
+    "name": "Jacksonville State",
+    "location": {
+      "city": "Jacksonville",
+      "state": "Alabama",
+      "lat": 33.8230953,
+      "lng": -85.7681921
+    },
+    "mascot": "Gamecocks",
+    "colors": ["Red", "White"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 131,
+    "name": "James Madison",
+    "location": {
+      "city": "Harrisonburg",
+      "state": "Virginia",
+      "lat": 38.435092,
+      "lng": -78.8697548
+    },
+    "mascot": "Dukes",
+    "colors": ["Purple", "Gold"],
+    "conference": "CAA"
+  },
+  {
+    "id": 132,
+    "name": "Kansas",
+    "location": {
+      "city": "Lawrence",
+      "state": "Kansas",
+      "lat": 38.9543439,
+      "lng": -95.2557961
+    },
+    "mascot": "Jayhawks",
+    "colors": ["Crimson", "Blue"],
+    "conference": "Big 12"
+  },
+  {
+    "id": 133,
+    "name": "Kansas City",
+    "location": {
+      "city": "Kansas City",
+      "state": "Missouri",
+      "lat": 39.1072822,
+      "lng": -94.5609759
+    },
+    "mascot": "Kangaroos",
+    "colors": ["Blue", "Gold"],
+    "conference": "WAC"
+  },
+  {
+    "id": 134,
+    "name": "Kansas State",
+    "location": {
+      "city": "Manhattan",
+      "state": "Kansas",
+      "lat": 39.1974437,
+      "lng": -96.5847249
+    },
+    "mascot": "Wildcats",
+    "colors": ["Purple", "White"],
+    "conference": "Big 12"
+  },
+  {
+    "id": 135,
+    "name": "Kennesaw State",
+    "location": {
+      "city": "Kennesaw",
+      "state": "Georgia",
+      "lat": 34.0234337,
+      "lng": -84.6154897
+    },
+    "mascot": "Owls",
+    "colors": ["Black", "Gold"],
+    "conference": "ASUN"
+  },
+  {
+    "id": 136,
+    "name": "Kent State",
+    "location": {
+      "city": "Kent",
+      "state": "Ohio",
+      "lat": 41.1438917,
+      "lng": -81.3365012
+    },
+    "mascot": "Golden Flashes",
+    "colors": ["Navy Blue", "Gold"],
+    "conference": "MAC"
+  },
+  {
+    "id": 137,
+    "name": "Kentucky",
+    "location": {
+      "city": "Lexington",
+      "state": "Kentucky",
+      "lat": 38.0306511,
+      "lng": -84.5039697
+    },
+    "mascot": "Wildcats",
+    "colors": ["Blue", "White"],
+    "conference": "SEC"
+  },
+  {
+    "id": 138,
+    "name": "La Salle",
+    "location": {
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 40.0390398,
+      "lng": -75.1558184
+    },
+    "mascot": "Explorers",
+    "colors": ["Blue", "Gold"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 139,
+    "name": "Lafayette",
+    "location": {
+      "city": "Easton",
+      "state": "Pennsylvania",
+      "lat": 40.69869,
+      "lng": -75.21013
+    },
+    "mascot": "Leopards",
+    "colors": ["Maroon", "White"],
+    "conference": "Patriot League"
+  },
+  {
+    "id": 140,
+    "name": "Lamar",
+    "location": {
+      "city": "Beaumont",
+      "state": "Texas",
+      "lat": 30.0415251,
+      "lng": -94.0754905
+    },
+    "mascot": "Cardinals",
+    "colors": ["Red", "White"],
+    "conference": "Southland"
+  },
+  {
+    "id": 141,
+    "name": "Le Moyne",
+    "location": {
+      "city": "Syracuse",
+      "state": "New York",
+      "lat": 43.0497018,
+      "lng": -76.0855042
+    },
+    "mascot": "Dolphins",
+    "colors": ["Green", "Gold"],
+    "conference": "Northeast-10"
+  },
+  {
+    "id": 142,
+    "name": "Lehigh",
+    "location": {
+      "city": "Bethlehem",
+      "state": "Pennsylvania",
+      "lat": 40.605388,
+      "lng": -75.3772863
+    },
+    "mascot": "Mountain Hawks",
+    "colors": ["Brown", "White"],
+    "conference": "Patriot League"
+  },
+  {
+    "id": 143,
+    "name": "Liberty",
+    "location": {
+      "city": "Lynchburg",
+      "state": "Virginia",
+      "lat": 37.3492244,
+      "lng": -79.17841229999999
+    },
+    "mascot": "Flames",
+    "colors": ["Red", "Blue"],
+    "conference": "ASUN"
+  },
+  {
+    "id": 144,
+    "name": "Lindenwood",
+    "location": {
+      "city": "St. Charles",
+      "state": "Missouri",
+      "lat": 38.7859638,
+      "lng": -90.49747719999999
+    },
+    "mascot": "Lions",
+    "colors": ["Hunter Green", "Gold"],
+    "conference": "Mid-America Intercollegiate Athletics Association"
+  },
+  {
+    "id": 145,
+    "name": "Lipscomb",
+    "location": {
+      "city": "Nashville",
+      "state": "Tennessee",
+      "lat": 36.1046431,
+      "lng": -86.7988728
+    },
+    "mascot": "Bisons",
+    "colors": ["Purple", "Gold"],
+    "conference": "ASUN"
+  },
+  {
+    "id": 146,
+    "name": "Little Rock",
+    "location": {
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "lat": 34.7252717,
+      "lng": -92.3378705
+    },
+    "mascot": "Trojans",
+    "colors": ["Maroon", "Silver"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 147,
+    "name": "Long Beach State",
+    "location": {
+      "city": "Long Beach",
+      "state": "California",
+      "lat": 33.7838235,
+      "lng": -118.1140904
+    },
+    "mascot": "49ers",
+    "colors": ["Black", "Gold"],
+    "conference": "Big West"
+  },
+  {
+    "id": 148,
+    "name": "Long Island",
+    "location": {
+      "city": "Brooklyn",
+      "state": "New York",
+      "lat": 40.69119,
+      "lng": -73.98056
+    },
+    "mascot": "Blackbirds",
+    "colors": ["Black", "Gold"],
+    "conference": "Northeast"
+  },
+  {
+    "id": 149,
+    "name": "Longwood",
+    "location": {
+      "city": "Farmville",
+      "state": "Virginia",
+      "lat": 37.29717979999999,
+      "lng": -78.3961973
+    },
+    "mascot": "Lancers",
+    "colors": ["Red", "Blue"],
+    "conference": "Big South"
+  },
+  {
+    "id": 150,
+    "name": "Louisiana",
+    "location": {
+      "city": "Lafayette",
+      "state": "Louisiana",
+      "lat": 30.5190775,
+      "lng": -91.5208624
+    },
+    "mascot": "Ragin' Cajuns",
+    "colors": ["Vermilion", "White"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 151,
+    "name": "Louisiana Tech",
+    "location": {
+      "city": "Ruston",
+      "state": "Louisiana",
+      "lat": 32.5299582,
+      "lng": -92.6522174
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Blue", "Red"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 152,
+    "name": "Louisiana-Monroe",
+    "location": {
+      "city": "Monroe",
+      "state": "Louisiana",
+      "lat": 32.5313471,
+      "lng": -92.068744
+    },
+    "mascot": "Warhawks",
+    "colors": ["Maroon", "Gold"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 153,
+    "name": "Louisville",
+    "location": {
+      "city": "Louisville",
+      "state": "Kentucky",
+      "lat": 38.2157954,
+      "lng": -85.7614322
+    },
+    "mascot": "Cardinals",
+    "colors": ["Red", "Black"],
+    "conference": "ACC"
+  },
+  {
+    "id": 154,
+    "name": "Loyola (IL)",
+    "location": {
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.89746,
+      "lng": -87.62534
+    },
+    "mascot": "Ramblers",
+    "colors": ["Maroon", "Gold"],
+    "conference": "Missouri Valley"
+  },
+  {
+    "id": 155,
+    "name": "Loyola (MD)",
+    "location": {
+      "city": "Baltimore",
+      "state": "Maryland",
+      "lat": 39.3476737,
+      "lng": -76.6172375
+    },
+    "mascot": "Greyhounds",
+    "colors": ["Green", "Gray"],
+    "conference": "Patriot League"
+  },
+  {
+    "id": 156,
+    "name": "Loyola Marymount",
+    "location": {
+      "city": "Los Angeles",
+      "state": "California",
+      "lat": 33.9691953,
+      "lng": -118.4188984
+    },
+    "mascot": "Lions",
+    "colors": ["Blue", "White"],
+    "conference": "WCC"
+  },
+  {
+    "id": 157,
+    "name": "LSU",
+    "location": {
+      "city": "Baton Rouge",
+      "state": "Louisiana",
+      "lat": 30.4132579,
+      "lng": -91.1800023
+    },
+    "mascot": "Tigers",
+    "colors": ["Purple", "Gold"],
+    "conference": "SEC"
+  },
+  {
+    "id": 158,
+    "name": "Maine",
+    "location": {
+      "city": "Orono",
+      "state": "Maine",
+      "lat": 44.901867,
+      "lng": -68.66882509999999
+    },
+    "mascot": "Black Bears",
+    "colors": ["Blue", "White"],
+    "conference": "America East"
+  },
+  {
+    "id": 159,
+    "name": "Manhattan",
+    "location": {
+      "city": "Riverdale",
+      "state": "New York",
+      "lat": 40.8900515,
+      "lng": -73.9011239
+    },
+    "mascot": "Jaspers",
+    "colors": ["Kelly Green", "White"],
+    "conference": "MAAC"
+  },
+  {
+    "id": 160,
+    "name": "Marist",
+    "location": {
+      "city": "Poughkeepsie",
+      "state": "New York",
+      "lat": 41.7231052,
+      "lng": -73.9344876
+    },
+    "mascot": "Red Foxes",
+    "colors": ["Red", "White"],
+    "conference": "MAAC"
+  },
+  {
+    "id": 161,
+    "name": "Marquette",
+    "location": {
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.0386955,
+      "lng": -87.93101399999999
+    },
+    "mascot": "Golden Eagles",
+    "colors": ["Blue", "Gold"],
+    "conference": "Big East"
+  },
+  {
+    "id": 162,
+    "name": "Marshall",
+    "location": {
+      "city": "Huntington",
+      "state": "West Virginia",
+      "lat": 38.4236597,
+      "lng": -82.42471979999999
+    },
+    "mascot": "Thundering Herd",
+    "colors": ["Kelly Green", "White"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 163,
+    "name": "Maryland",
+    "location": {
+      "city": "College Park",
+      "state": "Maryland",
+      "lat": 38.9869183,
+      "lng": -76.9425543
+    },
+    "mascot": "Terrapins",
+    "colors": ["Red", "White"],
+    "conference": "Big Ten"
+  },
+  {
+    "idL": 164,
+    "name": "Maryland-Eastern Shore",
+    "location": {
+      "city": "Princess Anne",
+      "state": "Maryland",
+      "lat": 38.2102166,
+      "lng": -75.6848002
+    },
+    "mascot": "Hawks",
+    "colors": ["Maroon", "Gray"],
+    "conference": "MEAC"
+  },
+  {
+    "id": 165,
+    "name": "McNeese State",
+    "location": {
+      "city": "Lake Charles",
+      "state": "Louisiana",
+      "lat": 30.1776851,
+      "lng": -93.2152198
+    },
+    "mascot": "Cowboys",
+    "colors": ["Blue", "Gold"],
+    "conference": "Southland"
+  },
+  {
+    "id": 166,
+    "name": "Memphis",
+    "location": {
+      "city": "Memphis",
+      "state": "Tennessee",
+      "lat": 35.1187498,
+      "lng": -89.9374928
+    },
+    "mascot": "Tigers",
+    "colors": ["Blue", "Gray"],
+    "conference": "AAC"
+  },
+  {
+    "id": 167,
+    "name": "Mercer",
+    "location": {
+      "city": "Macon",
+      "state": "Georgia",
+      "lat": 32.8284878,
+      "lng": -83.64969909999999
+    },
+    "mascot": "Bears",
+    "colors": ["Orange", "Black"],
+    "conference": "Southern"
+  },
+  {
+    "id": 168,
+    "name": "Merrimack",
+    "location": {
+      "city": "North Andover",
+      "state": "Massachusetts",
+      "lat": 42.66863,
+      "lng": -71.12261
+    },
+    "mascot": "Warriors",
+    "colors": ["Blue", "Gold"],
+    "conference": "Northeast"
+  },
+  {
+    "id": 169,
+    "name": "Miami (FL)",
+    "location": {
+      "city": "Coral Gables",
+      "state": "Florida",
+      "lat": 25.7173947,
+      "lng": -80.2781262
+    },
+    "mascot": "Hurricanes",
+    "colors": ["Orange", "Green"],
+    "conference": "ACC"
+  },
+  {
+    "id": 170,
+    "name": "Miami (OH)",
+    "location": {
+      "city": "Oxford",
+      "state": "Ohio",
+      "lat": 39.5087485,
+      "lng": -84.73449149999999
+    },
+    "mascot": "RedHawks",
+    "colors": ["Red", "White"],
+    "conference": "MAC"
+  },
+  {
+    "id": 171,
+    "name": "Michigan",
+    "location": {
+      "city": "Ann Arbor",
+      "state": "Michigan",
+      "lat": 42.277145,
+      "lng": -83.7382071
+    },
+    "mascot": "Wolverines",
+    "colors": ["Maize", "Blue"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 172,
+    "name": "Michigan State",
+    "location": {
+      "city": "East Lansing",
+      "state": "Michigan",
+      "lat": 42.7250725,
+      "lng": -84.47908269999999
+    },
+    "mascot": "Spartans",
+    "colors": ["Green", "White"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 173,
+    "name": "Middle Tennessee",
+    "location": {
+      "city": "Murfreesboro",
+      "state": "Tennessee",
+      "lat": 35.8486229,
+      "lng": -86.36691549999999
+    },
+    "mascot": "Blue Raiders",
+    "colors": ["Blue", "White"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 174,
+    "name": "Milwaukee",
+    "location": {
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "lat": 43.078263,
+      "lng": -87.8819686
+    },
+    "mascot": "Panthers",
+    "colors": ["Black", "Gold"],
+    "conference": "Horizon League"
+  },
+  {
+    "id": 175,
+    "name": "Minnesota",
+    "location": {
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "lat": 44.97399,
+      "lng": -93.2277285
+    },
+    "mascot": "Golden Gophers",
+    "colors": ["Maroon", "Gold"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 176,
+    "name": "Mississippi State",
+    "location": {
+      "city": "Starkville",
+      "state": "Mississippi",
+      "lat": 33.4576975,
+      "lng": -88.7941585
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Maroon", "White"],
+    "conference": "SEC"
+  },
+  {
+    "id": 177,
+    "name": "Mississippi Valley State",
+    "location": {
+      "city": "Itta Bena",
+      "state": "Mississippi",
+      "lat": 33.5126982,
+      "lng": -90.3416715
+    },
+    "mascot": "Delta Devils",
+    "colors": ["Forest Green", "White"],
+    "conference": "SWAC"
+  },
+  {
+    "id": 178,
+    "name": "Missouri",
+    "location": {
+      "city": "Columbia",
+      "state": "Missouri",
+      "lat": 38.9403808,
+      "lng": -92.32773750000001
+    },
+    "mascot": "Tigers",
+    "colors": ["Black", "Gold"],
+    "conference": "SEC"
+  },
+  {
+    "id": 179,
+    "name": "Missouri State",
+    "location": {
+      "city": "Springfield",
+      "state": "Missouri",
+      "lat": 37.2005546,
+      "lng": -93.2806806
+    },
+    "mascot": "Bears",
+    "colors": ["Maroon", "White"],
+    "conference": "Missouri Valley"
+  },
+  {
+    "id": 180,
+    "name": "Monmouth",
+    "location": {
+      "city": "West Long Branch",
+      "state": "New Jersey",
+      "lat": 40.2802758,
+      "lng": -74.0054114
+    },
+    "mascot": "Hawks",
+    "colors": ["Blue", "White"],
+    "conference": "MAAC"
+  },
+  {
+    "id": 181,
+    "name": "Montana",
+    "location": {
+      "city": "Missoula",
+      "state": "Montana",
+      "lat": 46.8619309,
+      "lng": -113.9845969
+    },
+    "mascot": "Grizzlies",
+    "colors": ["Maroon", "Silver"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 182,
+    "name": "Montana State",
+    "location": {
+      "city": "Bozeman",
+      "state": "Montana",
+      "lat": 45.6673524,
+      "lng": -111.0546211
+    },
+    "mascot": "Bobcats",
+    "colors": ["Blue", "Gold"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 183,
+    "name": "Morehead State",
+    "location": {
+      "city": "Morehead",
+      "state": "Kentucky",
+      "lat": 38.18943,
+      "lng": -83.4310035
+    },
+    "mascot": "Eagles",
+    "colors": ["Blue", "Gold"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 184,
+    "name": "Morgan State",
+    "location": {
+      "city": "Baltimore",
+      "state": "Maryland",
+      "lat": 39.3437959,
+      "lng": -76.5843847
+    },
+    "mascot": "Bears",
+    "colors": ["Navy Blue", "Orange"],
+    "conference": "MEAC"
+  },
+  {
+    "id": 185,
+    "name": "Mount St. Mary's",
+    "location": {
+      "city": "Emmitsburg",
+      "state": "Maryland",
+      "lat": 39.6799914,
+      "lng": -77.3486971
+    },
+    "mascot": "Mountaineers",
+    "colors": ["Blue", "White"],
+    "conference": "Northeast"
+  },
+  {
+    "id": 186,
+    "name": "Murray State",
+    "location": {
+      "city": "Murray",
+      "state": "Kentucky",
+      "lat": 36.616251,
+      "lng": -88.3209372
+    },
+    "mascot": "Racers",
+    "colors": ["Navy Blue", "Gold"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 187,
+    "name": "Navy",
+    "location": {
+      "city": "Annapolis",
+      "state": "Maryland",
+      "lat": 38.98206580000001,
+      "lng": -76.4839405
+    },
+    "mascot": "Midshipmen",
+    "colors": ["Navy Blue", "Gold"],
+    "conference": "Patriot League"
+  },
+  {
+    "id": 188,
+    "name": "Nebraska",
+    "location": {
+      "city": "Lincoln",
+      "state": "Nebraska",
+      "lat": 40.8201966,
+      "lng": -96.70047629999999
+    },
+    "mascot": "Cornhuskers",
+    "colors": ["Scarlet", "Cream"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 189,
+    "name": "Nevada",
+    "location": {
+      "city": "Reno",
+      "state": "Nevada",
+      "lat": 39.5437205,
+      "lng": -119.8141582
+    },
+    "mascot": "Wolf Pack",
+    "colors": ["Navy Blue", "Silver"],
+    "conference": "Mountain West"
+  },
+  {
+    "id": 190,
+    "name": "New Hampshire",
+    "location": {
+      "city": "Durham",
+      "state": "New Hampshire",
+      "lat": 43.138948,
+      "lng": -70.9370252
+    },
+    "mascot": "Wildcats",
+    "colors": ["Blue", "White"],
+    "conference": "America East"
+  },
+  {
+    "id": 191,
+    "name": "New Mexico",
+    "location": {
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "lat": 35.0843187,
+      "lng": -106.6197812
+    },
+    "mascot": "Lobos",
+    "colors": ["Cherry", "Silver"],
+    "conference": "Mountain West"
+  },
+  {
+    "id": 192,
+    "name": "New Mexico State",
+    "location": {
+      "city": "Las Cruces",
+      "state": "New Mexico",
+      "lat": 32.2792887,
+      "lng": -106.7491391
+    },
+    "mascot": "Aggies",
+    "colors": ["Crimson", "White"],
+    "conference": "WAC"
+  },
+  {
+    "id": 193,
+    "name": "New Orleans",
+    "location": {
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "lat": 30.0273134,
+      "lng": -90.0680105
+    },
+    "mascot": "Privateers",
+    "colors": ["Navy Blue", "Silver"],
+    "conference": "Southland"
+  },
+  {
+    "id": 194,
+    "name": "Niagara",
+    "location": {
+      "city": "Niagara University",
+      "state": "New York",
+      "lat": 43.1369816,
+      "lng": -79.0349955
+    },
+    "mascot": "Purple Eagles",
+    "colors": ["Purple", "White"],
+    "conference": "MAAC"
+  },
+  {
+    "id": 195,
+    "name": "Nicholls State",
+    "location": {
+      "city": "Thibodaux",
+      "state": "Louisiana",
+      "lat": 29.7903032,
+      "lng": -90.8028911
+    },
+    "mascot": "Colonels",
+    "colors": ["Red", "Gray"],
+    "conference": "Southland"
+  },
+  {
+    "id": 196,
+    "name": "NJIT",
+    "location": {
+      "city": "Newark",
+      "state": "New Jersey",
+      "lat": 40.7424259,
+      "lng": -74.1784006
+    },
+    "mascot": "Highlanders",
+    "colors": ["Navy Blue", "Red"],
+    "conference": "ASUN"
+  },
+  {
+    "id": 197,
+    "name": "Norfolk State",
+    "location": {
+      "city": "Norfolk",
+      "state": "Virginia",
+      "lat": 36.8479292,
+      "lng": -76.2620987
+    },
+    "mascot": "Spartans",
+    "colors": ["Green", "Gold"],
+    "conference": "MEAC"
+  },
+  {
+    "id": 198,
+    "name": "North Alabama",
+    "location": {
+      "city": "Florence",
+      "state": "Alabama",
+      "lat": 34.807836,
+      "lng": -87.6804676
+    },
+    "mascot": "Lions",
+    "colors": ["Purple", "White"],
+    "conference": "ASUN"
+  },
+  {
+    "id": 199,
+    "name": "North Carolina",
+    "location": {
+      "city": "Chapel Hill",
+      "state": "North Carolina",
+      "lat": 35.9049122,
+      "lng": -79.0469134
+    },
+    "mascot": "Tar Heels",
+    "colors": ["Carolina Blue", "White"],
+    "conference": "ACC"
+  },
+  {
+    "id": 200,
+    "name": "North Carolina A&T",
+    "location": {
+      "city": "Greensboro",
+      "state": "North Carolina",
+      "lat": 36.0770034,
+      "lng": -79.7718199
+    },
+    "mascot": "Aggies",
+    "colors": ["Blue", "Gold"],
+    "conference": "MEAC"
+  },
+  {
+    "id": 201,
+    "name": "North Carolina Central",
+    "location": {
+      "city": "Durham",
+      "state": "North Carolina",
+      "lat": 35.9752487,
+      "lng": -78.899654
+    },
+    "mascot": "Eagles",
+    "colors": ["Maroon", "Gray"],
+    "conference": "MEAC"
+  },
+  {
+    "id": 202,
+    "name": "North Carolina State",
+    "location": {
+      "city": "Raleigh",
+      "state": "North Carolina",
+      "lat": 35.7850744,
+      "lng": -78.6812824
+    },
+    "mascot": "Wolfpack",
+    "colors": ["Red", "White"],
+    "conference": "ACC"
+  },
+  {
+    "id": 203,
+    "name": "North Dakota",
+    "location": {
+      "city": "Grand Forks",
+      "state": "North Dakota",
+      "lat": 47.922891,
+      "lng": -97.0768014
+    },
+    "mascot": "Fighting Hawks",
+    "colors": ["Green", "White"],
+    "conference": "Summit League"
+  },
+  {
+    "id": 204,
+    "name": "North Dakota State",
+    "location": {
+      "city": "Fargo",
+      "state": "North Dakota",
+      "lat": 46.8977528,
+      "lng": -96.8024367
+    },
+    "mascot": "Bison",
+    "colors": ["Green", "Yellow"],
+    "conference": "Summit League"
+  },
+  {
+    "id": 205,
+    "name": "North Florida",
+    "location": {
+      "city": "Jacksonville",
+      "state": "Florida",
+      "lat": 30.2661204,
+      "lng": -81.50723140000001
+    },
+    "mascot": "Ospreys",
+    "colors": ["Navy Blue", "White"],
+    "conference": "ASUN"
+  },
+  {
+    "id": 206,
+    "name": "North Texas",
+    "location": {
+      "city": "Denton",
+      "state": "Texas",
+      "lat": 33.207488,
+      "lng": -97.1525862
+    },
+    "mascot": "Mean Green",
+    "colors": ["Green", "White"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 207,
+    "name": "Northeastern",
+    "location": {
+      "city": "Boston",
+      "state": "Massachusetts",
+      "lat": 42.339904,
+      "lng": -71.0898892
+    },
+    "mascot": "Huskies",
+    "colors": ["Red", "Black"],
+    "conference": "CAA"
+  },
+  {
+    "id": 208,
+    "name": "Northern Arizona",
+    "location": {
+      "city": "Flagstaff",
+      "state": "Arizona",
+      "lat": 35.1802684,
+      "lng": -111.6540336
+    },
+    "mascot": "Lumberjacks",
+    "colors": ["Blue", "Gold"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 209,
+    "name": "Northern Colorado",
+    "location": {
+      "city": "Greeley",
+      "state": "Colorado",
+      "lat": 40.4062697,
+      "lng": -104.6944603
+    },
+    "mascot": "Bears",
+    "colors": ["Navy Blue", "Gold"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 210,
+    "name": "Northern Illinois",
+    "location": {
+      "city": "DeKalb",
+      "state": "Illinois",
+      "lat": 41.935056,
+      "lng": -88.7734365
+    },
+    "mascot": "Huskies",
+    "colors": ["Cardinal", "Black"],
+    "conference": "MAC"
+  },
+  {
+    "id": 211,
+    "name": "Northern Iowa",
+    "location": {
+      "city": "Cedar Falls",
+      "state": "Iowa",
+      "lat": 42.5121517,
+      "lng": -92.46464689999999
+    },
+    "mascot": "Panthers",
+    "colors": ["Purple", "Gold"],
+    "conference": "Missouri Valley"
+  },
+  {
+    "id": 212,
+    "name": "Northern Kentucky",
+    "location": {
+      "city": "Highland Heights",
+      "state": "Kentucky",
+      "lat": 39.0312035,
+      "lng": -84.4625345
+    },
+    "mascot": "Norse",
+    "colors": ["Black", "Gold"],
+    "conference": "Horizon League"
+  },
+  {
+    "id": 213,
+    "name": "Northwestern",
+    "location": {
+      "city": "Evanston",
+      "state": "Illinois",
+      "lat": 42.05659,
+      "lng": -87.67531
+    },
+    "mascot": "Wildcats",
+    "colors": ["Purple", "White"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 214,
+    "name": "Northwestern State",
+    "location": {
+      "city": "Natchitoches",
+      "state": "Louisiana",
+      "lat": 31.7489726,
+      "lng": -93.097876
+    },
+    "mascot": "Demons",
+    "colors": ["Purple", "White"],
+    "conference": "Southland"
+  },
+  {
+    "id": 215,
+    "name": "Notre Dame",
+    "location": {
+      "city": "South Bend",
+      "state": "Indiana",
+      "lat": 41.7050504,
+      "lng": -86.2355439
+    },
+    "mascot": "Fighting Irish",
+    "colors": ["Blue", "Gold"],
+    "conference": "ACC"
+  },
+  {
+    "id": 216,
+    "name": "Oakland",
+    "location": {
+      "city": "Rochester",
+      "state": "Michigan",
+      "lat": 42.6678782,
+      "lng": -83.20823469999999
+    },
+    "mascot": "Golden Grizzlies",
+    "colors": ["Black", "Gold"],
+    "conference": "Horizon League"
+  },
+  {
+    "id": 217,
+    "name": "Ohio",
+    "location": {
+      "city": "Athens",
+      "state": "Ohio",
+      "lat": 39.324358,
+      "lng": -82.10138889999999
+    },
+    "mascot": "Bobcats",
+    "colors": ["Green", "White"],
+    "conference": "MAC"
+  },
+  {
+    "id": 218,
+    "name": "Ohio State",
+    "location": {
+      "city": "Columbus",
+      "state": "Ohio",
+      "lat": 40.0066723,
+      "lng": -83.0304546
+    },
+    "mascot": "Buckeyes",
+    "colors": ["Scarlet", "Gray"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 219,
+    "name": "Oklahoma",
+    "location": {
+      "city": "Norman",
+      "state": "Oklahoma",
+      "lat": 35.1987162,
+      "lng": -97.4448963
+    },
+    "mascot": "Sooners",
+    "colors": ["Crimson", "Cream"],
+    "conference": "Big 12"
+  },
+  {
+    "id": 220,
+    "name": "Oklahoma State",
+    "location": {
+      "city": "Stillwater",
+      "state": "Oklahoma",
+      "lat": 36.126572,
+      "lng": -97.07348209999999
+    },
+    "mascot": "Cowboys",
+    "colors": ["Orange", "Black"],
+    "conference": "Big 12"
+  },
+  {
+    "id": 221,
+    "name": "Old Dominion",
+    "location": {
+      "city": "Norfolk",
+      "state": "Virginia",
+      "lat": 36.8853217,
+      "lng": -76.3058786
+    },
+    "mascot": "Monarchs",
+    "colors": ["Navy Blue", "Silver"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 222,
+    "name": "Ole Miss",
+    "location": {
+      "city": "Oxford",
+      "state": "Mississippi",
+      "lat": 34.3662492,
+      "lng": -89.5379687
+    },
+    "mascot": "Rebels",
+    "colors": ["Navy Blue", "Red"],
+    "conference": "SEC"
+  },
+  {
+    "id": 223,
+    "name": "Omaha",
+    "location": {
+      "city": "Omaha",
+      "state": "Nebraska",
+      "lat": 41.2580268,
+      "lng": -96.010696
+    },
+    "mascot": "Mavericks",
+    "colors": ["Crimson", "Black"],
+    "conference": "Summit League"
+  },
+  {
+    "id": 224,
+    "name": "Oral Roberts",
+    "location": {
+      "city": "Tulsa",
+      "state": "Oklahoma",
+      "lat": 36.0508093,
+      "lng": -95.9528284
+    },
+    "mascot": "Golden Eagles",
+    "colors": ["Navy Blue", "Gold"],
+    "conference": "Summit League"
+  },
+  {
+    "id": 225,
+    "name": "Oregon",
+    "location": {
+      "city": "Eugene",
+      "state": "Oregon",
+      "lat": 44.0448302,
+      "lng": -123.0726055
+    },
+    "mascot": "Ducks",
+    "colors": ["Green", "Yellow"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 226,
+    "name": "Oregon State",
+    "location": {
+      "city": "Corvallis",
+      "state": "Oregon",
+      "lat": 44.5618097,
+      "lng": -123.2822671
+    },
+    "mascot": "Beavers",
+    "colors": ["Orange", "Black"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 227,
+    "name": "Pacific",
+    "location": {
+      "city": "Stockton",
+      "state": "California",
+      "lat": 45.5243174,
+      "lng": -123.1103252
+    },
+    "mascot": "Tigers",
+    "colors": ["Orange", "Black"],
+    "conference": "WCC"
+  },
+  {
+    "id": 228,
+    "name": "Penn",
+    "location": {
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.9522188,
+      "lng": -75.1932137
+    },
+    "mascot": "Quakers",
+    "colors": ["Red", "Blue"],
+    "conference": "Ivy League"
+  },
+  {
+    "id": 229,
+    "name": "Penn State",
+    "location": {
+      "city": "University Park",
+      "state": "Pennsylvania",
+      "lat": 40.7982133,
+      "lng": -77.8599084
+    },
+    "mascot": "Nittany Lions",
+    "colors": ["Blue", "White"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 230,
+    "name": "Pepperdine",
+    "location": {
+      "city": "Malibu",
+      "state": "California",
+      "lat": 34.0415037,
+      "lng": -118.709596
+    },
+    "mascot": "Waves",
+    "colors": ["Blue", "Orange"],
+    "conference": "WCC"
+  },
+  {
+    "id": 231,
+    "name": "Pittsburgh",
+    "location": {
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "lat": 40.44402789999999,
+      "lng": -79.9605375
+    },
+    "mascot": "Panthers",
+    "colors": ["Blue", "Gold"],
+    "conference": "ACC"
+  },
+  {
+    "id": 232,
+    "name": "Portland",
+    "location": {
+      "city": "Portland",
+      "state": "Oregon",
+      "lat": 45.5732046,
+      "lng": -122.7275712
+    },
+    "mascot": "Pilots",
+    "colors": ["Purple", "White"],
+    "conference": "WCC"
+  },
+  {
+    "id": 233,
+    "name": "Portland State",
+    "location": {
+      "city": "Portland",
+      "state": "Oregon",
+      "lat": 45.5111153,
+      "lng": -122.6833385
+    },
+    "mascot": "Vikings",
+    "colors": ["Green", "White"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 234,
+    "name": "Prairie View A&M",
+    "location": {
+      "city": "Prairie View",
+      "state": "Texas",
+      "lat": 30.0954974,
+      "lng": -95.9907076
+    },
+    "mascot": "Panthers",
+    "colors": ["Purple", "Gold"],
+    "conference": "SWAC"
+  },
+  {
+    "id": 235,
+    "name": "Presbyterian",
+    "location": {
+      "city": "Clinton",
+      "state": "South Carolina",
+      "lat": 34.46547,
+      "lng": -81.87764
+    },
+    "mascot": "Blue Hose",
+    "colors": ["Blue", "White"],
+    "conference": "Big South"
+  },
+  {
+    "id": 236,
+    "name": "Princeton",
+    "location": {
+      "city": "Princeton",
+      "state": "New Jersey",
+      "lat": 40.3430942,
+      "lng": -74.65507389999999
+    },
+    "mascot": "Tigers",
+    "colors": ["Orange", "Black"],
+    "conference": "Ivy League"
+  },
+  {
+    "id": 237,
+    "name": "Providence",
+    "location": {
+      "city": "Providence",
+      "state": "Rhode Island",
+      "lat": 24.2258027,
+      "lng": 120.5771913
+    },
+    "mascot": "Friars",
+    "colors": ["Black", "White"],
+    "conference": "Big East"
+  },
+  {
+    "id": 238,
+    "name": "Purdue",
+    "location": {
+      "city": "West Lafayette",
+      "state": "Indiana",
+      "lat": 40.4237054,
+      "lng": -86.92119459999999
+    },
+    "mascot": "Boilermakers",
+    "colors": ["Old Gold", "Black"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 239,
+    "name": "Purdue Fort Wayne",
+    "location": {
+      "city": "Fort Wayne",
+      "state": "Indiana",
+      "lat": 41.1184535,
+      "lng": -85.1059405
+    },
+    "mascot": "Mastodons",
+    "colors": ["Blue", "White"],
+    "conference": "Summit League"
+  },
+  {
+    "id": 240,
+    "name": "Queens",
+    "location": {
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "lat": 44.2252795,
+      "lng": -76.49514119999999
+    },
+    "mascot": "Royals",
+    "colors": ["Royal Blue", "Gold"],
+    "conference": "South Atlantic"
+  },
+  {
+    "id": 241,
+    "name": "Quinnipiac",
+    "location": {
+      "city": "Hamden",
+      "state": "Connecticut",
+      "lat": 41.4189262,
+      "lng": -72.89364929999999
+    },
+    "mascot": "Bobcats",
+    "colors": ["Navy Blue", "Gold"],
+    "conference": "MAAC"
+  },
+  {
+    "id": 242,
+    "name": "Radford",
+    "location": {
+      "city": "Radford",
+      "state": "Virginia",
+      "lat": 37.1382597,
+      "lng": -80.5506161
+    },
+    "mascot": "Highlanders",
+    "colors": ["Red", "White"],
+    "conference": "Big South"
+  },
+  {
+    "id": 243,
+    "name": "Rhode Island",
+    "location": {
+      "city": "Kingston",
+      "state": "Rhode Island",
+      "lat": 41.4862328,
+      "lng": -71.53067879999999
+    },
+    "mascot": "Rams",
+    "colors": ["Blue", "White"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 244,
+    "name": "Rice",
+    "location": {
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.7173941,
+      "lng": -95.40183119999999
+    },
+    "mascot": "Owls",
+    "colors": ["Blue", "Gray"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 245,
+    "name": "Richmond",
+    "location": {
+      "city": "Richmond",
+      "state": "Virginia",
+      "lat": 37.5758243,
+      "lng": -77.5397192
+    },
+    "mascot": "Spiders",
+    "colors": ["Blue", "Red"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 246,
+    "name": "Rider",
+    "location": {
+      "city": "Lawrenceville",
+      "state": "New Jersey",
+      "lat": 40.2811583,
+      "lng": -74.7407633
+    },
+    "mascot": "Broncs",
+    "colors": ["Cranberry", "White"],
+    "conference": "MAAC"
+  },
+  {
+    "id": 247,
+    "name": "Robert Morris",
+    "location": {
+      "city": "Moon Township",
+      "state": "Pennsylvania",
+      "lat": 40.5213461,
+      "lng": -80.2127179
+    },
+    "mascot": "Colonials",
+    "colors": ["Navy Blue", "White"],
+    "conference": "Northeast"
+  },
+  {
+    "id": 248,
+    "name": "Rutgers",
+    "location": {
+      "city": "Piscataway",
+      "state": "New Jersey",
+      "lat": 40.74186,
+      "lng": -74.1742
+    },
+    "mascot": "Scarlet Knights",
+    "colors": ["Scarlet", "White"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 249,
+    "name": "Sacramento State",
+    "location": {
+      "city": "Sacramento",
+      "state": "California",
+      "lat": 38.564761,
+      "lng": -121.4276493
+    },
+    "mascot": "Hornets",
+    "colors": ["Green", "Gold"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 250,
+    "name": "Sacred Heart",
+    "location": {
+      "city": "Fairfield",
+      "state": "Connecticut",
+      "lat": 41.220562,
+      "lng": -73.24239469999999
+    },
+    "mascot": "Pioneers",
+    "colors": ["Red", "White"],
+    "conference": "Northeast"
+  },
+  {
+    "id": 251,
+    "name": "Saint Francis (PA)",
+    "location": {
+      "city": "Loretto",
+      "state": "Pennsylvania",
+      "lat": 41.2033216,
+      "lng": -77.1945247
+    },
+    "mascot": "Red Flash",
+    "colors": ["Red", "White"],
+    "conference": "Northeast"
+  },
+  {
+    "id": 252,
+    "name": "Saint Joseph's",
+    "location": {
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.9951217,
+      "lng": -75.23993279999999
+    },
+    "mascot": "Hawks",
+    "colors": ["Crimson", "Gray"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 253,
+    "name": "Saint Louis",
+    "location": {
+      "city": "St. Louis",
+      "state": "Missouri",
+      "lat": 38.6348237,
+      "lng": -90.23364079999999
+    },
+    "mascot": "Billikens",
+    "colors": ["Blue", "White"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 254,
+    "name": "Saint Mary's",
+    "location": {
+      "city": "Moraga",
+      "state": "California",
+      "lat": 44.6313301,
+      "lng": -63.581457
+    },
+    "mascot": "Gaels",
+    "colors": ["Navy Blue", "Red"],
+    "conference": "WCC"
+  },
+  {
+    "id": 255,
+    "name": "Saint Peter's",
+    "location": {
+      "city": "Jersey City",
+      "state": "New Jersey",
+      "lat": 40.72694920000001,
+      "lng": -74.07003259999999
+    },
+    "mascot": "Peacocks",
+    "colors": ["Blue", "White"],
+    "conference": "MAAC"
+  },
+  {
+    "id": 256,
+    "name": "Sam Houston State",
+    "location": {
+      "city": "Huntsville",
+      "state": "Texas",
+      "lat": 30.7135813,
+      "lng": -95.547276
+    },
+    "mascot": "Bearkats",
+    "colors": ["Orange", "White"],
+    "conference": "Southland"
+  },
+  {
+    "id": 257,
+    "name": "Samford",
+    "location": {
+      "city": "Homewood",
+      "state": "Alabama",
+      "lat": 33.4649218,
+      "lng": -86.7913423
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Red", "Blue"],
+    "conference": "Southern"
+  },
+  {
+    "id": 258,
+    "name": "San Diego",
+    "location": {
+      "city": "San Diego",
+      "state": "California",
+      "lat": 32.7721681,
+      "lng": -117.1888625
+    },
+    "mascot": "Toreros",
+    "colors": ["Blue", "White"],
+    "conference": "WCC"
+  },
+  {
+    "id": 259,
+    "name": "San Diego State",
+    "location": {
+      "city": "San Diego",
+      "state": "California",
+      "lat": 32.7774047,
+      "lng": -117.0714068
+    },
+    "mascot": "Aztecs",
+    "colors": ["Red", "Black"],
+    "conference": "Mountain West"
+  },
+  {
+    "id": 260,
+    "name": "San Francisco",
+    "location": {
+      "city": "San Francisco",
+      "state": "California",
+      "lat": 37.7765643,
+      "lng": -122.4507187
+    },
+    "mascot": "Dons",
+    "colors": ["Green", "Gold"],
+    "conference": "WCC"
+  },
+  {
+    "id": 261,
+    "name": "San Jose State",
+    "location": {
+      "city": "San Jose",
+      "state": "California",
+      "lat": 37.3351874,
+      "lng": -121.8810715
+    },
+    "mascot": "Spartans",
+    "colors": ["Blue", "Gold"],
+    "conference": "Mountain West"
+  },
+  {
+    "id": 262,
+    "name": "Santa Clara",
+    "location": {
+      "city": "Santa Clara",
+      "state": "California",
+      "lat": 37.3489255,
+      "lng": -121.9367804
+    },
+    "mascot": "Broncos",
+    "colors": ["Red", "White"],
+    "conference": "WCC"
+  },
+  {
+    "id": 263,
+    "name": "Seattle",
+    "location": {
+      "city": "Seattle",
+      "state": "Washington",
+      "lat": 47.6091765,
+      "lng": -122.3178465
+    },
+    "mascot": "Redhawks",
+    "colors": ["Red", "White"],
+    "conference": "WAC"
+  },
+  {
+    "id": 264,
+    "name": "Seton Hall",
+    "location": {
+      "city": "South Orange",
+      "state": "New Jersey",
+      "lat": 40.7430841,
+      "lng": -74.246082
+    },
+    "mascot": "Pirates",
+    "colors": ["Blue", "White"],
+    "conference": "Big East"
+  },
+  {
+    "id": 265,
+    "name": "Siena",
+    "location": {
+      "city": "Loudonville",
+      "state": "New York",
+      "lat": 43.3191155,
+      "lng": 11.3328421
+    },
+    "mascot": "Saints",
+    "colors": ["Green", "Gold"],
+    "conference": "MAAC"
+  },
+  {
+    "id": 266,
+    "name": "SIU Edwardsville",
+    "location": {
+      "city": "Edwardsville",
+      "state": "Illinois",
+      "lat": 38.7951375,
+      "lng": -89.9996714
+    },
+    "mascot": "Cougars",
+    "colors": ["Red", "White"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 267,
+    "name": "SMU",
+    "location": {
+      "city": "Dallas",
+      "state": "Texas",
+      "lat": 32.8412178,
+      "lng": -96.78451749999999
+    },
+    "mascot": "Mustangs",
+    "colors": ["Red", "Blue"],
+    "conference": "American Athletic"
+  },
+  {
+    "id": 268,
+    "name": "South Alabama",
+    "location": {
+      "city": "Mobile",
+      "state": "Alabama",
+      "lat": 30.6959406,
+      "lng": -88.184236
+    },
+    "mascot": "Jaguars",
+    "colors": ["Red", "Blue"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 269,
+    "name": "South Carolina",
+    "location": {
+      "city": "Columbia",
+      "state": "South Carolina",
+      "lat": 33.9937575,
+      "lng": -81.0299186
+    },
+    "mascot": "Gamecocks",
+    "colors": ["Garnet", "Black"],
+    "conference": "SEC"
+  },
+  {
+    "id": 270,
+    "name": "South Carolina State",
+    "location": {
+      "city": "Orangeburg",
+      "state": "South Carolina",
+      "lat": 33.4981687,
+      "lng": -80.8492832
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Garnet", "Blue"],
+    "conference": "MEAC"
+  },
+  {
+    "id": 271,
+    "name": "South Dakota",
+    "location": {
+      "city": "Vermillion",
+      "state": "South Dakota",
+      "lat": 42.7883015,
+      "lng": -96.92533809999999
+    },
+    "mascot": "Coyotes",
+    "colors": ["Red", "White"],
+    "conference": "Summit League"
+  },
+  {
+    "id": 272,
+    "name": "South Dakota State",
+    "location": {
+      "city": "Brookings",
+      "state": "South Dakota",
+      "lat": 44.3191071,
+      "lng": -96.78351819999999
+    },
+    "mascot": "Jackrabbits",
+    "colors": ["Blue", "Yellow"],
+    "conference": "Summit League"
+  },
+  {
+    "id": 273,
+    "name": "South Florida",
+    "location": {
+      "city": "Tampa",
+      "state": "Florida",
+      "lat": 28.0587031,
+      "lng": -82.41385389999999
+    },
+    "mascot": "Bulls",
+    "colors": ["Green", "Gold"],
+    "conference": "American Athletic"
+  },
+  {
+    "id": 274,
+    "name": "Southeast Missouri State",
+    "location": {
+      "city": "Cape Girardeau",
+      "state": "Missouri",
+      "lat": 37.3148783,
+      "lng": -89.52804379999999
+    },
+    "mascot": "Redhawks",
+    "colors": ["Red", "Black"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 275,
+    "name": "Southeastern Louisiana",
+    "location": {
+      "city": "Hammond",
+      "state": "Louisiana",
+      "lat": 30.5178932,
+      "lng": -90.4710715
+    },
+    "mascot": "Lions",
+    "colors": ["Green", "Gold"],
+    "conference": "Southland"
+  },
+  {
+    "id": 276,
+    "name": "Southern",
+    "location": {
+      "city": "Baton Rouge",
+      "state": "Louisiana",
+      "lat": 30.5265222,
+      "lng": -91.1929407
+    },
+    "mascot": "Jaguars",
+    "colors": ["Royal Blue", "Gold"],
+    "conference": "SWAC"
+  },
+  {
+    "id": 277,
+    "name": "Southern Illinois",
+    "location": {
+      "city": "Carbondale",
+      "state": "Illinois",
+      "lat": 37.7079717,
+      "lng": -89.2229983
+    },
+    "mascot": "Salukis",
+    "colors": ["Maroon", "White"],
+    "conference": "Missouri Valley"
+  },
+  {
+    "id": 278,
+    "name": "Southern Indiana",
+    "location": {
+      "city": "Evansville",
+      "state": "Indiana",
+      "lat": 37.9634036,
+      "lng": -87.6727294
+    },
+    "mascot": "Screaming Eagles",
+    "colors": ["Blue", "White"],
+    "conference": "GLVC"
+  },
+  {
+    "id": 279,
+    "name": "Southern Miss",
+    "location": {
+      "city": "Hattiesburg",
+      "state": "Mississippi",
+      "lat": 31.3298668,
+      "lng": -89.33345349999999
+    },
+    "mascot": "Golden Eagles",
+    "colors": ["Black", "Gold"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 280,
+    "name": "Southern Utah",
+    "location": {
+      "city": "Cedar City",
+      "state": "Utah",
+      "lat": 37.6764461,
+      "lng": -113.0713001
+    },
+    "mascot": "Thunderbirds",
+    "colors": ["Red", "White"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 281,
+    "name": "St. Bonaventure",
+    "location": {
+      "city": "St. Bonaventure",
+      "state": "New York",
+      "lat": 42.07857680000001,
+      "lng": -78.4829439
+    },
+    "mascot": "Bonnies",
+    "colors": ["Brown", "White"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 282,
+    "name": "St. John's",
+    "location": {
+      "city": "Queens",
+      "state": "New York",
+      "lat": 40.7201737,
+      "lng": -73.79789079999999
+    },
+    "mascot": "Red Storm",
+    "colors": ["Red", "White"],
+    "conference": "Big East"
+  },
+  {
+    "id": 283,
+    "name": "St. Thomas",
+    "location": {
+      "city": "St. Paul",
+      "state": "Minnesota",
+      "lat": 44.943096,
+      "lng": -93.1897082
+    },
+    "mascot": "Tommies",
+    "colors": ["Purple", "Gray"],
+    "conference": "MIAC"
+  },
+  {
+    "id": 284,
+    "name": "Stanford",
+    "location": {
+      "city": "Stanford",
+      "state": "California",
+      "lat": 37.42766,
+      "lng": -122.17006
+    },
+    "mascot": "Cardinal",
+    "colors": ["Cardinal", "White"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 285,
+    "name": "Stephen F. Austin",
+    "location": {
+      "city": "Nacogdoches",
+      "state": "Texas",
+      "lat": 31.6216141,
+      "lng": -94.64664379999999
+    },
+    "mascot": "Lumberjacks",
+    "colors": ["Purple", "White"],
+    "conference": "Southland"
+  },
+  {
+    "id": 286,
+    "name": "Stetson",
+    "location": {
+      "city": "DeLand",
+      "state": "Florida",
+      "lat": 29.0335139,
+      "lng": -81.3009245
+    },
+    "mascot": "Hatters",
+    "colors": ["Green", "White"],
+    "conference": "Atlantic Sun"
+  },
+  {
+    "id": 287,
+    "name": "Stonehill",
+    "location": {
+      "city": "Easton",
+      "state": "Massachusetts",
+      "lat": 42.05810530000001,
+      "lng": -71.08091300000001
+    },
+    "mascot": "Skyhawks",
+    "colors": ["Purple", "White"],
+    "conference": "Northeast-10"
+  },
+  {
+    "id": 288,
+    "name": "Stony Brook",
+    "location": {
+      "city": "Stony Brook",
+      "state": "New York",
+      "lat": 40.908119,
+      "lng": -73.1204032
+    },
+    "mascot": "Seawolves",
+    "colors": ["Red", "Gray"],
+    "conference": "America East"
+  },
+  {
+    "id": 289,
+    "name": "Syracuse",
+    "location": {
+      "city": "Syracuse",
+      "state": "New York",
+      "lat": 43.0386502,
+      "lng": -76.1336922
+    },
+    "mascot": "Orange",
+    "colors": ["Orange", "Blue"],
+    "conference": "ACC"
+  },
+  {
+    "id": 290,
+    "name": "Tarleton State",
+    "location": {
+      "city": "Stephenville",
+      "state": "Texas",
+      "lat": 32.2160433,
+      "lng": -98.215953
+    },
+    "mascot": "Texans",
+    "colors": ["Purple", "White"],
+    "conference": "WAC"
+  },
+  {
+    "id": 291,
+    "name": "TCU",
+    "location": {
+      "city": "Fort Worth",
+      "state": "Texas",
+      "lat": 32.7078531,
+      "lng": -97.36280409999999
+    },
+    "mascot": "Horned Frogs",
+    "colors": ["Purple", "White"],
+    "conference": "Big 12"
+  },
+  {
+    "id": 292,
+    "name": "Temple",
+    "location": {
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "lat": 39.9811911,
+      "lng": -75.1553563
+    },
+    "mascot": "Owls",
+    "colors": ["Cherry", "White"],
+    "conference": "American Athletic"
+  },
+  {
+    "id": 293,
+    "name": "Tennessee",
+    "location": {
+      "city": "Knoxville",
+      "state": "Tennessee",
+      "lat": 35.9544013,
+      "lng": -83.92945639999999
+    },
+    "mascot": "Volunteers",
+    "colors": ["Orange", "White"],
+    "conference": "SEC"
+  },
+  {
+    "id": 294,
+    "name": "Tennessee State",
+    "location": {
+      "city": "Nashville",
+      "state": "Tennessee",
+      "lat": 36.1683703,
+      "lng": -86.8258566
+    },
+    "mascot": "Tigers",
+    "colors": ["Blue", "White"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 295,
+    "name": "Tennessee Tech",
+    "location": {
+      "city": "Cookeville",
+      "state": "Tennessee",
+      "lat": 36.1763138,
+      "lng": -85.50910859999999
+    },
+    "mascot": "Golden Eagles",
+    "colors": ["Purple", "Gold"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 296,
+    "name": "Texas",
+    "location": {
+      "city": "Austin",
+      "state": "Texas",
+      "lat": 30.2850284,
+      "lng": -97.7335226
+    },
+    "mascot": "Longhorns",
+    "colors": ["Burnt Orange", "White"],
+    "conference": "Big 12"
+  },
+  {
+    "id": 297,
+    "name": "Texas A&M",
+    "location": {
+      "city": "College Station",
+      "state": "Texas",
+      "lat": 30.6186806,
+      "lng": -96.33646549999999
+    },
+    "mascot": "Aggies",
+    "colors": ["Maroon", "White"],
+    "conference": "SEC"
+  },
+  {
+    "id": 298,
+    "name": "Texas A&M Corpus Christi",
+    "location": {
+      "city": "Corpus Christi",
+      "state": "Texas",
+      "lat": 27.7123121,
+      "lng": -97.32457389999999
+    },
+    "mascot": "Islanders",
+    "colors": ["Blue", "Green"],
+    "conference": "Southland"
+  },
+  {
+    "id": 299,
+    "name": "Texas A&M Commerce",
+    "location": {
+      "city": "Commerce",
+      "state": "Texas",
+      "lat": 33.2406645,
+      "lng": -95.91041489999999
+    },
+    "mascot": "Lions",
+    "colors": ["Blue", "Gold"],
+    "conference": "Lone Star"
+  },
+  {
+    "id": 300,
+    "name": "Texas Southern",
+    "location": {
+      "city": "Houston",
+      "state": "Texas",
+      "lat": 29.7214214,
+      "lng": -95.35926909999999
+    },
+    "mascot": "Tigers",
+    "colors": ["Maroon", "Gray"],
+    "conference": "SWAC"
+  },
+  {
+    "id": 301,
+    "name": "Texas State",
+    "location": {
+      "city": "San Marcos",
+      "state": "Texas",
+      "lat": 29.888411,
+      "lng": -97.938351
+    },
+    "mascot": "Bobcats",
+    "colors": ["Maroon", "Gold"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 302,
+    "name": "Texas Tech",
+    "location": {
+      "city": "Lubbock",
+      "state": "Texas",
+      "lat": 33.5845522,
+      "lng": -101.8746483
+    },
+    "mascot": "Red Raiders",
+    "colors": ["Scarlet", "Black"],
+    "conference": "Big 12"
+  },
+  {
+    "id": 303,
+    "name": "Toledo",
+    "location": {
+      "city": "Toledo",
+      "state": "Ohio",
+      "lat": 41.6578804,
+      "lng": -83.6142374
+    },
+    "mascot": "Rockets",
+    "colors": ["Midnight Blue", "Gold"],
+    "conference": "MAC"
+  },
+  {
+    "id": 304,
+    "name": "Towson",
+    "location": {
+      "city": "Towson",
+      "state": "Maryland",
+      "lat": 39.3925121,
+      "lng": -76.61263919999999
+    },
+    "mascot": "Tigers",
+    "colors": ["Black", "Gold"],
+    "conference": "Colonial"
+  },
+  {
+    "id": 305,
+    "name": "Troy",
+    "location": {
+      "city": "Troy",
+      "state": "Alabama",
+      "lat": 31.80259259999999,
+      "lng": -85.9571615
+    },
+    "mascot": "Trojans",
+    "colors": ["Cardinal", "Silver"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 306,
+    "name": "Tulane",
+    "location": {
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "lat": 29.9407282,
+      "lng": -90.12031669999999
+    },
+    "mascot": "Green Wave",
+    "colors": ["Olive Green", "Sky Blue"],
+    "conference": "American Athletic"
+  },
+  {
+    "id": 307,
+    "name": "Tulsa",
+    "location": {
+      "city": "Tulsa",
+      "state": "Oklahoma",
+      "lat": 36.1520526,
+      "lng": -95.94607529999999
+    },
+    "mascot": "Golden Hurricane",
+    "colors": ["Royal Blue", "Old Gold"],
+    "conference": "American Athletic"
+  },
+  {
+    "id": 308,
+    "name": "UAB",
+    "location": {
+      "city": "Birmingham",
+      "state": "Alabama",
+      "lat": 33.5020323,
+      "lng": -86.80574949999999
+    },
+    "mascot": "Blazers",
+    "colors": ["Green", "Gold"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 309,
+    "name": "UC Davis",
+    "location": {
+      "city": "Davis",
+      "state": "California",
+      "lat": 38.5382322,
+      "lng": -121.7617125
+    },
+    "mascot": "Aggies",
+    "colors": ["Blue", "Gold"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 310,
+    "name": "UC Irvine",
+    "location": {
+      "city": "Irvine",
+      "state": "California",
+      "lat": 33.6423814,
+      "lng": -117.8416747
+    },
+    "mascot": "Anteaters",
+    "colors": ["Blue", "Gold"],
+    "conference": "Big West"
+  },
+  {
+    "id": 311,
+    "name": "UC Riverside",
+    "location": {
+      "city": "Riverside",
+      "state": "California",
+      "lat": 33.9737055,
+      "lng": -117.3280644
+    },
+    "mascot": "Highlanders",
+    "colors": ["Blue", "Gold"],
+    "conference": "Big West"
+  },
+  {
+    "id": 312,
+    "name": "UC San Diego",
+    "location": {
+      "city": "La Jolla",
+      "state": "California",
+      "lat": 32.8800604,
+      "lng": -117.2340135
+    },
+    "mascot": "",
+    "colors": ["Blue", "Gold"],
+    "conference": "Big West"
+  },
+  {
+    "id": 313,
+    "name": "UC Santa Barbara",
+    "location": {
+      "city": "Santa Barbara",
+      "state": "California",
+      "lat": 34.4139629,
+      "lng": -119.848947
+    },
+    "mascot": "",
+    "colors": ["Blue", "Gold"],
+    "conference": "Big West"
+  },
+  {
+    "id": 314,
+    "name": "UCF",
+    "location": {
+      "city": "Orlando",
+      "state": "Florida",
+      "lat": 28.6024274,
+      "lng": -81.2000599
+    },
+    "mascot": "Knights",
+    "colors": ["Black", "Gold"],
+    "conference": "American Athletic"
+  },
+  {
+    "id": 315,
+    "name": "UCLA",
+    "location": {
+      "city": "Los Angeles",
+      "state": "California",
+      "lat": 34.0699182,
+      "lng": -118.4438495
+    },
+    "mascot": "",
+    "colors": ["Blue", "Gold"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 316,
+    "name": "UConn",
+    "location": {
+      "city": "Storrs",
+      "state": "Connecticut",
+      "lat": 41.8077414,
+      "lng": -72.2539805
+    },
+    "mascot": "Huskies",
+    "colors": ["Navy Blue", "White"],
+    "conference": "Big East"
+  },
+  {
+    "id": 317,
+    "name": "UIC",
+    "location": {
+      "city": "Chicago",
+      "state": "Illinois",
+      "lat": 41.8686034,
+      "lng": -87.6484377
+    },
+    "mascot": "Flames",
+    "colors": ["Navy Blue", "Flame Red"],
+    "conference": "Horizon League"
+  },
+  {
+    "id": 318,
+    "name": "UMass",
+    "location": {
+      "city": "Amherst",
+      "state": "Massachusetts",
+      "lat": 42.3867598,
+      "lng": -72.5300515
+    },
+    "mascot": "Minutemen",
+    "colors": ["Maroon", "White"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 319,
+    "name": "UMass Lowell",
+    "location": {
+      "city": "Lowell",
+      "state": "Massachusetts",
+      "lat": 42.6552587,
+      "lng": -71.3247164
+    },
+    "mascot": "River Hawks",
+    "colors": ["Blue", "White"],
+    "conference": "America East"
+  },
+  {
+    "id": 320,
+    "name": "UNC Asheville",
+    "location": {
+      "city": "Asheville",
+      "state": "North Carolina",
+      "lat": 35.5950581,
+      "lng": -82.5514869
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Blue", "White"],
+    "conference": "Big South"
+  },
+  {
+    "id": 321,
+    "name": "UNC Greensboro",
+    "location": {
+      "city": "Greensboro",
+      "state": "North Carolina",
+      "lat": 36.0689296,
+      "lng": -79.8101976
+    },
+    "mascot": "Spartans",
+    "colors": ["Blue", "Gold"],
+    "conference": "Southern"
+  },
+  {
+    "id": 322,
+    "name": "UNC Wilmington",
+    "location": {
+      "city": "Wilmington",
+      "state": "North Carolina",
+      "lat": 34.223874,
+      "lng": -77.8696036
+    },
+    "mascot": "Seahawks",
+    "colors": ["Teal", "Gold"],
+    "conference": "Colonial"
+  },
+  {
+    "id": 323,
+    "name": "UNLV",
+    "location": {
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "lat": 36.107496,
+      "lng": -115.1435252
+    },
+    "mascot": "Rebels",
+    "colors": ["Scarlet", "Gray"],
+    "conference": "Mountain West"
+  },
+  {
+    "id": 324,
+    "name": "USC",
+    "location": {
+      "city": "Los Angeles",
+      "state": "California",
+      "lat": 34.0223519,
+      "lng": -118.285117
+    },
+    "mascot": "",
+    "colors": ["Cardinal", "Gold"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 325,
+    "name": "USC Upstate",
+    "location": {
+      "city": "Spartanburg",
+      "state": "South Carolina",
+      "lat": 34.9996102,
+      "lng": -81.9711555
+    },
+    "mascot": "Spartans",
+    "colors": ["Green", "Black"],
+    "conference": "Big South"
+  },
+  {
+    "id": 326,
+    "name": "UT Arlington",
+    "location": {
+      "city": "Arlington",
+      "state": "Texas",
+      "lat": 32.7292117,
+      "lng": -97.11519709999999
+    },
+    "mascot": "Mavericks",
+    "colors": ["Blue", "Orange"],
+    "conference": "Sun Belt"
+  },
+  {
+    "id": 327,
+    "name": "UT Martin",
+    "location": {
+      "city": "Martin",
+      "state": "Tennessee",
+      "lat": 36.3429724,
+      "lng": -88.86433319999999
+    },
+    "mascot": "Skyhawks",
+    "colors": ["Blue", "Orange"],
+    "conference": "Ohio Valley"
+  },
+  {
+    "id": 328,
+    "name": "UTEP",
+    "location": {
+      "city": "El Paso",
+      "state": "Texas",
+      "lat": 31.7731979,
+      "lng": -106.5047208
+    },
+    "mascot": "",
+    "colors": ["Blue", "Orange"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 329,
+    "name": "UTSA",
+    "location": {
+      "city": "San Antonio",
+      "state": "Texas",
+      "lat": 29.5830733,
+      "lng": -98.61987789999999
+    },
+    "mascot": "",
+    "colors": ["Blue", "Orange"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 330,
+    "name": "Utah",
+    "location": {
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "lat": 40.7649368,
+      "lng": -111.8421021
+    },
+    "mascot": "Utes",
+    "colors": ["Crimson", "White"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 331,
+    "name": "Utah State",
+    "location": {
+      "city": "Logan",
+      "state": "Utah",
+      "lat": 41.745161,
+      "lng": -111.8097425
+    },
+    "mascot": "Aggies",
+    "colors": ["Navy Blue", "White"],
+    "conference": "Mountain West"
+  },
+  {
+    "id": 332,
+    "name": "Utah Valley",
+    "location": {
+      "city": "Orem",
+      "state": "Utah",
+      "lat": 40.2787626,
+      "lng": -111.7153739
+    },
+    "mascot": "Wolverines",
+    "colors": ["Green", "White"],
+    "conference": "WAC"
+  },
+  {
+    "id": 333,
+    "name": "Utah Tech",
+    "location": {
+      "city": "Price",
+      "state": "Utah",
+      "lat": 37.1028746,
+      "lng": -113.56541
+    },
+    "mascot": "Trailblazers",
+    "colors": ["Red", "White"],
+    "conference": "Scenic West"
+  },
+  {
+    "id": 334,
+    "name": "UTRGV",
+    "location": {
+      "city": "Edinburg",
+      "state": "Texas",
+      "lat": 26.3081983,
+      "lng": -98.17401579999999
+    },
+    "mascot": "",
+    "colors": ["Green", "Orange"],
+    "conference": "WAC"
+  },
+  {
+    "id": 335,
+    "name": "Valparaiso",
+    "location": {
+      "city": "Valparaiso",
+      "state": "Indiana",
+      "lat": 41.4639394,
+      "lng": -87.04388929999999
+    },
+    "mascot": "Crusaders",
+    "colors": ["Brown", "Gold"],
+    "conference": "Missouri Valley"
+  },
+  {
+    "id": 336,
+    "name": "Vanderbilt",
+    "location": {
+      "city": "Nashville",
+      "state": "Tennessee",
+      "lat": 36.1447034,
+      "lng": -86.8026551
+    },
+    "mascot": "Commodores",
+    "colors": ["Black", "Gold"],
+    "conference": "SEC"
+  },
+  {
+    "id": 337,
+    "name": "Vermont",
+    "location": {
+      "city": "Burlington",
+      "state": "Vermont",
+      "lat": 44.4778528,
+      "lng": -73.1964637
+    },
+    "mascot": "Catamounts",
+    "colors": ["Green", "Gold"],
+    "conference": "America East"
+  },
+  {
+    "id": 338,
+    "name": "Villanova",
+    "location": {
+      "city": "Villanova",
+      "state": "Pennsylvania",
+      "lat": 40.0368926,
+      "lng": -75.3425785
+    },
+    "mascot": "Wildcats",
+    "colors": ["Blue", "White"],
+    "conference": "Big East"
+  },
+  {
+    "id": 339,
+    "name": "Virginia",
+    "location": {
+      "city": "Charlottesville",
+      "state": "Virginia",
+      "lat": 38.0335529,
+      "lng": -78.5079772
+    },
+    "mascot": "Cavaliers",
+    "colors": ["Orange", "Blue"],
+    "conference": "ACC"
+  },
+  {
+    "id": 340,
+    "name": "VCU",
+    "location": {
+      "city": "Richmond",
+      "state": "Virginia",
+      "lat": 37.5526695,
+      "lng": -77.4527359
+    },
+    "mascot": "Rams",
+    "colors": ["Black", "Gold"],
+    "conference": "Atlantic 10"
+  },
+  {
+    "id": 341,
+    "name": "Virginia Tech",
+    "location": {
+      "city": "Blacksburg",
+      "state": "Virginia",
+      "lat": 37.22838429999999,
+      "lng": -80.42341669999999
+    },
+    "mascot": "Hokies",
+    "colors": ["Maroon", "Orange"],
+    "conference": "ACC"
+  },
+  {
+    "id": 342,
+    "name": "VMI",
+    "location": {
+      "city": "Lexington",
+      "state": "Virginia",
+      "lat": 37.7909313,
+      "lng": -79.4351978
+    },
+    "mascot": "Keydets",
+    "colors": ["Red", "Yellow"],
+    "conference": "Southern"
+  },
+  {
+    "id": 343,
+    "name": "Wagner",
+    "location": {
+      "city": "Staten Island",
+      "state": "New York",
+      "lat": 40.61507,
+      "lng": -74.09443
+    },
+    "mascot": "Seahawks",
+    "colors": ["Green", "White"],
+    "conference": "Northeast"
+  },
+  {
+    "id": 344,
+    "name": "Wake Forest",
+    "location": {
+      "city": "Winston-Salem",
+      "state": "North Carolina",
+      "lat": 36.1354887,
+      "lng": -80.2792887
+    },
+    "mascot": "Demon Deacons",
+    "colors": ["Black", "Old Gold"],
+    "conference": "ACC"
+  },
+  {
+    "id": 345,
+    "name": "Washington",
+    "location": {
+      "city": "Seattle",
+      "state": "Washington",
+      "lat": 38.6487895,
+      "lng": -90.31079620000001
+    },
+    "mascot": "Huskies",
+    "colors": ["Purple", "Gold"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 346,
+    "name": "Washington State",
+    "location": {
+      "city": "Pullman",
+      "state": "Washington",
+      "lat": 46.7295265,
+      "lng": -117.1803059
+    },
+    "mascot": "Cougars",
+    "colors": ["Crimson", "Gray"],
+    "conference": "Pac-12"
+  },
+  {
+    "id": 347,
+    "name": "Weber State",
+    "location": {
+      "city": "Ogden",
+      "state": "Utah",
+      "lat": 41.1913021,
+      "lng": -111.9440252
+    },
+    "mascot": "Wildcats",
+    "colors": ["Purple", "White"],
+    "conference": "Big Sky"
+  },
+  {
+    "id": 348,
+    "name": "West Virginia",
+    "location": {
+      "city": "Morgantown",
+      "state": "West Virginia",
+      "lat": 39.6480359,
+      "lng": -79.9697147
+    },
+    "mascot": "Mountaineers",
+    "colors": ["Blue", "Gold"],
+    "conference": "Big 12"
+  },
+  {
+    "id": 349,
+    "name": "Western Carolina",
+    "location": {
+      "city": "Cullowhee",
+      "state": "North Carolina",
+      "lat": 35.3090108,
+      "lng": -83.1863612
+    },
+    "mascot": "Catamounts",
+    "colors": ["Purple", "Gold"],
+    "conference": "Southern"
+  },
+  {
+    "id": 350,
+    "name": "Western Illinois",
+    "location": {
+      "city": "Macomb",
+      "state": "Illinois",
+      "lat": 40.4705003,
+      "lng": -90.68585589999999
+    },
+    "mascot": "Leathernecks",
+    "colors": ["Purple", "Gold"],
+    "conference": "Summit League"
+  },
+  {
+    "id": 351,
+    "name": "Western Kentucky",
+    "location": {
+      "city": "Bowling Green",
+      "state": "Kentucky",
+      "lat": 36.9847167,
+      "lng": -86.456
+    },
+    "mascot": "Hilltoppers",
+    "colors": ["Red", "White"],
+    "conference": "Conference USA"
+  },
+  {
+    "id": 352,
+    "name": "Western Michigan",
+    "location": {
+      "city": "Kalamazoo",
+      "state": "Michigan",
+      "lat": 42.2837337,
+      "lng": -85.6102506
+    },
+    "mascot": "Broncos",
+    "colors": ["Brown", "Gold"],
+    "conference": "MAC"
+  },
+  {
+    "id": 353,
+    "name": "Wichita State",
+    "location": {
+      "city": "Wichita",
+      "state": "Kansas",
+      "lat": 37.7191442,
+      "lng": -97.28994209999999
+    },
+    "mascot": "Shockers",
+    "colors": ["Black", "Yellow"],
+    "conference": "American Athletic"
+  },
+  {
+    "id": 354,
+    "name": "William & Mary",
+    "location": {
+      "city": "Williamsburg",
+      "state": "Virginia",
+      "lat": 37.2709753,
+      "lng": -76.7162467
+    },
+    "mascot": "Tribe",
+    "colors": ["Green", "Gold"],
+    "conference": "Colonial"
+  },
+  {
+    "id": 355,
+    "name": "Winthrop",
+    "location": {
+      "city": "Rock Hill",
+      "state": "South Carolina",
+      "lat": 34.9394013,
+      "lng": -81.03199699999999
+    },
+    "mascot": "Eagles",
+    "colors": ["Garnet", "Gold"],
+    "conference": "Big South"
+  },
+  {
+    "id": 356,
+    "name": "Wisconsin",
+    "location": {
+      "city": "Madison",
+      "state": "Wisconsin",
+      "lat": 43.076592,
+      "lng": -89.4124875
+    },
+    "mascot": "Badgers",
+    "colors": ["Cardinal", "White"],
+    "conference": "Big Ten"
+  },
+  {
+    "id": 357,
+    "name": "Wofford",
+    "location": {
+      "city": "Spartanburg",
+      "state": "South Carolina",
+      "lat": 34.9590202,
+      "lng": -81.9351358
+    },
+    "mascot": "Terriers",
+    "colors": ["Old Gold", "Black"],
+    "conference": "Southern"
+  },
+  {
+    "id": 358,
+    "name": "Wright State",
+    "location": {
+      "city": "Dayton",
+      "state": "Ohio",
+      "lat": 39.7798542,
+      "lng": -84.06510779999999
+    },
+    "mascot": "Raiders",
+    "colors": ["Green", "Gold"],
+    "conference": "Horizon League"
+  },
+  {
+    "id": 359,
+    "name": "Wyoming",
+    "location": {
+      "city": "Laramie",
+      "state": "Wyoming",
+      "lat": 41.3148754,
+      "lng": -105.5665744
+    },
+    "mascot": "Cowboys",
+    "colors": ["Brown", "Gold"],
+    "conference": "Mountain West"
+  },
+  {
+    "id": 360,
+    "name": "Xavier",
+    "location": {
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "lat": 39.1498065,
+      "lng": -84.47406869999999
+    },
+    "mascot": "Musketeers",
+    "colors": ["Blue", "White"],
+    "conference": "Big East"
+  },
+  {
+    "id": 361,
+    "name": "Yale",
+    "location": {
+      "city": "New Haven",
+      "state": "Connecticut",
+      "lat": 41.3163244,
+      "lng": -72.92234309999999
+    },
+    "mascot": "Bulldogs",
+    "colors": ["Blue", "White"],
+    "conference": "Ivy League"
+  },
+  {
+    "id": 362,
+    "name": "Youngstown State",
+    "location": {
+      "city": "Youngstown",
+      "state": "Ohio",
+      "lat": 41.1066413,
+      "lng": -80.6480952
+    },
+    "mascot": "Penguins",
+    "colors": ["Red", "White"],
+    "conference": "Horizon League"
+  }
+]

@@ -1,0 +1,1010 @@
+[
+	{
+		"address": "Grand Canyon University",
+		"coords": ""lat": 33.5100339, "lng": -112.1288588"
+	},
+	{
+		"address": "Green Bay University",
+		"coords": ""lat": 44.5313196, "lng": -87.9210482"
+	},
+	{
+		"address": "Hampton University",
+		"coords": ""lat": 37.0228392, "lng": -76.3343603"
+	},
+	{
+		"address": "Hartford University",
+		"coords": ""lat": 41.7984942, "lng": -72.7138039"
+	},
+	{
+		"address": "Harvard University",
+		"coords": ""lat": 42.3744368, "lng": -71.1182488"
+	},
+	{
+		"address": "Hawaii University",
+		"coords": ""lat": 21.3008904, "lng": -157.8173481"
+	},
+	{
+		"address": "High Point University",
+		"coords": ""lat": 35.9765381, "lng": -79.9976255"
+	},
+	{
+		"address": "Hofstra University",
+		"coords": ""lat": 40.7168988, "lng": -73.59903779999999"
+	},
+	{
+		"address": "Holy Cross University",
+		"coords": ""lat": 42.2392391, "lng": -71.8079608"
+	},
+	{
+		"address": "Houston University",
+		"coords": ""lat": 29.7199489, "lng": -95.3422334"
+	},
+	{
+		"address": "Houston Baptist University",
+		"coords": ""lat": 29.6946466, "lng": -95.51621569999999"
+	},
+	{
+		"address": "Howard University",
+		"coords": ""lat": 38.9226843, "lng": -77.0194377"
+	},
+	{
+		"address": "Idaho University",
+		"coords": ""lat": 46.7288124, "lng": -117.0126084"
+	},
+	{
+		"address": "Idaho State University",
+		"coords": ""lat": 42.8627836, "lng": -112.429762"
+	},
+	{
+		"address": "Illinois University",
+		"coords": ""lat": 40.1019523, "lng": -88.2271615"
+	},
+	{
+		"address": "Illinois State University",
+		"coords": ""lat": 40.5121009, "lng": -88.99476299999999"
+	},
+	{
+		"address": "Incarnate Word University",
+		"coords": ""lat": 29.4675393, "lng": -98.4676824"
+	},
+	null,
+	{
+		"address": "Indiana State University",
+		"coords": ""lat": 39.4713985, "lng": -87.40828069999999"
+	},
+	{
+		"address": "Iona University",
+		"coords": ""lat": 40.9270597, "lng": -73.78634939999999"
+	},
+	{
+		"address": "Iowa University",
+		"coords": ""lat": 41.66270780000001, "lng": -91.5549771"
+	},
+	{
+		"address": "Iowa State University",
+		"coords": ""lat": 42.0266573, "lng": -93.64645159999999"
+	},
+	{
+		"address": "IUPUI University",
+		"coords": ""lat": 39.773929, "lng": -86.17626059999999"
+	},
+	{
+		"address": "Jackson State University",
+		"coords": ""lat": 32.2968882, "lng": -90.2063989"
+	},
+	{
+		"address": "Jacksonville University",
+		"coords": ""lat": 30.3516278, "lng": -81.6035285"
+	},
+	{
+		"address": "Jacksonville State University",
+		"coords": ""lat": 33.8230953, "lng": -85.7681921"
+	},
+	{
+		"address": "James Madison University",
+		"coords": ""lat": 38.435092, "lng": -78.8697548"
+	},
+	{
+		"address": "Kansas University",
+		"coords": ""lat": 38.9543439, "lng": -95.2557961"
+	},
+	{
+		"address": "Kansas City University",
+		"coords": ""lat": 39.1072822, "lng": -94.5609759"
+	},
+	{
+		"address": "Kansas State University",
+		"coords": ""lat": 39.1974437, "lng": -96.5847249"
+	},
+	{
+		"address": "Kennesaw State University",
+		"coords": ""lat": 34.0234337, "lng": -84.6154897"
+	},
+	{
+		"address": "Kent State University",
+		"coords": ""lat": 41.1438917, "lng": -81.3365012"
+	},
+	{
+		"address": "Kentucky University",
+		"coords": ""lat": 38.0306511, "lng": -84.5039697"
+	},
+	{
+		"address": "La Salle University",
+		"coords": ""lat": 40.0390398, "lng": -75.1558184"
+	},
+	null,
+	{
+		"address": "Lamar University",
+		"coords": ""lat": 30.0415251, "lng": -94.0754905"
+	},
+	{
+		"address": "Le Moyne University",
+		"coords": ""lat": 43.0497018, "lng": -76.0855042"
+	},
+	{
+		"address": "Lehigh University",
+		"coords": ""lat": 40.605388, "lng": -75.3772863"
+	},
+	{
+		"address": "Liberty University",
+		"coords": ""lat": 37.3492244, "lng": -79.17841229999999"
+	},
+	{
+		"address": "Lindenwood University",
+		"coords": ""lat": 38.7859638, "lng": -90.49747719999999"
+	},
+	{
+		"address": "Lipscomb University",
+		"coords": ""lat": 36.1046431, "lng": -86.7988728"
+	},
+	{
+		"address": "Little Rock University",
+		"coords": ""lat": 34.7252717, "lng": -92.3378705"
+	},
+	{
+		"address": "Long Beach State University",
+		"coords": ""lat": 33.7838235, "lng": -118.1140904"
+	},
+	null,
+	{
+		"address": "Longwood University",
+		"coords": ""lat": 37.29717979999999, "lng": -78.3961973"
+	},
+	{
+		"address": "Louisiana University",
+		"coords": ""lat": 30.5190775, "lng": -91.5208624"
+	},
+	{
+		"address": "Louisiana Tech University",
+		"coords": ""lat": 32.5299582, "lng": -92.6522174"
+	},
+	{
+		"address": "Louisiana-Monroe University",
+		"coords": ""lat": 32.5313471, "lng": -92.068744"
+	},
+	{
+		"address": "Louisville University",
+		"coords": ""lat": 38.2157954, "lng": -85.7614322"
+	},
+	null,
+	{
+		"address": "Loyola (MD) University",
+		"coords": ""lat": 39.3476737, "lng": -76.6172375"
+	},
+	{
+		"address": "Loyola Marymount University",
+		"coords": ""lat": 33.9691953, "lng": -118.4188984"
+	},
+	{
+		"address": "LSU University",
+		"coords": ""lat": 30.4132579, "lng": -91.1800023"
+	},
+	{
+		"address": "Maine University",
+		"coords": ""lat": 44.901867, "lng": -68.66882509999999"
+	},
+	{
+		"address": "Manhattan University",
+		"coords": ""lat": 40.8900515, "lng": -73.9011239"
+	},
+	{
+		"address": "Marist University",
+		"coords": ""lat": 41.7231052, "lng": -73.9344876"
+	},
+	{
+		"address": "Marquette University",
+		"coords": ""lat": 43.0386955, "lng": -87.93101399999999"
+	},
+	{
+		"address": "Marshall University",
+		"coords": ""lat": 38.4236597, "lng": -82.42471979999999"
+	},
+	{
+		"address": "Maryland University",
+		"coords": ""lat": 38.9869183, "lng": -76.9425543"
+	},
+	{
+		"address": "Maryland-Eastern Shore University",
+		"coords": ""lat": 38.2102166, "lng": -75.6848002"
+	},
+	{
+		"address": "McNeese State University",
+		"coords": ""lat": 30.1776851, "lng": -93.2152198"
+	},
+	{
+		"address": "Memphis University",
+		"coords": ""lat": 35.1187498, "lng": -89.9374928"
+	},
+	{
+		"address": "Mercer University",
+		"coords": ""lat": 32.8284878, "lng": -83.64969909999999"
+	},
+	null,
+	{
+		"address": "Miami (FL) University",
+		"coords": ""lat": 25.7173947, "lng": -80.2781262"
+	},
+	{
+		"address": "Miami (OH) University",
+		"coords": ""lat": 39.5087485, "lng": -84.73449149999999"
+	},
+	{
+		"address": "Michigan University",
+		"coords": ""lat": 42.277145, "lng": -83.7382071"
+	},
+	{
+		"address": "Michigan State University",
+		"coords": ""lat": 42.7250725, "lng": -84.47908269999999"
+	},
+	{
+		"address": "Middle Tennessee University",
+		"coords": ""lat": 35.8486229, "lng": -86.36691549999999"
+	},
+	{
+		"address": "Milwaukee University",
+		"coords": ""lat": 43.078263, "lng": -87.8819686"
+	},
+	{
+		"address": "Minnesota University",
+		"coords": ""lat": 44.97399, "lng": -93.2277285"
+	},
+	{
+		"address": "Mississippi State University",
+		"coords": ""lat": 33.4576975, "lng": -88.7941585"
+	},
+	{
+		"address": "Mississippi Valley State University",
+		"coords": ""lat": 33.5126982, "lng": -90.3416715"
+	},
+	{
+		"address": "Missouri University",
+		"coords": ""lat": 38.9403808, "lng": -92.32773750000001"
+	},
+	{
+		"address": "Missouri State University",
+		"coords": ""lat": 37.2005546, "lng": -93.2806806"
+	},
+	{
+		"address": "Monmouth University",
+		"coords": ""lat": 40.2802758, "lng": -74.0054114"
+	},
+	{
+		"address": "Montana University",
+		"coords": ""lat": 46.8619309, "lng": -113.9845969"
+	},
+	{
+		"address": "Montana State University",
+		"coords": ""lat": 45.6673524, "lng": -111.0546211"
+	},
+	{
+		"address": "Morehead State University",
+		"coords": ""lat": 38.18943, "lng": -83.4310035"
+	},
+	{
+		"address": "Morgan State University",
+		"coords": ""lat": 39.3437959, "lng": -76.5843847"
+	},
+	{
+		"address": "Mount St. Mary's University",
+		"coords": ""lat": 39.6799914, "lng": -77.3486971"
+	},
+	{
+		"address": "Murray State University",
+		"coords": ""lat": 36.616251, "lng": -88.3209372"
+	},
+	{
+		"address": "Navy University",
+		"coords": ""lat": 38.98206580000001, "lng": -76.4839405"
+	},
+	{
+		"address": "Nebraska University",
+		"coords": ""lat": 40.8201966, "lng": -96.70047629999999"
+	},
+	{
+		"address": "Nevada University",
+		"coords": ""lat": 39.5437205, "lng": -119.8141582"
+	},
+	{
+		"address": "New Hampshire University",
+		"coords": ""lat": 43.138948, "lng": -70.9370252"
+	},
+	{
+		"address": "New Mexico University",
+		"coords": ""lat": 35.0843187, "lng": -106.6197812"
+	},
+	{
+		"address": "New Mexico State University",
+		"coords": ""lat": 32.2792887, "lng": -106.7491391"
+	},
+	{
+		"address": "New Orleans University",
+		"coords": ""lat": 30.0273134, "lng": -90.0680105"
+	},
+	{
+		"address": "Niagara University",
+		"coords": ""lat": 43.1369816, "lng": -79.0349955"
+	},
+	{
+		"address": "Nicholls State University",
+		"coords": ""lat": 29.7903032, "lng": -90.8028911"
+	},
+	{
+		"address": "NJIT University",
+		"coords": ""lat": 40.7424259, "lng": -74.1784006"
+	},
+	{
+		"address": "Norfolk State University",
+		"coords": ""lat": 36.8479292, "lng": -76.2620987"
+	},
+	{
+		"address": "North Alabama University",
+		"coords": ""lat": 34.807836, "lng": -87.6804676"
+	},
+	{
+		"address": "North Carolina University",
+		"coords": ""lat": 35.9049122, "lng": -79.0469134"
+	},
+	{
+		"address": "North Carolina A&T University",
+		"coords": ""lat": 36.0770034, "lng": -79.7718199"
+	},
+	{
+		"address": "North Carolina Central University",
+		"coords": ""lat": 35.9752487, "lng": -78.899654"
+	},
+	{
+		"address": "North Carolina State University",
+		"coords": ""lat": 35.7850744, "lng": -78.6812824"
+	},
+	{
+		"address": "North Dakota University",
+		"coords": ""lat": 47.922891, "lng": -97.0768014"
+	},
+	{
+		"address": "North Dakota State University",
+		"coords": ""lat": 46.8977528, "lng": -96.8024367"
+	},
+	{
+		"address": "North Florida University",
+		"coords": ""lat": 30.2661204, "lng": -81.50723140000001"
+	},
+	{
+		"address": "North Texas University",
+		"coords": ""lat": 33.207488, "lng": -97.1525862"
+	},
+	{
+		"address": "Northeastern University",
+		"coords": ""lat": 42.339904, "lng": -71.0898892"
+	},
+	{
+		"address": "Northern Arizona University",
+		"coords": ""lat": 35.1802684, "lng": -111.6540336"
+	},
+	{
+		"address": "Northern Colorado University",
+		"coords": ""lat": 40.4062697, "lng": -104.6944603"
+	},
+	{
+		"address": "Northern Illinois University",
+		"coords": ""lat": 41.935056, "lng": -88.7734365"
+	},
+	{
+		"address": "Northern Iowa University",
+		"coords": ""lat": 42.5121517, "lng": -92.46464689999999"
+	},
+	{
+		"address": "Northern Kentucky University",
+		"coords": ""lat": 39.0312035, "lng": -84.4625345"
+	},
+	{
+		"address": "Northwestern University",
+		"coords": ""lat": 42.0564594, "lng": -87.67526699999999"
+	},
+	{
+		"address": "Northwestern State University",
+		"coords": ""lat": 31.7489726, "lng": -93.097876"
+	},
+	{
+		"address": "Notre Dame University",
+		"coords": ""lat": 41.7050504, "lng": -86.2355439"
+	},
+	{
+		"address": "Oakland University",
+		"coords": ""lat": 42.6678782, "lng": -83.20823469999999"
+	},
+	{
+		"address": "Ohio University",
+		"coords": ""lat": 39.324358, "lng": -82.10138889999999"
+	},
+	{
+		"address": "Ohio State University",
+		"coords": ""lat": 40.0066723, "lng": -83.0304546"
+	},
+	{
+		"address": "Oklahoma University",
+		"coords": ""lat": 35.1987162, "lng": -97.4448963"
+	},
+	{
+		"address": "Oklahoma State University",
+		"coords": ""lat": 36.126572, "lng": -97.07348209999999"
+	},
+	{
+		"address": "Old Dominion University",
+		"coords": ""lat": 36.8853217, "lng": -76.3058786"
+	},
+	{
+		"address": "Ole Miss University",
+		"coords": ""lat": 34.3662492, "lng": -89.5379687"
+	},
+	{
+		"address": "Omaha University",
+		"coords": ""lat": 41.2580268, "lng": -96.010696"
+	},
+	{
+		"address": "Oral Roberts University",
+		"coords": ""lat": 36.0508093, "lng": -95.9528284"
+	},
+	{
+		"address": "Oregon University",
+		"coords": ""lat": 44.0448302, "lng": -123.0726055"
+	},
+	{
+		"address": "Oregon State University",
+		"coords": ""lat": 44.5618097, "lng": -123.2822671"
+	},
+	{
+		"address": "Pacific University",
+		"coords": ""lat": 45.5243174, "lng": -123.1103252"
+	},
+	{
+		"address": "Penn University",
+		"coords": ""lat": 39.9522188, "lng": -75.1932137"
+	},
+	{
+		"address": "Penn State University",
+		"coords": ""lat": 40.7982133, "lng": -77.8599084"
+	},
+	{
+		"address": "Pepperdine University",
+		"coords": ""lat": 34.0415037, "lng": -118.709596"
+	},
+	{
+		"address": "Pittsburgh University",
+		"coords": ""lat": 40.44402789999999, "lng": -79.9605375"
+	},
+	{
+		"address": "Portland University",
+		"coords": ""lat": 45.5732046, "lng": -122.7275712"
+	},
+	{
+		"address": "Portland State University",
+		"coords": ""lat": 45.5111153, "lng": -122.6833385"
+	},
+	{
+		"address": "Prairie View A&M University",
+		"coords": ""lat": 30.0954974, "lng": -95.9907076"
+	},
+	null,
+	{
+		"address": "Princeton University",
+		"coords": ""lat": 40.3430942, "lng": -74.65507389999999"
+	},
+	{
+		"address": "Providence University",
+		"coords": ""lat": 24.2258027, "lng": 120.5771913"
+	},
+	{
+		"address": "Purdue University",
+		"coords": ""lat": 40.4237054, "lng": -86.92119459999999"
+	},
+	{
+		"address": "Purdue Fort Wayne University",
+		"coords": ""lat": 41.1184535, "lng": -85.1059405"
+	},
+	{
+		"address": "Queens University",
+		"coords": ""lat": 44.2252795, "lng": -76.49514119999999"
+	},
+	{
+		"address": "Quinnipiac University",
+		"coords": ""lat": 41.4189262, "lng": -72.89364929999999"
+	},
+	{
+		"address": "Radford University",
+		"coords": ""lat": 37.1382597, "lng": -80.5506161"
+	},
+	{
+		"address": "Rhode Island University",
+		"coords": ""lat": 41.4862328, "lng": -71.53067879999999"
+	},
+	{
+		"address": "Rice University",
+		"coords": ""lat": 29.7173941, "lng": -95.40183119999999"
+	},
+	{
+		"address": "Richmond University",
+		"coords": ""lat": 37.5758243, "lng": -77.5397192"
+	},
+	{
+		"address": "Rider University",
+		"coords": ""lat": 40.2811583, "lng": -74.7407633"
+	},
+	{
+		"address": "Robert Morris University",
+		"coords": ""lat": 40.5213461, "lng": -80.2127179"
+	},
+	null,
+	{
+		"address": "Sacramento State University",
+		"coords": ""lat": 38.564761, "lng": -121.4276493"
+	},
+	{
+		"address": "Sacred Heart University",
+		"coords": ""lat": 41.220562, "lng": -73.24239469999999"
+	},
+	{
+		"address": "Saint Francis (PA) University",
+		"coords": ""lat": 41.2033216, "lng": -77.1945247"
+	},
+	{
+		"address": "Saint Joseph's University",
+		"coords": ""lat": 39.9951217, "lng": -75.23993279999999"
+	},
+	{
+		"address": "Saint Louis University",
+		"coords": ""lat": 38.6348237, "lng": -90.23364079999999"
+	},
+	{
+		"address": "Saint Mary's University",
+		"coords": ""lat": 44.6313301, "lng": -63.581457"
+	},
+	{
+		"address": "Saint Peter's University",
+		"coords": ""lat": 40.72694920000001, "lng": -74.07003259999999"
+	},
+	{
+		"address": "Sam Houston State University",
+		"coords": ""lat": 30.7135813, "lng": -95.547276"
+	},
+	{
+		"address": "Samford University",
+		"coords": ""lat": 33.4649218, "lng": -86.7913423"
+	},
+	{
+		"address": "San Diego University",
+		"coords": ""lat": 32.7721681, "lng": -117.1888625"
+	},
+	{
+		"address": "San Diego State University",
+		"coords": ""lat": 32.7774047, "lng": -117.0714068"
+	},
+	{
+		"address": "San Francisco University",
+		"coords": ""lat": 37.7765643, "lng": -122.4507187"
+	},
+	{
+		"address": "San Jose State University",
+		"coords": ""lat": 37.3351874, "lng": -121.8810715"
+	},
+	{
+		"address": "Santa Clara University",
+		"coords": ""lat": 37.3489255, "lng": -121.9367804"
+	},
+	{
+		"address": "Seattle University",
+		"coords": ""lat": 47.6091765, "lng": -122.3178465"
+	},
+	{
+		"address": "Seton Hall University",
+		"coords": ""lat": 40.7430841, "lng": -74.246082"
+	},
+	{
+		"address": "Siena University",
+		"coords": ""lat": 43.3191155, "lng": 11.3328421"
+	},
+	{
+		"address": "SIU Edwardsville University",
+		"coords": ""lat": 38.7951375, "lng": -89.9996714"
+	},
+	{
+		"address": "SMU University",
+		"coords": ""lat": 32.8412178, "lng": -96.78451749999999"
+	},
+	{
+		"address": "South Alabama University",
+		"coords": ""lat": 30.6959406, "lng": -88.184236"
+	},
+	{
+		"address": "South Carolina University",
+		"coords": ""lat": 33.9937575, "lng": -81.0299186"
+	},
+	{
+		"address": "South Carolina State University",
+		"coords": ""lat": 33.4981687, "lng": -80.8492832"
+	},
+	{
+		"address": "South Dakota University",
+		"coords": ""lat": 42.7883015, "lng": -96.92533809999999"
+	},
+	{
+		"address": "South Dakota State University",
+		"coords": ""lat": 44.3191071, "lng": -96.78351819999999"
+	},
+	{
+		"address": "South Florida University",
+		"coords": ""lat": 28.0587031, "lng": -82.41385389999999"
+	},
+	{
+		"address": "Southeast Missouri State University",
+		"coords": ""lat": 37.3148783, "lng": -89.52804379999999"
+	},
+	{
+		"address": "Southeastern Louisiana University",
+		"coords": ""lat": 30.5178932, "lng": -90.4710715"
+	},
+	{
+		"address": "Southern University",
+		"coords": ""lat": 30.5265222, "lng": -91.1929407"
+	},
+	{
+		"address": "Southern Illinois University",
+		"coords": ""lat": 37.7079717, "lng": -89.2229983"
+	},
+	{
+		"address": "Southern Indiana University",
+		"coords": ""lat": 37.9634036, "lng": -87.6727294"
+	},
+	{
+		"address": "Southern Miss University",
+		"coords": ""lat": 31.3298668, "lng": -89.33345349999999"
+	},
+	{
+		"address": "Southern Utah University",
+		"coords": ""lat": 37.6764461, "lng": -113.0713001"
+	},
+	{
+		"address": "St. Bonaventure University",
+		"coords": ""lat": 42.07857680000001, "lng": -78.4829439"
+	},
+	{
+		"address": "St. John's University",
+		"coords": ""lat": 40.7201737, "lng": -73.79789079999999"
+	},
+	{
+		"address": "St. Thomas University",
+		"coords": ""lat": 44.943096, "lng": -93.1897082"
+	},
+	{
+		"address": "Stanford University",
+		"coords": ""lat": 37.42766, "lng": -122.17006"
+	},
+	{
+		"address": "Stephen F. Austin University",
+		"coords": ""lat": 31.6216141, "lng": -94.64664379999999"
+	},
+	{
+		"address": "Stetson University",
+		"coords": ""lat": 29.0335139, "lng": -81.3009245"
+	},
+	{
+		"address": "Stonehill University",
+		"coords": ""lat": 42.05810530000001, "lng": -71.08091300000001"
+	},
+	{
+		"address": "Stony Brook University",
+		"coords": ""lat": 40.908119, "lng": -73.1204032"
+	},
+	{
+		"address": "Syracuse University",
+		"coords": ""lat": 43.0386502, "lng": -76.1336922"
+	},
+	{
+		"address": "Tarleton State University",
+		"coords": ""lat": 32.2160433, "lng": -98.215953"
+	},
+	{
+		"address": "TCU University",
+		"coords": ""lat": 32.7078531, "lng": -97.36280409999999"
+	},
+	{
+		"address": "Temple University",
+		"coords": ""lat": 39.9811911, "lng": -75.1553563"
+	},
+	{
+		"address": "Tennessee University",
+		"coords": ""lat": 35.9544013, "lng": -83.92945639999999"
+	},
+	{
+		"address": "Tennessee State University",
+		"coords": ""lat": 36.1683703, "lng": -86.8258566"
+	},
+	{
+		"address": "Tennessee Tech University",
+		"coords": ""lat": 36.1763138, "lng": -85.50910859999999"
+	},
+	{
+		"address": "Texas University",
+		"coords": ""lat": 30.2850284, "lng": -97.7335226"
+	},
+	{
+		"address": "Texas A&M University",
+		"coords": ""lat": 30.6186806, "lng": -96.33646549999999"
+	},
+	{
+		"address": "Texas A&M Corpus Christi University",
+		"coords": ""lat": 27.7123121, "lng": -97.32457389999999"
+	},
+	{
+		"address": "Texas A&M Commerce University",
+		"coords": ""lat": 33.2406645, "lng": -95.91041489999999"
+	},
+	{
+		"address": "Texas Southern University",
+		"coords": ""lat": 29.7214214, "lng": -95.35926909999999"
+	},
+	{
+		"address": "Texas State University",
+		"coords": ""lat": 29.888411, "lng": -97.938351"
+	},
+	{
+		"address": "Texas Tech University",
+		"coords": ""lat": 33.5845522, "lng": -101.8746483"
+	},
+	{
+		"address": "Toledo University",
+		"coords": ""lat": 41.6578804, "lng": -83.6142374"
+	},
+	{
+		"address": "Towson University",
+		"coords": ""lat": 39.3925121, "lng": -76.61263919999999"
+	},
+	{
+		"address": "Troy University",
+		"coords": ""lat": 31.80259259999999, "lng": -85.9571615"
+	},
+	{
+		"address": "Tulane University",
+		"coords": ""lat": 29.9407282, "lng": -90.12031669999999"
+	},
+	{
+		"address": "Tulsa University",
+		"coords": ""lat": 36.1520526, "lng": -95.94607529999999"
+	},
+	{
+		"address": "UAB University",
+		"coords": ""lat": 33.5020323, "lng": -86.80574949999999"
+	},
+	{
+		"address": "UC Davis University",
+		"coords": ""lat": 38.5382322, "lng": -121.7617125"
+	},
+	{
+		"address": "UC Irvine University",
+		"coords": ""lat": 33.6423814, "lng": -117.8416747"
+	},
+	{
+		"address": "UC Riverside University",
+		"coords": ""lat": 33.9737055, "lng": -117.3280644"
+	},
+	{
+		"address": "UC San Diego University",
+		"coords": ""lat": 32.8800604, "lng": -117.2340135"
+	},
+	{
+		"address": "UC Santa Barbara University",
+		"coords": ""lat": 34.4139629, "lng": -119.848947"
+	},
+	{
+		"address": "UCF University",
+		"coords": ""lat": 28.6024274, "lng": -81.2000599"
+	},
+	{
+		"address": "UCLA University",
+		"coords": ""lat": 34.0699182, "lng": -118.4438495"
+	},
+	{
+		"address": "UConn University",
+		"coords": ""lat": 41.8077414, "lng": -72.2539805"
+	},
+	{
+		"address": "UIC University",
+		"coords": ""lat": 41.8686034, "lng": -87.6484377"
+	},
+	{
+		"address": "UMass University",
+		"coords": ""lat": 42.3867598, "lng": -72.5300515"
+	},
+	{
+		"address": "UMass Lowell University",
+		"coords": ""lat": 42.6552587, "lng": -71.3247164"
+	},
+	{
+		"address": "UNC Asheville University",
+		"coords": ""lat": 35.5950581, "lng": -82.5514869"
+	},
+	{
+		"address": "UNC Greensboro University",
+		"coords": ""lat": 36.0689296, "lng": -79.8101976"
+	},
+	{
+		"address": "UNC Wilmington University",
+		"coords": ""lat": 34.223874, "lng": -77.8696036"
+	},
+	{
+		"address": "UNLV University",
+		"coords": ""lat": 36.107496, "lng": -115.1435252"
+	},
+	{
+		"address": "USC University",
+		"coords": ""lat": 34.0223519, "lng": -118.285117"
+	},
+	{
+		"address": "USC Upstate University",
+		"coords": ""lat": 34.9996102, "lng": -81.9711555"
+	},
+	{
+		"address": "UT Arlington University",
+		"coords": ""lat": 32.7292117, "lng": -97.11519709999999"
+	},
+	{
+		"address": "UT Martin University",
+		"coords": ""lat": 36.3429724, "lng": -88.86433319999999"
+	},
+	{
+		"address": "UTEP University",
+		"coords": ""lat": 31.7731979, "lng": -106.5047208"
+	},
+	{
+		"address": "UTSA University",
+		"coords": ""lat": 29.5830733, "lng": -98.61987789999999"
+	},
+	{
+		"address": "Utah University",
+		"coords": ""lat": 40.7649368, "lng": -111.8421021"
+	},
+	{
+		"address": "Utah State University",
+		"coords": ""lat": 41.745161, "lng": -111.8097425"
+	},
+	{
+		"address": "Utah Valley University",
+		"coords": ""lat": 40.2787626, "lng": -111.7153739"
+	},
+	{
+		"address": "Utah Tech University",
+		"coords": ""lat": 37.1028746, "lng": -113.56541"
+	},
+	{
+		"address": "UTRGV University",
+		"coords": ""lat": 26.3081983, "lng": -98.17401579999999"
+	},
+	{
+		"address": "Valparaiso University",
+		"coords": ""lat": 41.4639394, "lng": -87.04388929999999"
+	},
+	{
+		"address": "Vanderbilt University",
+		"coords": ""lat": 36.1447034, "lng": -86.8026551"
+	},
+	{
+		"address": "Vermont University",
+		"coords": ""lat": 44.4778528, "lng": -73.1964637"
+	},
+	{
+		"address": "Villanova University",
+		"coords": ""lat": 40.0368926, "lng": -75.3425785"
+	},
+	{
+		"address": "Virginia University",
+		"coords": ""lat": 38.0335529, "lng": -78.5079772"
+	},
+	{
+		"address": "VCU University",
+		"coords": ""lat": 37.5526695, "lng": -77.4527359"
+	},
+	{
+		"address": "Virginia Tech University",
+		"coords": ""lat": 37.22838429999999, "lng": -80.42341669999999"
+	},
+	{
+		"address": "VMI University",
+		"coords": ""lat": 37.7909313, "lng": -79.4351978"
+	},
+	null,
+	{
+		"address": "Wake Forest University",
+		"coords": ""lat": 36.1354887, "lng": -80.2792887"
+	},
+	{
+		"address": "Washington University",
+		"coords": ""lat": 38.6487895, "lng": -90.31079620000001"
+	},
+	{
+		"address": "Washington State University",
+		"coords": ""lat": 46.7295265, "lng": -117.1803059"
+	},
+	{
+		"address": "Weber State University",
+		"coords": ""lat": 41.1913021, "lng": -111.9440252"
+	},
+	{
+		"address": "West Virginia University",
+		"coords": ""lat": 39.6480359, "lng": -79.9697147"
+	},
+	{
+		"address": "Western Carolina University",
+		"coords": ""lat": 35.3090108, "lng": -83.1863612"
+	},
+	{
+		"address": "Western Illinois University",
+		"coords": ""lat": 40.4705003, "lng": -90.68585589999999"
+	},
+	{
+		"address": "Western Kentucky University",
+		"coords": ""lat": 36.9847167, "lng": -86.456"
+	},
+	{
+		"address": "Western Michigan University",
+		"coords": ""lat": 42.2837337, "lng": -85.6102506"
+	},
+	{
+		"address": "Wichita State University",
+		"coords": ""lat": 37.7191442, "lng": -97.28994209999999"
+	},
+	{
+		"address": "William & Mary University",
+		"coords": ""lat": 37.2709753, "lng": -76.7162467"
+	},
+	{
+		"address": "Winthrop University",
+		"coords": ""lat": 34.9394013, "lng": -81.03199699999999"
+	},
+	{
+		"address": "Wisconsin University",
+		"coords": ""lat": 43.076592, "lng": -89.4124875"
+	},
+	{
+		"address": "Wofford University",
+		"coords": ""lat": 34.9590202, "lng": -81.9351358"
+	},
+	{
+		"address": "Wright State University",
+		"coords": ""lat": 39.7798542, "lng": -84.06510779999999"
+	},
+	{
+		"address": "Wyoming University",
+		"coords": ""lat": 41.3148754, "lng": -105.5665744"
+	},
+	{
+		"address": "Xavier University",
+		"coords": ""lat": 39.1498065, "lng": -84.47406869999999"
+	},
+	{
+		"address": "Yale University",
+		"coords": ""lat": 41.3163244, "lng": -72.92234309999999"
+	},
+	{
+		"address": "Youngstown State University",
+		"coords": ""lat": 41.1066413, "lng": -80.6480952"
+	}
+]
