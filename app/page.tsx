@@ -180,7 +180,7 @@ export default function Home() {
       </Dialog>
 
       {/* TODO: Add a search bar to filter for a school */}
-      <SearchBar />
+      <SearchBar data={data} handleMarkerClick={handleMarkerClick} />
       <TopRightBar />
       {isLoaded && (
         <GoogleMap
