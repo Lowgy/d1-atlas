@@ -1,14 +1,43 @@
 'use client';
 
-import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
+import { useState } from 'react';
+import {
+  GoogleMap,
+  useJsApiLoader,
+  Marker,
+  OverlayView,
+} from '@react-google-maps/api';
 import { data } from './data/colleges';
+
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog';
+
+import SearchBar from '@/components/search-bar';
+
+type College = {
+  id: number;
+  name: string;
+  location: {
+    city: string;
+    state: string;
+    lat: number;
+    lng: number;
+  };
+  mascot: string;
+  colors: string[];
+  conference: string;
+};
 
 export default function Home() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
   });
-  const mapCenter = { lat: 40.999436, lng: -98.706041 };
   // const mapStyles = [
   //   { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
   //   { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
@@ -97,13 +126,54 @@ export default function Home() {
     scrollwheel: true,
   };
 
+  const [mapCenter, setMapCenter] = useState({
+    lat: 40.999436,
+    lng: -98.706041,
+  });
+
+  const [mapZoom, setMapZoom] = useState(5);
+  const [selectedSchool, setSelectedSchool] = useState<College>({
+    id: 203,
+    name: 'North Dakota',
+    location: {
+      city: 'Grand Forks',
+      state: 'North Dakota',
+      lat: 47.922891,
+      lng: -97.0768014,
+    },
+    mascot: 'Fighting Hawks',
+    colors: ['Green', 'White'],
+    conference: 'Summit League',
+  });
+
+  const handleMarkerClick = (college: any) => {
+    console.log(college);
+    setSelectedSchool(college);
+    setMapCenter({ lat: college.location.lat, lng: college.location.lng });
+    setMapZoom(16);
+  };
+
   return (
-    <>
+    <div>
+      <Dialog defaultOpen={true}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Welcome to D1 Atlas</DialogTitle>
+            <DialogDescription>
+              This is an atlas of all D1 Colleges and Universities. Click on to
+              see information about the school.
+            </DialogDescription>
+          </DialogHeader>
+        </DialogContent>
+      </Dialog>
+
+      {/* TODO: Add a search bar to filter for a school */}
+      <SearchBar />
       {isLoaded && (
         <GoogleMap
           mapContainerStyle={{ height: '100vh', width: '100%' }}
           center={mapCenter}
-          zoom={5}
+          zoom={mapZoom}
           options={mapOptions}
         >
           {data.map((college) => (
@@ -113,13 +183,11 @@ export default function Home() {
                 lat: college.location.lat,
                 lng: college.location.lng,
               }}
-              onClick={() => {
-                console.log(college);
-              }}
-            />
+              onClick={() => handleMarkerClick(college)}
+            ></Marker>
           ))}
         </GoogleMap>
       )}
-    </>
+    </div>
   );
 }
