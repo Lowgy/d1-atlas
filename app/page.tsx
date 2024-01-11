@@ -17,7 +17,17 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet';
+
 import SearchBar from '@/components/search-bar';
+import TopRightBar from '@/components/top-right-bar';
 
 type College = {
   id: number;
@@ -131,6 +141,7 @@ export default function Home() {
     lng: -98.706041,
   });
 
+  const [schoolSheetOpen, setSchoolSheetOpen] = useState(false);
   const [mapZoom, setMapZoom] = useState(5);
   const [selectedSchool, setSelectedSchool] = useState<College>({
     id: 203,
@@ -148,6 +159,7 @@ export default function Home() {
 
   const handleMarkerClick = (college: any) => {
     console.log(college);
+    setSchoolSheetOpen(true);
     setSelectedSchool(college);
     setMapCenter({ lat: college.location.lat, lng: college.location.lng });
     setMapZoom(16);
@@ -169,6 +181,7 @@ export default function Home() {
 
       {/* TODO: Add a search bar to filter for a school */}
       <SearchBar />
+      <TopRightBar />
       {isLoaded && (
         <GoogleMap
           mapContainerStyle={{ height: '100vh', width: '100%' }}
@@ -188,6 +201,18 @@ export default function Home() {
           ))}
         </GoogleMap>
       )}
+      <Sheet open={schoolSheetOpen} onOpenChange={setSchoolSheetOpen}>
+        <SheetContent>
+          <SheetHeader>
+            <SheetTitle>{selectedSchool.name}</SheetTitle>
+            <SheetDescription>
+              <h1>Colors: {selectedSchool.colors.join(', ')}</h1>
+              <h1>Mascot: {selectedSchool.mascot}</h1>
+              <h1>Conference: {selectedSchool.conference}</h1>
+            </SheetDescription>
+          </SheetHeader>
+        </SheetContent>
+      </Sheet>
     </div>
   );
 }

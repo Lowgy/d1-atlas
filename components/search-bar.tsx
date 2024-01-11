@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { Settings } from 'lucide-react';
 
 export default function SearchBar() {
   return (
@@ -23,6 +24,12 @@ export default function SearchBar() {
         className="px-3 py-2 w-80 pl-12 pr-4"
         placeholder="Search..."
       />
+      <Button
+        size="icon"
+        className="dark:bg-black bg-white text-gray-500 dark:text-white hover:text-white"
+      >
+        <Settings />
+      </Button>
     </div>
   );
 }
