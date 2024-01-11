@@ -23,7 +23,6 @@ import {
   SheetDescription,
   SheetHeader,
   SheetTitle,
-  SheetTrigger,
 } from '@/components/ui/sheet';
 
 import SearchBar from '@/components/search-bar';
@@ -167,39 +166,39 @@ export default function Home() {
 
   return (
     <div>
-      <Dialog defaultOpen={true}>
-        <DialogContent>
-          <DialogHeader>
-            <DialogTitle>Welcome to D1 Atlas</DialogTitle>
-            <DialogDescription>
-              This is an atlas of all D1 Colleges and Universities. Click on to
-              see information about the school.
-            </DialogDescription>
-          </DialogHeader>
-        </DialogContent>
-      </Dialog>
-
-      {/* TODO: Add a search bar to filter for a school */}
-      <SearchBar data={data} handleMarkerClick={handleMarkerClick} />
-      <TopRightBar />
       {isLoaded && (
-        <GoogleMap
-          mapContainerStyle={{ height: '100vh', width: '100%' }}
-          center={mapCenter}
-          zoom={mapZoom}
-          options={mapOptions}
-        >
-          {data.map((college) => (
-            <Marker
-              key={college.id}
-              position={{
-                lat: college.location.lat,
-                lng: college.location.lng,
-              }}
-              onClick={() => handleMarkerClick(college)}
-            ></Marker>
-          ))}
-        </GoogleMap>
+        <>
+          <Dialog defaultOpen={true}>
+            <DialogContent>
+              <DialogHeader>
+                <DialogTitle>Welcome to D1 Atlas</DialogTitle>
+                <DialogDescription>
+                  This is an atlas of all D1 Colleges and Universities. Click on
+                  to see information about the school.
+                </DialogDescription>
+              </DialogHeader>
+            </DialogContent>
+          </Dialog>
+          <SearchBar data={data} handleMarkerClick={handleMarkerClick} />
+          <TopRightBar />
+          <GoogleMap
+            mapContainerStyle={{ height: '100vh', width: '100%' }}
+            center={mapCenter}
+            zoom={mapZoom}
+            options={mapOptions}
+          >
+            {data.map((college) => (
+              <Marker
+                key={college.name}
+                position={{
+                  lat: college.location.lat,
+                  lng: college.location.lng,
+                }}
+                onClick={() => handleMarkerClick(college)}
+              />
+            ))}
+          </GoogleMap>
+        </>
       )}
       <Sheet open={schoolSheetOpen} onOpenChange={setSchoolSheetOpen}>
         <SheetContent>
