@@ -1,4 +1,6 @@
-export const data = [
+const fs = require('fs');
+
+const data = [
   {
     id: 1,
     name: 'Abilene Christian',
@@ -11,7 +13,6 @@ export const data = [
     mascot: 'Wildcats',
     colors: ['Purple', 'White'],
     conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2000.png',
   },
   {
     id: 2,
@@ -25,7 +26,6 @@ export const data = [
     mascot: 'Falcons',
     colors: ['Blue', 'Silver'],
     conference: 'Mountain West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2005.png',
   },
   {
     id: 3,
@@ -39,7 +39,6 @@ export const data = [
     mascot: 'Zips',
     colors: ['Blue', 'Gold'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2006.png',
   },
   {
     id: 4,
@@ -53,7 +52,6 @@ export const data = [
     mascot: 'Crimson Tide',
     colors: ['Crimson', 'White'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/333.png',
   },
   {
     id: 5,
@@ -67,7 +65,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Maroon', 'White'],
     conference: 'SWAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2010.png',
   },
   {
     id: 6,
@@ -81,7 +78,6 @@ export const data = [
     mascot: 'Hornets',
     colors: ['Black', 'Gold'],
     conference: 'SWAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2011.png',
   },
   {
     id: 7,
@@ -95,7 +91,6 @@ export const data = [
     mascot: 'Great Danes',
     colors: ['Purple', 'Gold'],
     conference: 'America East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/399.png',
   },
   {
     id: 8,
@@ -109,7 +104,6 @@ export const data = [
     mascot: 'Braves',
     colors: ['Purple', 'Gold'],
     conference: 'SWAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2016.png',
   },
   {
     id: 9,
@@ -123,7 +117,6 @@ export const data = [
     mascot: 'Eagles',
     colors: ['Red', 'Blue'],
     conference: 'Patriot League',
-    logo: '',
   },
   {
     id: 10,
@@ -137,7 +130,6 @@ export const data = [
     mascot: 'Mountaineers',
     colors: ['Black', 'Gold'],
     conference: 'Sun Belt',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2026.png',
   },
   {
     id: 11,
@@ -151,7 +143,6 @@ export const data = [
     mascot: 'Wildcats',
     colors: ['Red', 'Blue'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/12.png',
   },
   {
     id: 12,
@@ -165,7 +156,6 @@ export const data = [
     mascot: 'Sun Devils',
     colors: ['Maroon', 'Gold'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/9.png',
   },
   {
     id: 13,
@@ -179,7 +169,6 @@ export const data = [
     mascot: 'Razorbacks',
     colors: ['Cardinal', 'White'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/8.png',
   },
   {
     id: 14,
@@ -193,7 +182,6 @@ export const data = [
     mascot: 'Red Wolves',
     colors: ['Scarlet', 'Black'],
     conference: 'Sun Belt',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2032.png',
   },
   {
     id: 15,
@@ -207,7 +195,6 @@ export const data = [
     mascot: 'Golden Lions',
     colors: ['Black', 'Gold'],
     conference: 'SWAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2029.png',
   },
   {
     id: 16,
@@ -221,7 +208,6 @@ export const data = [
     mascot: 'Black Knights',
     colors: ['Black', 'Gold'],
     conference: 'Patriot League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/349.png',
   },
   {
     id: 17,
@@ -235,7 +221,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Navy Blue', 'Burnt Orange'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2.png',
   },
   {
     id: 18,
@@ -249,7 +234,6 @@ export const data = [
     mascot: 'Governors',
     colors: ['Red', 'White'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2046.png',
   },
   {
     id: 19,
@@ -263,7 +247,6 @@ export const data = [
     mascot: 'Cardinals',
     colors: ['Cardinal', 'White'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2050.png',
   },
   {
     id: 20,
@@ -277,7 +260,6 @@ export const data = [
     mascot: 'Bears',
     colors: ['Green', 'Gold'],
     conference: 'Big 12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/239.png',
   },
   {
     id: 21,
@@ -291,7 +273,6 @@ export const data = [
     mascot: 'Knights',
     colors: ['Red', 'Black'],
     conference: 'ASUN',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/91.png',
   },
   {
     id: 22,
@@ -305,7 +286,6 @@ export const data = [
     mascot: 'Bruins',
     colors: ['Navy Blue', 'Red'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2057.png',
   },
   {
     id: 23,
@@ -319,7 +299,6 @@ export const data = [
     mascot: 'Wildcats',
     colors: ['Maroon', 'Gold'],
     conference: 'MEAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2065.png',
   },
   {
     id: 24,
@@ -333,7 +312,6 @@ export const data = [
     mascot: 'Bearcats',
     colors: ['Green', 'White'],
     conference: 'America East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2066.png',
   },
   {
     id: 25,
@@ -347,7 +325,6 @@ export const data = [
     mascot: 'Broncos',
     colors: ['Blue', 'Orange'],
     conference: 'Mountain West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/68.png',
   },
   {
     id: 26,
@@ -361,7 +338,6 @@ export const data = [
     mascot: 'Eagles',
     colors: ['Maroon', 'Gold'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/103.png',
   },
   {
     id: 27,
@@ -375,7 +351,6 @@ export const data = [
     mascot: 'Terriers',
     colors: ['Red', 'White'],
     conference: 'Patriot League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/104.png',
   },
   {
     id: 28,
@@ -389,7 +364,6 @@ export const data = [
     mascot: 'Falcons',
     colors: ['Orange', 'Brown'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/189.png',
   },
   {
     id: 29,
@@ -403,7 +377,6 @@ export const data = [
     mascot: 'Braves',
     colors: ['Red', 'White'],
     conference: 'Missouri Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/71.png',
   },
   {
     id: 30,
@@ -417,7 +390,6 @@ export const data = [
     mascot: 'Cougars',
     colors: ['Blue', 'White'],
     conference: 'WCC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/252.png',
   },
   {
     id: 31,
@@ -431,7 +403,6 @@ export const data = [
     mascot: 'Bears',
     colors: ['Brown', 'White'],
     conference: 'Ivy League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/225.png',
   },
   {
     id: 32,
@@ -445,7 +416,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Black', 'Gold'],
     conference: 'Northeast',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2803.png',
   },
   {
     id: 33,
@@ -459,7 +429,6 @@ export const data = [
     mascot: 'Bison',
     colors: ['Orange', 'Blue'],
     conference: 'Patriot League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2083.png',
   },
   {
     id: 34,
@@ -473,7 +442,6 @@ export const data = [
     mascot: 'Bulls',
     colors: ['Blue', 'White'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2084.png',
   },
   {
     id: 35,
@@ -487,7 +455,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Blue', 'White'],
     conference: 'Big East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2086.png',
   },
   {
     id: 36,
@@ -501,7 +468,6 @@ export const data = [
     mascot: 'Mustangs',
     colors: ['Green', 'Gold'],
     conference: 'Big West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/13.png',
   },
   {
     id: 37,
@@ -515,7 +481,6 @@ export const data = [
     mascot: 'Golden Bears',
     colors: ['Blue', 'Gold'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/25.png',
   },
   {
     id: 38,
@@ -529,7 +494,6 @@ export const data = [
     mascot: 'Lancers',
     colors: ['Purple', 'Gold'],
     conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2856.png',
   },
   {
     id: 39,
@@ -543,7 +507,6 @@ export const data = [
     mascot: 'Golden Griffins',
     colors: ['Blue', 'Gold'],
     conference: 'MAAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2099.png',
   },
   {
     id: 40,
@@ -557,7 +520,6 @@ export const data = [
     mascot: 'Fighting Camels',
     colors: ['Orange', 'Black'],
     conference: 'Big South',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2097.png',
   },
   {
     id: 41,
@@ -571,7 +533,6 @@ export const data = [
     mascot: 'Bears',
     colors: ['Purple', 'White'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2110.png',
   },
   {
     id: 42,
@@ -585,7 +546,6 @@ export const data = [
     mascot: 'Blue Devils',
     colors: ['Blue', 'White'],
     conference: 'Northeast',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2115.png',
   },
   {
     id: 43,
@@ -599,7 +559,6 @@ export const data = [
     mascot: 'Chippewas',
     colors: ['Maroon', 'Gold'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2117.png',
   },
   {
     id: 44,
@@ -613,7 +572,6 @@ export const data = [
     mascot: 'Cougars',
     colors: ['Maroon', 'White'],
     conference: 'CAA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/232.png',
   },
   {
     id: 45,
@@ -627,7 +585,6 @@ export const data = [
     mascot: 'Buccaneers',
     colors: ['Blue', 'Gold'],
     conference: 'Big South',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2127.png',
   },
   {
     id: 46,
@@ -641,7 +598,6 @@ export const data = [
     mascot: '49ers',
     colors: ['Green', 'White'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2429.png',
   },
   {
     id: 47,
@@ -655,7 +611,6 @@ export const data = [
     mascot: 'Mocs',
     colors: ['Blue', 'Gold'],
     conference: 'Southern',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/236.png',
   },
   {
     id: 48,
@@ -669,7 +624,6 @@ export const data = [
     mascot: 'Cougars',
     colors: ['Green', 'White'],
     conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2130.png',
   },
   {
     id: 49,
@@ -683,7 +637,6 @@ export const data = [
     mascot: 'Bearcats',
     colors: ['Red', 'Black'],
     conference: 'AAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2132.png',
   },
   {
     id: 50,
@@ -697,7 +650,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Blue', 'White'],
     conference: 'Southern',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2643.png',
   },
   {
     id: 51,
@@ -711,7 +663,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Orange', 'Purple'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/228.png',
   },
   {
     id: 52,
@@ -725,7 +676,6 @@ export const data = [
     mascot: 'Vikings',
     colors: ['Green', 'White'],
     conference: 'Horizon League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/325.png',
   },
   {
     id: 53,
@@ -739,7 +689,6 @@ export const data = [
     mascot: 'Chanticleers',
     colors: ['Teal', 'Bronze'],
     conference: 'Sun Belt',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/324.png',
   },
   {
     id: 54,
@@ -753,7 +702,6 @@ export const data = [
     mascot: 'Raiders',
     colors: ['Maroon', 'White'],
     conference: 'Patriot League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2142.png',
   },
   {
     id: 55,
@@ -767,7 +715,6 @@ export const data = [
     mascot: 'Buffaloes',
     colors: ['Black', 'Gold'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/38.png',
   },
   {
     id: 56,
@@ -781,7 +728,6 @@ export const data = [
     mascot: 'Rams',
     colors: ['Green', 'Gold'],
     conference: 'Mountain West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/36.png',
   },
   {
     id: 57,
@@ -795,7 +741,6 @@ export const data = [
     mascot: 'Lions',
     colors: ['Blue', 'White'],
     conference: 'Ivy League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/171.png',
   },
   {
     id: 58,
@@ -809,7 +754,6 @@ export const data = [
     mascot: 'Eagles',
     colors: ['Blue', 'Gold'],
     conference: 'MEAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2154.png',
   },
   {
     id: 59,
@@ -823,7 +767,6 @@ export const data = [
     mascot: 'Big Red',
     colors: ['Red', 'White'],
     conference: 'Ivy League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/172.png',
   },
   {
     id: 60,
@@ -837,7 +780,6 @@ export const data = [
     mascot: 'Bluejays',
     colors: ['Blue', 'White'],
     conference: 'Big East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/156.png',
   },
   {
     id: 61,
@@ -851,7 +793,6 @@ export const data = [
     mascot: 'Roadrunners',
     colors: ['Blue', 'Gold'],
     conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2934.png',
   },
   {
     id: 62,
@@ -865,7 +806,6 @@ export const data = [
     mascot: 'Titans',
     colors: ['Blue', 'Orange'],
     conference: 'Big West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2239.png',
   },
   {
     id: 63,
@@ -879,7 +819,6 @@ export const data = [
     mascot: 'Matadors',
     colors: ['Red', 'Black'],
     conference: 'Big West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2463.png',
   },
   {
     id: 64,
@@ -893,7 +832,6 @@ export const data = [
     mascot: 'Big Green',
     colors: ['Green', 'White'],
     conference: 'Ivy League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/159.png',
   },
   {
     id: 65,
@@ -906,7 +844,6 @@ export const data = [
     },
     mascot: 'Wildcats',
     colors: ['Red', 'Black'],
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2166.png',
   },
   {
     id: 66,
@@ -920,7 +857,6 @@ export const data = [
     mascot: 'Flyers',
     colors: ['Red', 'Blue'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2168.png',
   },
   {
     id: 67,
@@ -934,7 +870,6 @@ export const data = [
     mascot: 'Blue Hens',
     colors: ['Blue', 'Gold'],
     conference: 'CAA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/48.png',
   },
   {
     id: 68,
@@ -948,7 +883,6 @@ export const data = [
     mascot: 'Hornets',
     colors: ['Red', 'Columbia Blue'],
     conference: 'MEAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2169.png',
   },
   {
     id: 69,
@@ -962,7 +896,6 @@ export const data = [
     mascot: 'Pioneers',
     colors: ['Crimson', 'Gold'],
     conference: 'Summit League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2172.png',
   },
   {
     id: 70,
@@ -976,7 +909,6 @@ export const data = [
     mascot: 'Blue Demons',
     colors: ['Royal Blue', 'Scarlet'],
     conference: 'Big East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/305.png',
   },
   {
     id: 71,
@@ -990,7 +922,6 @@ export const data = [
     mascot: 'Titans',
     colors: ['Red', 'Blue'],
     conference: 'Horizon League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2174.png',
   },
   {
     id: 72,
@@ -1004,7 +935,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Blue', 'White'],
     conference: 'Missouri Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2181.png',
   },
   {
     id: 73,
@@ -1018,7 +948,6 @@ export const data = [
     mascot: 'Dragons',
     colors: ['Blue', 'Gold'],
     conference: 'CAA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2182.png',
   },
   {
     id: 74,
@@ -1032,7 +961,6 @@ export const data = [
     mascot: 'Blue Devils',
     colors: ['Royal Blue', 'White'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/150.png',
   },
   {
     id: 75,
@@ -1046,7 +974,6 @@ export const data = [
     mascot: 'Dukes',
     colors: ['Red', 'Blue'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2184.png',
   },
   {
     id: 76,
@@ -1060,7 +987,6 @@ export const data = [
     mascot: 'Pirates',
     colors: ['Purple', 'Gold'],
     conference: 'AAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/151.png',
   },
   {
     id: 77,
@@ -1074,7 +1000,6 @@ export const data = [
     mascot: 'Buccaneers',
     colors: ['Blue', 'Gold'],
     conference: 'Southern',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2193.png',
   },
   {
     id: 78,
@@ -1088,7 +1013,6 @@ export const data = [
     mascot: 'Panthers',
     colors: ['Blue', 'Gray'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2197.png',
   },
   {
     id: 79,
@@ -1102,7 +1026,6 @@ export const data = [
     mascot: 'Colonels',
     colors: ['Maroon', 'White'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2198.png',
   },
   {
     id: 80,
@@ -1116,7 +1039,6 @@ export const data = [
     mascot: 'Eagles',
     colors: ['Green', 'White'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2199.png',
   },
   {
     id: 81,
@@ -1130,7 +1052,6 @@ export const data = [
     mascot: 'Eagles',
     colors: ['Red', 'White'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/331.png',
   },
   {
     id: 82,
@@ -1144,7 +1065,6 @@ export const data = [
     mascot: 'Phoenix',
     colors: ['Maroon', 'Gold'],
     conference: 'CAA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2210.png',
   },
   {
     id: 83,
@@ -1158,7 +1078,6 @@ export const data = [
     mascot: 'Purple Aces',
     colors: ['Purple', 'Orange'],
     conference: 'Missouri Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/339.png',
   },
   {
     id: 84,
@@ -1172,7 +1091,6 @@ export const data = [
     mascot: 'Stags',
     colors: ['Red', 'White'],
     conference: 'MAAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2217.png',
   },
   {
     id: 85,
@@ -1186,7 +1104,6 @@ export const data = [
     mascot: 'Knights',
     colors: ['Blue', 'Red'],
     conference: 'Northeast',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/161.png',
   },
   {
     id: 86,
@@ -1200,7 +1117,6 @@ export const data = [
     mascot: 'Gators',
     colors: ['Orange', 'Blue'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/57.png',
   },
   {
     id: 87,
@@ -1214,7 +1130,6 @@ export const data = [
     mascot: 'Rattlers',
     colors: ['Orange', 'Green'],
     conference: 'MEAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/50.png',
   },
   {
     id: 88,
@@ -1228,7 +1143,6 @@ export const data = [
     mascot: 'Owls',
     colors: ['Blue', 'Red'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2226.png',
   },
   {
     id: 89,
@@ -1242,7 +1156,6 @@ export const data = [
     mascot: 'Eagles',
     colors: ['Blue', 'Green'],
     conference: 'ASUN',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/526.png',
   },
   {
     id: 90,
@@ -1256,7 +1169,6 @@ export const data = [
     mascot: 'Panthers',
     colors: ['Blue', 'Gold'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2229.png',
   },
   {
     id: 91,
@@ -1270,7 +1182,6 @@ export const data = [
     mascot: 'Seminoles',
     colors: ['Garnet', 'Gold'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/52.png',
   },
   {
     id: 92,
@@ -1284,7 +1195,6 @@ export const data = [
     mascot: 'Rams',
     colors: ['Maroon', 'White'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2230.png',
   },
   {
     id: 93,
@@ -1298,7 +1208,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Red', 'Blue'],
     conference: 'Mountain West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/278.png',
   },
   {
     id: 94,
@@ -1312,7 +1221,6 @@ export const data = [
     mascot: 'Paladins',
     colors: ['Purple', 'White'],
     conference: 'Southern',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/231.png',
   },
   {
     id: 95,
@@ -1326,7 +1234,6 @@ export const data = [
     mascot: "Runnin' Bulldogs",
     colors: ['Red', 'Black'],
     conference: 'Big South',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2241.png',
   },
   {
     id: 96,
@@ -1340,7 +1247,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Red', 'Black'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/61.png',
   },
   {
     id: 97,
@@ -1354,7 +1260,6 @@ export const data = [
     mascot: 'Eagles',
     colors: ['Blue', 'White'],
     conference: 'Sun Belt',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/290.png',
   },
   {
     id: 98,
@@ -1368,7 +1273,6 @@ export const data = [
     mascot: 'Panthers',
     colors: ['Blue', 'White'],
     conference: 'Sun Belt',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2247.png',
   },
   {
     id: 99,
@@ -1382,7 +1286,6 @@ export const data = [
     mascot: 'Yellow Jackets',
     colors: ['Gold', 'White'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/59.png',
   },
   {
     id: 100,
@@ -1396,7 +1299,6 @@ export const data = [
     mascot: 'Patriots',
     colors: ['Green', 'Gold'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2244.png',
   },
   {
     id: 101,
@@ -1407,10 +1309,9 @@ export const data = [
       lat: 38.90008,
       lng: -77.04864,
     },
-    mascot: 'Revolutionaries',
+    mascot: 'Colonials',
     colors: ['Buff', 'Blue'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/45.png',
   },
   {
     id: 102,
@@ -1424,7 +1325,6 @@ export const data = [
     mascot: 'Hoyas',
     colors: ['Blue', 'Gray'],
     conference: 'Big East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/46.png',
   },
   {
     id: 103,
@@ -1438,7 +1338,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Blue', 'White'],
     conference: 'WCC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2250.png',
   },
   {
     id: 104,
@@ -1452,7 +1351,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Black', 'Gold'],
     conference: 'SWAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2755.png',
   },
   {
     id: 105,
@@ -1466,7 +1364,6 @@ export const data = [
     mascot: 'Antelopes',
     colors: ['Purple', 'White'],
     conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2253.png',
   },
   {
     id: 106,
@@ -1480,7 +1377,6 @@ export const data = [
     mascot: 'Phoenix',
     colors: ['Green', 'White'],
     conference: 'Horizon League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2739.png',
   },
   {
     id: 107,
@@ -1494,7 +1390,6 @@ export const data = [
     mascot: 'Pirates',
     colors: ['Blue', 'White'],
     conference: 'Big South',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2261.png',
   },
   {
     id: 108,
@@ -1508,7 +1403,6 @@ export const data = [
     mascot: 'Hawks',
     colors: ['Hawk Green', 'White'],
     conference: 'America East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/42.png',
   },
   {
     id: 109,
@@ -1522,7 +1416,6 @@ export const data = [
     mascot: 'Crimson',
     colors: ['Crimson', 'White'],
     conference: 'Ivy League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/108.png',
   },
   {
     id: 110,
@@ -1536,7 +1429,6 @@ export const data = [
     mascot: 'Rainbow Warriors',
     colors: ['Green', 'White'],
     conference: 'Big West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/62.png',
   },
   {
     id: 111,
@@ -1550,7 +1442,6 @@ export const data = [
     mascot: 'Panthers',
     colors: ['Purple', 'White'],
     conference: 'Big South',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2272.png',
   },
   {
     id: 112,
@@ -1564,7 +1455,6 @@ export const data = [
     mascot: 'Pride',
     colors: ['Blue', 'Gold'],
     conference: 'CAA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2275.png',
   },
   {
     id: 113,
@@ -1578,7 +1468,6 @@ export const data = [
     mascot: 'Crusaders',
     colors: ['Purple', 'White'],
     conference: 'Patriot League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/107.png',
   },
   {
     id: 114,
@@ -1592,11 +1481,10 @@ export const data = [
     mascot: 'Cougars',
     colors: ['Red', 'White'],
     conference: 'AAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/248.png',
   },
   {
     id: 115,
-    name: 'Houston Christian',
+    name: 'Houston Baptist',
     location: {
       city: 'Houston',
       state: 'Texas',
@@ -1606,7 +1494,6 @@ export const data = [
     mascot: 'Huskies',
     colors: ['Orange', 'Blue'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2277.png',
   },
   {
     id: 116,
@@ -1620,7 +1507,6 @@ export const data = [
     mascot: 'Bison',
     colors: ['Blue', 'Red'],
     conference: 'MEAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/47.png',
   },
   {
     id: 117,
@@ -1634,7 +1520,6 @@ export const data = [
     mascot: 'Vandals',
     colors: ['Silver', 'Gold'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/70.png',
   },
   {
     id: 118,
@@ -1648,7 +1533,6 @@ export const data = [
     mascot: 'Bengals',
     colors: ['Orange', 'Black'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/304.png',
   },
   {
     id: 119,
@@ -1662,7 +1546,6 @@ export const data = [
     mascot: 'Fighting Illini',
     colors: ['Orange', 'Blue'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/356.png',
   },
   {
     id: 120,
@@ -1676,7 +1559,6 @@ export const data = [
     mascot: 'Redbirds',
     colors: ['Red', 'White'],
     conference: 'Missouri Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2287.png',
   },
   {
     id: 121,
@@ -1690,7 +1572,6 @@ export const data = [
     mascot: 'Cardinals',
     colors: ['Red', 'Black'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2916.png',
   },
   {
     id: 122,
@@ -1704,7 +1585,6 @@ export const data = [
     mascot: 'Hoosiers',
     colors: ['Crimson', 'Cream'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/84.png',
   },
   {
     id: 123,
@@ -1718,7 +1598,6 @@ export const data = [
     mascot: 'Sycamores',
     colors: ['Blue', 'White'],
     conference: 'Missouri Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/282.png',
   },
   {
     id: 124,
@@ -1732,7 +1611,6 @@ export const data = [
     mascot: 'Gaels',
     colors: ['Maroon', 'Gold'],
     conference: 'MAAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/314.png',
   },
   {
     id: 125,
@@ -1746,7 +1624,6 @@ export const data = [
     mascot: 'Hawkeyes',
     colors: ['Black', 'Gold'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2294.png',
   },
   {
     id: 126,
@@ -1760,7 +1637,6 @@ export const data = [
     mascot: 'Cyclones',
     colors: ['Cardinal', 'Gold'],
     conference: 'Big 12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/66.png',
   },
   {
     id: 127,
@@ -1774,7 +1650,6 @@ export const data = [
     mascot: 'Jaguars',
     colors: ['Crimson', 'Gold'],
     conference: 'Horizon League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/85.png',
   },
   {
     id: 128,
@@ -1788,7 +1663,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Blue', 'White'],
     conference: 'SWAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2296.png',
   },
   {
     id: 129,
@@ -1802,7 +1676,6 @@ export const data = [
     mascot: 'Dolphins',
     colors: ['Green', 'White'],
     conference: 'ASUN',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/294.png',
   },
   {
     id: 130,
@@ -1816,7 +1689,6 @@ export const data = [
     mascot: 'Gamecocks',
     colors: ['Red', 'White'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/55.png',
   },
   {
     id: 131,
@@ -1830,7 +1702,6 @@ export const data = [
     mascot: 'Dukes',
     colors: ['Purple', 'Gold'],
     conference: 'CAA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/256.png',
   },
   {
     id: 132,
@@ -1844,7 +1715,6 @@ export const data = [
     mascot: 'Jayhawks',
     colors: ['Crimson', 'Blue'],
     conference: 'Big 12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2305.png',
   },
   {
     id: 133,
@@ -1858,7 +1728,6 @@ export const data = [
     mascot: 'Kangaroos',
     colors: ['Blue', 'Gold'],
     conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/140.png',
   },
   {
     id: 134,
@@ -1872,7 +1741,6 @@ export const data = [
     mascot: 'Wildcats',
     colors: ['Purple', 'White'],
     conference: 'Big 12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2306.png',
   },
   {
     id: 135,
@@ -1886,7 +1754,6 @@ export const data = [
     mascot: 'Owls',
     colors: ['Black', 'Gold'],
     conference: 'ASUN',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/338.png',
   },
   {
     id: 136,
@@ -1900,7 +1767,6 @@ export const data = [
     mascot: 'Golden Flashes',
     colors: ['Navy Blue', 'Gold'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2309.png',
   },
   {
     id: 137,
@@ -1914,7 +1780,6 @@ export const data = [
     mascot: 'Wildcats',
     colors: ['Blue', 'White'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/96.png',
   },
   {
     id: 138,
@@ -1928,7 +1793,6 @@ export const data = [
     mascot: 'Explorers',
     colors: ['Blue', 'Gold'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2325.png',
   },
   {
     id: 139,
@@ -1942,7 +1806,6 @@ export const data = [
     mascot: 'Leopards',
     colors: ['Maroon', 'White'],
     conference: 'Patriot League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/322.png',
   },
   {
     id: 140,
@@ -1956,7 +1819,6 @@ export const data = [
     mascot: 'Cardinals',
     colors: ['Red', 'White'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2320.png',
   },
   {
     id: 141,
@@ -1970,7 +1832,6 @@ export const data = [
     mascot: 'Dolphins',
     colors: ['Green', 'Gold'],
     conference: 'Northeast-10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2330.png',
   },
   {
     id: 142,
@@ -1984,7 +1845,6 @@ export const data = [
     mascot: 'Mountain Hawks',
     colors: ['Brown', 'White'],
     conference: 'Patriot League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2329.png',
   },
   {
     id: 143,
@@ -1998,7 +1858,6 @@ export const data = [
     mascot: 'Flames',
     colors: ['Red', 'Blue'],
     conference: 'ASUN',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2335.png',
   },
   {
     id: 144,
@@ -2012,7 +1871,6 @@ export const data = [
     mascot: 'Lions',
     colors: ['Hunter Green', 'Gold'],
     conference: 'Mid-America Intercollegiate Athletics Association',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2815.png',
   },
   {
     id: 145,
@@ -2026,7 +1884,6 @@ export const data = [
     mascot: 'Bisons',
     colors: ['Purple', 'Gold'],
     conference: 'ASUN',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/288.png',
   },
   {
     id: 146,
@@ -2040,7 +1897,6 @@ export const data = [
     mascot: 'Trojans',
     colors: ['Maroon', 'Silver'],
     conference: 'Sun Belt',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2031.png',
   },
   {
     id: 147,
@@ -2054,7 +1910,6 @@ export const data = [
     mascot: '49ers',
     colors: ['Black', 'Gold'],
     conference: 'Big West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/299.png',
   },
   {
     id: 148,
@@ -2065,10 +1920,9 @@ export const data = [
       lat: 40.69119,
       lng: -73.98056,
     },
-    mascot: 'Sharks',
-    colors: ['Blue', 'Gold'],
+    mascot: 'Blackbirds',
+    colors: ['Black', 'Gold'],
     conference: 'Northeast',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2341.png',
   },
   {
     id: 149,
@@ -2082,7 +1936,6 @@ export const data = [
     mascot: 'Lancers',
     colors: ['Red', 'Blue'],
     conference: 'Big South',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2344.png',
   },
   {
     id: 150,
@@ -2096,7 +1949,6 @@ export const data = [
     mascot: "Ragin' Cajuns",
     colors: ['Vermilion', 'White'],
     conference: 'Sun Belt',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/309.png',
   },
   {
     id: 151,
@@ -2110,7 +1962,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Blue', 'Red'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2348.png',
   },
   {
     id: 152,
@@ -2124,7 +1975,6 @@ export const data = [
     mascot: 'Warhawks',
     colors: ['Maroon', 'Gold'],
     conference: 'Sun Belt',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2433.png',
   },
   {
     id: 153,
@@ -2138,7 +1988,6 @@ export const data = [
     mascot: 'Cardinals',
     colors: ['Red', 'Black'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/97.png',
   },
   {
     id: 154,
@@ -2152,7 +2001,6 @@ export const data = [
     mascot: 'Ramblers',
     colors: ['Maroon', 'Gold'],
     conference: 'Missouri Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2350.png',
   },
   {
     id: 155,
@@ -2166,7 +2014,6 @@ export const data = [
     mascot: 'Greyhounds',
     colors: ['Green', 'Gray'],
     conference: 'Patriot League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2352.png',
   },
   {
     id: 156,
@@ -2180,7 +2027,6 @@ export const data = [
     mascot: 'Lions',
     colors: ['Blue', 'White'],
     conference: 'WCC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2351.png',
   },
   {
     id: 157,
@@ -2194,7 +2040,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Purple', 'Gold'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/99.png',
   },
   {
     id: 158,
@@ -2208,7 +2053,6 @@ export const data = [
     mascot: 'Black Bears',
     colors: ['Blue', 'White'],
     conference: 'America East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/311.png',
   },
   {
     id: 159,
@@ -2222,7 +2066,6 @@ export const data = [
     mascot: 'Jaspers',
     colors: ['Kelly Green', 'White'],
     conference: 'MAAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2363.png',
   },
   {
     id: 160,
@@ -2236,7 +2079,6 @@ export const data = [
     mascot: 'Red Foxes',
     colors: ['Red', 'White'],
     conference: 'MAAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2368.png',
   },
   {
     id: 161,
@@ -2250,7 +2092,6 @@ export const data = [
     mascot: 'Golden Eagles',
     colors: ['Blue', 'Gold'],
     conference: 'Big East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/269.png',
   },
   {
     id: 162,
@@ -2264,7 +2105,6 @@ export const data = [
     mascot: 'Thundering Herd',
     colors: ['Kelly Green', 'White'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/276.png',
   },
   {
     id: 163,
@@ -2278,7 +2118,6 @@ export const data = [
     mascot: 'Terrapins',
     colors: ['Red', 'White'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/120.png',
   },
   {
     idL: 164,
@@ -2292,7 +2131,6 @@ export const data = [
     mascot: 'Hawks',
     colors: ['Maroon', 'Gray'],
     conference: 'MEAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2379.png',
   },
   {
     id: 165,
@@ -2306,7 +2144,6 @@ export const data = [
     mascot: 'Cowboys',
     colors: ['Blue', 'Gold'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2377.png',
   },
   {
     id: 166,
@@ -2320,7 +2157,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Blue', 'Gray'],
     conference: 'AAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/235.png',
   },
   {
     id: 167,
@@ -2334,7 +2170,6 @@ export const data = [
     mascot: 'Bears',
     colors: ['Orange', 'Black'],
     conference: 'Southern',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2382.png',
   },
   {
     id: 168,
@@ -2348,7 +2183,6 @@ export const data = [
     mascot: 'Warriors',
     colors: ['Blue', 'Gold'],
     conference: 'Northeast',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2771.png',
   },
   {
     id: 169,
@@ -2362,7 +2196,6 @@ export const data = [
     mascot: 'Hurricanes',
     colors: ['Orange', 'Green'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2390.png',
   },
   {
     id: 170,
@@ -2376,7 +2209,6 @@ export const data = [
     mascot: 'RedHawks',
     colors: ['Red', 'White'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/193.png',
   },
   {
     id: 171,
@@ -2390,7 +2222,6 @@ export const data = [
     mascot: 'Wolverines',
     colors: ['Maize', 'Blue'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/130.png',
   },
   {
     id: 172,
@@ -2404,7 +2235,6 @@ export const data = [
     mascot: 'Spartans',
     colors: ['Green', 'White'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/127.png',
   },
   {
     id: 173,
@@ -2418,7 +2248,6 @@ export const data = [
     mascot: 'Blue Raiders',
     colors: ['Blue', 'White'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2393.png',
   },
   {
     id: 174,
@@ -2432,7 +2261,6 @@ export const data = [
     mascot: 'Panthers',
     colors: ['Black', 'Gold'],
     conference: 'Horizon League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/270.png',
   },
   {
     id: 175,
@@ -2446,7 +2274,6 @@ export const data = [
     mascot: 'Golden Gophers',
     colors: ['Maroon', 'Gold'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/135.png',
   },
   {
     id: 176,
@@ -2460,7 +2287,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Maroon', 'White'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/344.png',
   },
   {
     id: 177,
@@ -2474,7 +2300,6 @@ export const data = [
     mascot: 'Delta Devils',
     colors: ['Forest Green', 'White'],
     conference: 'SWAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2400.png',
   },
   {
     id: 178,
@@ -2488,7 +2313,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Black', 'Gold'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/142.png',
   },
   {
     id: 179,
@@ -2502,7 +2326,6 @@ export const data = [
     mascot: 'Bears',
     colors: ['Maroon', 'White'],
     conference: 'Missouri Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2623.png',
   },
   {
     id: 180,
@@ -2516,7 +2339,6 @@ export const data = [
     mascot: 'Hawks',
     colors: ['Blue', 'White'],
     conference: 'MAAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2405.png',
   },
   {
     id: 181,
@@ -2530,7 +2352,6 @@ export const data = [
     mascot: 'Grizzlies',
     colors: ['Maroon', 'Silver'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/149.png',
   },
   {
     id: 182,
@@ -2544,7 +2365,6 @@ export const data = [
     mascot: 'Bobcats',
     colors: ['Blue', 'Gold'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/147.png',
   },
   {
     id: 183,
@@ -2558,7 +2378,6 @@ export const data = [
     mascot: 'Eagles',
     colors: ['Blue', 'Gold'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2413.png',
   },
   {
     id: 184,
@@ -2572,7 +2391,6 @@ export const data = [
     mascot: 'Bears',
     colors: ['Navy Blue', 'Orange'],
     conference: 'MEAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2415.png',
   },
   {
     id: 185,
@@ -2586,7 +2404,6 @@ export const data = [
     mascot: 'Mountaineers',
     colors: ['Blue', 'White'],
     conference: 'Northeast',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/116.png',
   },
   {
     id: 186,
@@ -2600,7 +2417,6 @@ export const data = [
     mascot: 'Racers',
     colors: ['Navy Blue', 'Gold'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/93.png',
   },
   {
     id: 187,
@@ -2614,7 +2430,6 @@ export const data = [
     mascot: 'Midshipmen',
     colors: ['Navy Blue', 'Gold'],
     conference: 'Patriot League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2426.png',
   },
   {
     id: 188,
@@ -2628,7 +2443,6 @@ export const data = [
     mascot: 'Cornhuskers',
     colors: ['Scarlet', 'Cream'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/158.png',
   },
   {
     id: 189,
@@ -2642,7 +2456,6 @@ export const data = [
     mascot: 'Wolf Pack',
     colors: ['Navy Blue', 'Silver'],
     conference: 'Mountain West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2440.png',
   },
   {
     id: 190,
@@ -2656,7 +2469,6 @@ export const data = [
     mascot: 'Wildcats',
     colors: ['Blue', 'White'],
     conference: 'America East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/160.png',
   },
   {
     id: 191,
@@ -2670,7 +2482,6 @@ export const data = [
     mascot: 'Lobos',
     colors: ['Cherry', 'Silver'],
     conference: 'Mountain West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/167.png',
   },
   {
     id: 192,
@@ -2684,7 +2495,6 @@ export const data = [
     mascot: 'Aggies',
     colors: ['Crimson', 'White'],
     conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/166.png',
   },
   {
     id: 193,
@@ -2698,7 +2508,6 @@ export const data = [
     mascot: 'Privateers',
     colors: ['Navy Blue', 'Silver'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2443.png',
   },
   {
     id: 194,
@@ -2712,7 +2521,6 @@ export const data = [
     mascot: 'Purple Eagles',
     colors: ['Purple', 'White'],
     conference: 'MAAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/315.png',
   },
   {
     id: 195,
@@ -2726,7 +2534,6 @@ export const data = [
     mascot: 'Colonels',
     colors: ['Red', 'Gray'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2447.png',
   },
   {
     id: 196,
@@ -2740,7 +2547,6 @@ export const data = [
     mascot: 'Highlanders',
     colors: ['Navy Blue', 'Red'],
     conference: 'ASUN',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2885.png',
   },
   {
     id: 197,
@@ -2754,7 +2560,6 @@ export const data = [
     mascot: 'Spartans',
     colors: ['Green', 'Gold'],
     conference: 'MEAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2450.png',
   },
   {
     id: 198,
@@ -2768,7 +2573,6 @@ export const data = [
     mascot: 'Lions',
     colors: ['Purple', 'White'],
     conference: 'ASUN',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2453.png',
   },
   {
     id: 199,
@@ -2782,7 +2586,6 @@ export const data = [
     mascot: 'Tar Heels',
     colors: ['Carolina Blue', 'White'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/153.png',
   },
   {
     id: 200,
@@ -2796,7 +2599,6 @@ export const data = [
     mascot: 'Aggies',
     colors: ['Blue', 'Gold'],
     conference: 'MEAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2448.png',
   },
   {
     id: 201,
@@ -2810,7 +2612,6 @@ export const data = [
     mascot: 'Eagles',
     colors: ['Maroon', 'Gray'],
     conference: 'MEAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2428.png',
   },
   {
     id: 202,
@@ -2824,7 +2625,6 @@ export const data = [
     mascot: 'Wolfpack',
     colors: ['Red', 'White'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/152.png',
   },
   {
     id: 203,
@@ -2838,7 +2638,6 @@ export const data = [
     mascot: 'Fighting Hawks',
     colors: ['Green', 'White'],
     conference: 'Summit League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/155.png',
   },
   {
     id: 204,
@@ -2852,7 +2651,6 @@ export const data = [
     mascot: 'Bison',
     colors: ['Green', 'Yellow'],
     conference: 'Summit League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2449.png',
   },
   {
     id: 205,
@@ -2866,7 +2664,6 @@ export const data = [
     mascot: 'Ospreys',
     colors: ['Navy Blue', 'White'],
     conference: 'ASUN',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2454.png',
   },
   {
     id: 206,
@@ -2880,7 +2677,6 @@ export const data = [
     mascot: 'Mean Green',
     colors: ['Green', 'White'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/249.png',
   },
   {
     id: 207,
@@ -2894,7 +2690,6 @@ export const data = [
     mascot: 'Huskies',
     colors: ['Red', 'Black'],
     conference: 'CAA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/111.png',
   },
   {
     id: 208,
@@ -2908,7 +2703,6 @@ export const data = [
     mascot: 'Lumberjacks',
     colors: ['Blue', 'Gold'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2464.png',
   },
   {
     id: 209,
@@ -2922,7 +2716,6 @@ export const data = [
     mascot: 'Bears',
     colors: ['Navy Blue', 'Gold'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2458.png',
   },
   {
     id: 210,
@@ -2936,7 +2729,6 @@ export const data = [
     mascot: 'Huskies',
     colors: ['Cardinal', 'Black'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2459.png',
   },
   {
     id: 211,
@@ -2950,7 +2742,6 @@ export const data = [
     mascot: 'Panthers',
     colors: ['Purple', 'Gold'],
     conference: 'Missouri Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2460.png',
   },
   {
     id: 212,
@@ -2964,7 +2755,6 @@ export const data = [
     mascot: 'Norse',
     colors: ['Black', 'Gold'],
     conference: 'Horizon League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/94.png',
   },
   {
     id: 213,
@@ -2978,7 +2768,6 @@ export const data = [
     mascot: 'Wildcats',
     colors: ['Purple', 'White'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/77.png',
   },
   {
     id: 214,
@@ -2992,7 +2781,6 @@ export const data = [
     mascot: 'Demons',
     colors: ['Purple', 'White'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2466.png',
   },
   {
     id: 215,
@@ -3006,7 +2794,6 @@ export const data = [
     mascot: 'Fighting Irish',
     colors: ['Blue', 'Gold'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/87.png',
   },
   {
     id: 216,
@@ -3020,7 +2807,6 @@ export const data = [
     mascot: 'Golden Grizzlies',
     colors: ['Black', 'Gold'],
     conference: 'Horizon League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2473.png',
   },
   {
     id: 217,
@@ -3034,7 +2820,6 @@ export const data = [
     mascot: 'Bobcats',
     colors: ['Green', 'White'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/195.png',
   },
   {
     id: 218,
@@ -3048,7 +2833,6 @@ export const data = [
     mascot: 'Buckeyes',
     colors: ['Scarlet', 'Gray'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/194.png',
   },
   {
     id: 219,
@@ -3062,7 +2846,6 @@ export const data = [
     mascot: 'Sooners',
     colors: ['Crimson', 'Cream'],
     conference: 'Big 12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/201.png',
   },
   {
     id: 220,
@@ -3076,7 +2859,6 @@ export const data = [
     mascot: 'Cowboys',
     colors: ['Orange', 'Black'],
     conference: 'Big 12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/197.png',
   },
   {
     id: 221,
@@ -3090,7 +2872,6 @@ export const data = [
     mascot: 'Monarchs',
     colors: ['Navy Blue', 'Silver'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/295.png',
   },
   {
     id: 222,
@@ -3104,7 +2885,6 @@ export const data = [
     mascot: 'Rebels',
     colors: ['Navy Blue', 'Red'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/145.png',
   },
   {
     id: 223,
@@ -3118,7 +2898,6 @@ export const data = [
     mascot: 'Mavericks',
     colors: ['Crimson', 'Black'],
     conference: 'Summit League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2437.png',
   },
   {
     id: 224,
@@ -3132,7 +2911,6 @@ export const data = [
     mascot: 'Golden Eagles',
     colors: ['Navy Blue', 'Gold'],
     conference: 'Summit League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/198.png',
   },
   {
     id: 225,
@@ -3146,7 +2924,6 @@ export const data = [
     mascot: 'Ducks',
     colors: ['Green', 'Yellow'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2483.png',
   },
   {
     id: 226,
@@ -3160,7 +2937,6 @@ export const data = [
     mascot: 'Beavers',
     colors: ['Orange', 'Black'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/204.png',
   },
   {
     id: 227,
@@ -3174,7 +2950,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Orange', 'Black'],
     conference: 'WCC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/279.png',
   },
   {
     id: 228,
@@ -3188,7 +2963,6 @@ export const data = [
     mascot: 'Quakers',
     colors: ['Red', 'Blue'],
     conference: 'Ivy League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/219.png',
   },
   {
     id: 229,
@@ -3202,7 +2976,6 @@ export const data = [
     mascot: 'Nittany Lions',
     colors: ['Blue', 'White'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/213.png',
   },
   {
     id: 230,
@@ -3216,7 +2989,6 @@ export const data = [
     mascot: 'Waves',
     colors: ['Blue', 'Orange'],
     conference: 'WCC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2492.png',
   },
   {
     id: 231,
@@ -3230,7 +3002,6 @@ export const data = [
     mascot: 'Panthers',
     colors: ['Blue', 'Gold'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/221.png',
   },
   {
     id: 232,
@@ -3244,7 +3015,6 @@ export const data = [
     mascot: 'Pilots',
     colors: ['Purple', 'White'],
     conference: 'WCC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2501.png',
   },
   {
     id: 233,
@@ -3258,7 +3028,6 @@ export const data = [
     mascot: 'Vikings',
     colors: ['Green', 'White'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2502.png',
   },
   {
     id: 234,
@@ -3272,7 +3041,6 @@ export const data = [
     mascot: 'Panthers',
     colors: ['Purple', 'Gold'],
     conference: 'SWAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2504.png',
   },
   {
     id: 235,
@@ -3286,7 +3054,6 @@ export const data = [
     mascot: 'Blue Hose',
     colors: ['Blue', 'White'],
     conference: 'Big South',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2506.png',
   },
   {
     id: 236,
@@ -3300,7 +3067,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Orange', 'Black'],
     conference: 'Ivy League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/163.png',
   },
   {
     id: 237,
@@ -3314,7 +3080,6 @@ export const data = [
     mascot: 'Friars',
     colors: ['Black', 'White'],
     conference: 'Big East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2507.png',
   },
   {
     id: 238,
@@ -3328,7 +3093,6 @@ export const data = [
     mascot: 'Boilermakers',
     colors: ['Old Gold', 'Black'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2509.png',
   },
   {
     id: 239,
@@ -3342,7 +3106,6 @@ export const data = [
     mascot: 'Mastodons',
     colors: ['Blue', 'White'],
     conference: 'Summit League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2870.png',
   },
   {
     id: 240,
@@ -3356,7 +3119,6 @@ export const data = [
     mascot: 'Royals',
     colors: ['Royal Blue', 'Gold'],
     conference: 'South Atlantic',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2511.png',
   },
   {
     id: 241,
@@ -3370,7 +3132,6 @@ export const data = [
     mascot: 'Bobcats',
     colors: ['Navy Blue', 'Gold'],
     conference: 'MAAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2514.png',
   },
   {
     id: 242,
@@ -3384,7 +3145,6 @@ export const data = [
     mascot: 'Highlanders',
     colors: ['Red', 'White'],
     conference: 'Big South',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2515.png',
   },
   {
     id: 243,
@@ -3398,7 +3158,6 @@ export const data = [
     mascot: 'Rams',
     colors: ['Blue', 'White'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/227.png',
   },
   {
     id: 244,
@@ -3412,7 +3171,6 @@ export const data = [
     mascot: 'Owls',
     colors: ['Blue', 'Gray'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/242.png',
   },
   {
     id: 245,
@@ -3426,7 +3184,6 @@ export const data = [
     mascot: 'Spiders',
     colors: ['Blue', 'Red'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/257.png',
   },
   {
     id: 246,
@@ -3440,7 +3197,6 @@ export const data = [
     mascot: 'Broncs',
     colors: ['Cranberry', 'White'],
     conference: 'MAAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2520.png',
   },
   {
     id: 247,
@@ -3454,7 +3210,6 @@ export const data = [
     mascot: 'Colonials',
     colors: ['Navy Blue', 'White'],
     conference: 'Northeast',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2523.png',
   },
   {
     id: 248,
@@ -3468,7 +3223,6 @@ export const data = [
     mascot: 'Scarlet Knights',
     colors: ['Scarlet', 'White'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/164.png',
   },
   {
     id: 249,
@@ -3482,7 +3236,6 @@ export const data = [
     mascot: 'Hornets',
     colors: ['Green', 'Gold'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/16.png',
   },
   {
     id: 250,
@@ -3496,7 +3249,6 @@ export const data = [
     mascot: 'Pioneers',
     colors: ['Red', 'White'],
     conference: 'Northeast',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2529.png',
   },
   {
     id: 251,
@@ -3510,7 +3262,6 @@ export const data = [
     mascot: 'Red Flash',
     colors: ['Red', 'White'],
     conference: 'Northeast',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2598.png',
   },
   {
     id: 252,
@@ -3524,7 +3275,6 @@ export const data = [
     mascot: 'Hawks',
     colors: ['Crimson', 'Gray'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2603.png',
   },
   {
     id: 253,
@@ -3538,7 +3288,6 @@ export const data = [
     mascot: 'Billikens',
     colors: ['Blue', 'White'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/139.png',
   },
   {
     id: 254,
@@ -3552,7 +3301,6 @@ export const data = [
     mascot: 'Gaels',
     colors: ['Navy Blue', 'Red'],
     conference: 'WCC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2608.png',
   },
   {
     id: 255,
@@ -3566,7 +3314,6 @@ export const data = [
     mascot: 'Peacocks',
     colors: ['Blue', 'White'],
     conference: 'MAAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2612.png',
   },
   {
     id: 256,
@@ -3580,7 +3327,6 @@ export const data = [
     mascot: 'Bearkats',
     colors: ['Orange', 'White'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2534.png',
   },
   {
     id: 257,
@@ -3594,7 +3340,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Red', 'Blue'],
     conference: 'Southern',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2535.png',
   },
   {
     id: 258,
@@ -3608,7 +3353,6 @@ export const data = [
     mascot: 'Toreros',
     colors: ['Blue', 'White'],
     conference: 'WCC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/301.png',
   },
   {
     id: 259,
@@ -3622,7 +3366,6 @@ export const data = [
     mascot: 'Aztecs',
     colors: ['Red', 'Black'],
     conference: 'Mountain West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/21.png',
   },
   {
     id: 260,
@@ -3636,7 +3379,6 @@ export const data = [
     mascot: 'Dons',
     colors: ['Green', 'Gold'],
     conference: 'WCC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2539.png',
   },
   {
     id: 261,
@@ -3650,7 +3392,6 @@ export const data = [
     mascot: 'Spartans',
     colors: ['Blue', 'Gold'],
     conference: 'Mountain West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/23.png',
   },
   {
     id: 262,
@@ -3664,7 +3405,6 @@ export const data = [
     mascot: 'Broncos',
     colors: ['Red', 'White'],
     conference: 'WCC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2541.png',
   },
   {
     id: 263,
@@ -3678,7 +3418,6 @@ export const data = [
     mascot: 'Redhawks',
     colors: ['Red', 'White'],
     conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2547.png',
   },
   {
     id: 264,
@@ -3692,7 +3431,6 @@ export const data = [
     mascot: 'Pirates',
     colors: ['Blue', 'White'],
     conference: 'Big East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2550.png',
   },
   {
     id: 265,
@@ -3706,7 +3444,6 @@ export const data = [
     mascot: 'Saints',
     colors: ['Green', 'Gold'],
     conference: 'MAAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2561.png',
   },
   {
     id: 266,
@@ -3720,7 +3457,6 @@ export const data = [
     mascot: 'Cougars',
     colors: ['Red', 'White'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2565.png',
   },
   {
     id: 267,
@@ -3734,7 +3470,6 @@ export const data = [
     mascot: 'Mustangs',
     colors: ['Red', 'Blue'],
     conference: 'American Athletic',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2567.png',
   },
   {
     id: 268,
@@ -3748,7 +3483,6 @@ export const data = [
     mascot: 'Jaguars',
     colors: ['Red', 'Blue'],
     conference: 'Sun Belt',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/6.png',
   },
   {
     id: 269,
@@ -3762,7 +3496,6 @@ export const data = [
     mascot: 'Gamecocks',
     colors: ['Garnet', 'Black'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2579.png',
   },
   {
     id: 270,
@@ -3776,7 +3509,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Garnet', 'Blue'],
     conference: 'MEAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2569.png',
   },
   {
     id: 271,
@@ -3790,7 +3522,6 @@ export const data = [
     mascot: 'Coyotes',
     colors: ['Red', 'White'],
     conference: 'Summit League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/233.png',
   },
   {
     id: 272,
@@ -3804,7 +3535,6 @@ export const data = [
     mascot: 'Jackrabbits',
     colors: ['Blue', 'Yellow'],
     conference: 'Summit League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2571.png',
   },
   {
     id: 273,
@@ -3818,7 +3548,6 @@ export const data = [
     mascot: 'Bulls',
     colors: ['Green', 'Gold'],
     conference: 'American Athletic',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/58.png',
   },
   {
     id: 274,
@@ -3832,7 +3561,6 @@ export const data = [
     mascot: 'Redhawks',
     colors: ['Red', 'Black'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2546.png',
   },
   {
     id: 275,
@@ -3846,7 +3574,6 @@ export const data = [
     mascot: 'Lions',
     colors: ['Green', 'Gold'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2545.png',
   },
   {
     id: 276,
@@ -3860,7 +3587,6 @@ export const data = [
     mascot: 'Jaguars',
     colors: ['Royal Blue', 'Gold'],
     conference: 'SWAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2582.png',
   },
   {
     id: 277,
@@ -3874,7 +3600,6 @@ export const data = [
     mascot: 'Salukis',
     colors: ['Maroon', 'White'],
     conference: 'Missouri Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/79.png',
   },
   {
     id: 278,
@@ -3888,7 +3613,6 @@ export const data = [
     mascot: 'Screaming Eagles',
     colors: ['Blue', 'White'],
     conference: 'GLVC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/88.png',
   },
   {
     id: 279,
@@ -3902,7 +3626,6 @@ export const data = [
     mascot: 'Golden Eagles',
     colors: ['Black', 'Gold'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2572.png',
   },
   {
     id: 280,
@@ -3916,7 +3639,6 @@ export const data = [
     mascot: 'Thunderbirds',
     colors: ['Red', 'White'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/253.png',
   },
   {
     id: 281,
@@ -3930,7 +3652,6 @@ export const data = [
     mascot: 'Bonnies',
     colors: ['Brown', 'White'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/179.png',
   },
   {
     id: 282,
@@ -3944,7 +3665,6 @@ export const data = [
     mascot: 'Red Storm',
     colors: ['Red', 'White'],
     conference: 'Big East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2599.png',
   },
   {
     id: 283,
@@ -3958,7 +3678,6 @@ export const data = [
     mascot: 'Tommies',
     colors: ['Purple', 'Gray'],
     conference: 'MIAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2900.png',
   },
   {
     id: 284,
@@ -3972,7 +3691,6 @@ export const data = [
     mascot: 'Cardinal',
     colors: ['Cardinal', 'White'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/24.png',
   },
   {
     id: 285,
@@ -3986,7 +3704,6 @@ export const data = [
     mascot: 'Lumberjacks',
     colors: ['Purple', 'White'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2617.png',
   },
   {
     id: 286,
@@ -4000,7 +3717,6 @@ export const data = [
     mascot: 'Hatters',
     colors: ['Green', 'White'],
     conference: 'Atlantic Sun',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/56.png',
   },
   {
     id: 287,
@@ -4014,7 +3730,6 @@ export const data = [
     mascot: 'Skyhawks',
     colors: ['Purple', 'White'],
     conference: 'Northeast-10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/284.png',
   },
   {
     id: 288,
@@ -4028,7 +3743,6 @@ export const data = [
     mascot: 'Seawolves',
     colors: ['Red', 'Gray'],
     conference: 'America East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2619.png',
   },
   {
     id: 289,
@@ -4042,7 +3756,6 @@ export const data = [
     mascot: 'Orange',
     colors: ['Orange', 'Blue'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/183.png',
   },
   {
     id: 290,
@@ -4056,7 +3769,6 @@ export const data = [
     mascot: 'Texans',
     colors: ['Purple', 'White'],
     conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2627.png',
   },
   {
     id: 291,
@@ -4070,7 +3782,6 @@ export const data = [
     mascot: 'Horned Frogs',
     colors: ['Purple', 'White'],
     conference: 'Big 12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2628.png',
   },
   {
     id: 292,
@@ -4084,7 +3795,6 @@ export const data = [
     mascot: 'Owls',
     colors: ['Cherry', 'White'],
     conference: 'American Athletic',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/218.png',
   },
   {
     id: 293,
@@ -4098,7 +3808,6 @@ export const data = [
     mascot: 'Volunteers',
     colors: ['Orange', 'White'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2633.png',
   },
   {
     id: 294,
@@ -4112,7 +3821,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Blue', 'White'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2634.png',
   },
   {
     id: 295,
@@ -4126,7 +3834,6 @@ export const data = [
     mascot: 'Golden Eagles',
     colors: ['Purple', 'Gold'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2635.png',
   },
   {
     id: 296,
@@ -4140,7 +3847,6 @@ export const data = [
     mascot: 'Longhorns',
     colors: ['Burnt Orange', 'White'],
     conference: 'Big 12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/251.png',
   },
   {
     id: 297,
@@ -4154,7 +3860,6 @@ export const data = [
     mascot: 'Aggies',
     colors: ['Maroon', 'White'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/245.png',
   },
   {
     id: 298,
@@ -4168,7 +3873,6 @@ export const data = [
     mascot: 'Islanders',
     colors: ['Blue', 'Green'],
     conference: 'Southland',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/357.png',
   },
   {
     id: 299,
@@ -4182,7 +3886,6 @@ export const data = [
     mascot: 'Lions',
     colors: ['Blue', 'Gold'],
     conference: 'Lone Star',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2837.png',
   },
   {
     id: 300,
@@ -4196,7 +3899,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Maroon', 'Gray'],
     conference: 'SWAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2640.png',
   },
   {
     id: 301,
@@ -4210,7 +3912,6 @@ export const data = [
     mascot: 'Bobcats',
     colors: ['Maroon', 'Gold'],
     conference: 'Sun Belt',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/326.png',
   },
   {
     id: 302,
@@ -4224,7 +3925,6 @@ export const data = [
     mascot: 'Red Raiders',
     colors: ['Scarlet', 'Black'],
     conference: 'Big 12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2641.png',
   },
   {
     id: 303,
@@ -4238,7 +3938,6 @@ export const data = [
     mascot: 'Rockets',
     colors: ['Midnight Blue', 'Gold'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2649.png',
   },
   {
     id: 304,
@@ -4252,7 +3951,6 @@ export const data = [
     mascot: 'Tigers',
     colors: ['Black', 'Gold'],
     conference: 'Colonial',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/119.png',
   },
   {
     id: 305,
@@ -4266,7 +3964,6 @@ export const data = [
     mascot: 'Trojans',
     colors: ['Cardinal', 'Silver'],
     conference: 'Sun Belt',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2653.png',
   },
   {
     id: 306,
@@ -4280,7 +3977,6 @@ export const data = [
     mascot: 'Green Wave',
     colors: ['Olive Green', 'Sky Blue'],
     conference: 'American Athletic',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2655.png',
   },
   {
     id: 307,
@@ -4294,7 +3990,6 @@ export const data = [
     mascot: 'Golden Hurricane',
     colors: ['Royal Blue', 'Old Gold'],
     conference: 'American Athletic',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/202.png',
   },
   {
     id: 308,
@@ -4308,7 +4003,6 @@ export const data = [
     mascot: 'Blazers',
     colors: ['Green', 'Gold'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/5.png',
   },
   {
     id: 309,
@@ -4322,7 +4016,6 @@ export const data = [
     mascot: 'Aggies',
     colors: ['Blue', 'Gold'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/302.png',
   },
   {
     id: 310,
@@ -4336,7 +4029,6 @@ export const data = [
     mascot: 'Anteaters',
     colors: ['Blue', 'Gold'],
     conference: 'Big West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/300.png',
   },
   {
     id: 311,
@@ -4350,7 +4042,6 @@ export const data = [
     mascot: 'Highlanders',
     colors: ['Blue', 'Gold'],
     conference: 'Big West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/27.png',
   },
   {
     id: 312,
@@ -4361,10 +4052,9 @@ export const data = [
       lat: 32.8800604,
       lng: -117.2340135,
     },
-    mascot: 'Tritons',
+    mascot: '',
     colors: ['Blue', 'Gold'],
     conference: 'Big West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/28.png',
   },
   {
     id: 313,
@@ -4375,10 +4065,9 @@ export const data = [
       lat: 34.4139629,
       lng: -119.848947,
     },
-    mascot: 'Gauchos',
+    mascot: '',
     colors: ['Blue', 'Gold'],
     conference: 'Big West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2540.png',
   },
   {
     id: 314,
@@ -4392,7 +4081,6 @@ export const data = [
     mascot: 'Knights',
     colors: ['Black', 'Gold'],
     conference: 'American Athletic',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2116.png',
   },
   {
     id: 315,
@@ -4406,7 +4094,6 @@ export const data = [
     mascot: '',
     colors: ['Blue', 'Gold'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/26.png',
   },
   {
     id: 316,
@@ -4420,7 +4107,6 @@ export const data = [
     mascot: 'Huskies',
     colors: ['Navy Blue', 'White'],
     conference: 'Big East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/41.png',
   },
   {
     id: 317,
@@ -4434,7 +4120,6 @@ export const data = [
     mascot: 'Flames',
     colors: ['Navy Blue', 'Flame Red'],
     conference: 'Horizon League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/82.png',
   },
   {
     id: 318,
@@ -4448,7 +4133,6 @@ export const data = [
     mascot: 'Minutemen',
     colors: ['Maroon', 'White'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/113.png',
   },
   {
     id: 319,
@@ -4462,7 +4146,6 @@ export const data = [
     mascot: 'River Hawks',
     colors: ['Blue', 'White'],
     conference: 'America East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2349.png',
   },
   {
     id: 320,
@@ -4476,7 +4159,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Blue', 'White'],
     conference: 'Big South',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2427.png',
   },
   {
     id: 321,
@@ -4490,7 +4172,6 @@ export const data = [
     mascot: 'Spartans',
     colors: ['Blue', 'Gold'],
     conference: 'Southern',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2430.png',
   },
   {
     id: 322,
@@ -4504,7 +4185,6 @@ export const data = [
     mascot: 'Seahawks',
     colors: ['Teal', 'Gold'],
     conference: 'Colonial',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/350.png',
   },
   {
     id: 323,
@@ -4518,7 +4198,6 @@ export const data = [
     mascot: 'Rebels',
     colors: ['Scarlet', 'Gray'],
     conference: 'Mountain West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2439.png',
   },
   {
     id: 324,
@@ -4532,7 +4211,6 @@ export const data = [
     mascot: '',
     colors: ['Cardinal', 'Gold'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/30.png',
   },
   {
     id: 325,
@@ -4546,7 +4224,6 @@ export const data = [
     mascot: 'Spartans',
     colors: ['Green', 'Black'],
     conference: 'Big South',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2908.png',
   },
   {
     id: 326,
@@ -4559,8 +4236,7 @@ export const data = [
     },
     mascot: 'Mavericks',
     colors: ['Blue', 'Orange'],
-    conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/250.png',
+    conference: 'Sun Belt',
   },
   {
     id: 327,
@@ -4574,7 +4250,6 @@ export const data = [
     mascot: 'Skyhawks',
     colors: ['Blue', 'Orange'],
     conference: 'Ohio Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2630.png',
   },
   {
     id: 328,
@@ -4588,7 +4263,6 @@ export const data = [
     mascot: '',
     colors: ['Blue', 'Orange'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2638.png',
   },
   {
     id: 329,
@@ -4599,10 +4273,9 @@ export const data = [
       lat: 29.5830733,
       lng: -98.61987789999999,
     },
-    mascot: 'Roadrunners',
+    mascot: '',
     colors: ['Blue', 'Orange'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2636.png',
   },
   {
     id: 330,
@@ -4616,7 +4289,6 @@ export const data = [
     mascot: 'Utes',
     colors: ['Crimson', 'White'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/254.png',
   },
   {
     id: 331,
@@ -4630,7 +4302,6 @@ export const data = [
     mascot: 'Aggies',
     colors: ['Navy Blue', 'White'],
     conference: 'Mountain West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/328.png',
   },
   {
     id: 332,
@@ -4644,7 +4315,6 @@ export const data = [
     mascot: 'Wolverines',
     colors: ['Green', 'White'],
     conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/3084.png',
   },
   {
     id: 333,
@@ -4658,7 +4328,6 @@ export const data = [
     mascot: 'Trailblazers',
     colors: ['Red', 'White'],
     conference: 'Scenic West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/3101.png',
   },
   {
     id: 334,
@@ -4669,10 +4338,9 @@ export const data = [
       lat: 26.3081983,
       lng: -98.17401579999999,
     },
-    mascot: 'Vaqueros',
+    mascot: '',
     colors: ['Green', 'Orange'],
     conference: 'WAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/292.png',
   },
   {
     id: 335,
@@ -4686,7 +4354,6 @@ export const data = [
     mascot: 'Crusaders',
     colors: ['Brown', 'Gold'],
     conference: 'Missouri Valley',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2674.png',
   },
   {
     id: 336,
@@ -4700,7 +4367,6 @@ export const data = [
     mascot: 'Commodores',
     colors: ['Black', 'Gold'],
     conference: 'SEC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/238.png',
   },
   {
     id: 337,
@@ -4714,7 +4380,6 @@ export const data = [
     mascot: 'Catamounts',
     colors: ['Green', 'Gold'],
     conference: 'America East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/261.png',
   },
   {
     id: 338,
@@ -4728,7 +4393,6 @@ export const data = [
     mascot: 'Wildcats',
     colors: ['Blue', 'White'],
     conference: 'Big East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/222.png',
   },
   {
     id: 339,
@@ -4742,7 +4406,6 @@ export const data = [
     mascot: 'Cavaliers',
     colors: ['Orange', 'Blue'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/258.png',
   },
   {
     id: 340,
@@ -4756,7 +4419,6 @@ export const data = [
     mascot: 'Rams',
     colors: ['Black', 'Gold'],
     conference: 'Atlantic 10',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2670.png',
   },
   {
     id: 341,
@@ -4770,7 +4432,6 @@ export const data = [
     mascot: 'Hokies',
     colors: ['Maroon', 'Orange'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/259.png',
   },
   {
     id: 342,
@@ -4784,7 +4445,6 @@ export const data = [
     mascot: 'Keydets',
     colors: ['Red', 'Yellow'],
     conference: 'Southern',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2678.png',
   },
   {
     id: 343,
@@ -4798,7 +4458,6 @@ export const data = [
     mascot: 'Seahawks',
     colors: ['Green', 'White'],
     conference: 'Northeast',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2681.png',
   },
   {
     id: 344,
@@ -4812,7 +4471,6 @@ export const data = [
     mascot: 'Demon Deacons',
     colors: ['Black', 'Old Gold'],
     conference: 'ACC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/154.png',
   },
   {
     id: 345,
@@ -4820,13 +4478,12 @@ export const data = [
     location: {
       city: 'Seattle',
       state: 'Washington',
-      lat: 47.655,
-      lng: -122.30755,
+      lat: 38.6487895,
+      lng: -90.31079620000001,
     },
     mascot: 'Huskies',
     colors: ['Purple', 'Gold'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/264.png',
   },
   {
     id: 346,
@@ -4840,7 +4497,6 @@ export const data = [
     mascot: 'Cougars',
     colors: ['Crimson', 'Gray'],
     conference: 'Pac-12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/265.png',
   },
   {
     id: 347,
@@ -4854,7 +4510,6 @@ export const data = [
     mascot: 'Wildcats',
     colors: ['Purple', 'White'],
     conference: 'Big Sky',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2692.png',
   },
   {
     id: 348,
@@ -4868,7 +4523,6 @@ export const data = [
     mascot: 'Mountaineers',
     colors: ['Blue', 'Gold'],
     conference: 'Big 12',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/277.png',
   },
   {
     id: 349,
@@ -4882,7 +4536,6 @@ export const data = [
     mascot: 'Catamounts',
     colors: ['Purple', 'Gold'],
     conference: 'Southern',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2717.png',
   },
   {
     id: 350,
@@ -4896,7 +4549,6 @@ export const data = [
     mascot: 'Leathernecks',
     colors: ['Purple', 'Gold'],
     conference: 'Summit League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2710.png',
   },
   {
     id: 351,
@@ -4910,7 +4562,6 @@ export const data = [
     mascot: 'Hilltoppers',
     colors: ['Red', 'White'],
     conference: 'Conference USA',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/98.png',
   },
   {
     id: 352,
@@ -4924,7 +4575,6 @@ export const data = [
     mascot: 'Broncos',
     colors: ['Brown', 'Gold'],
     conference: 'MAC',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2711.png',
   },
   {
     id: 353,
@@ -4938,7 +4588,6 @@ export const data = [
     mascot: 'Shockers',
     colors: ['Black', 'Yellow'],
     conference: 'American Athletic',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2724.png',
   },
   {
     id: 354,
@@ -4952,7 +4601,6 @@ export const data = [
     mascot: 'Tribe',
     colors: ['Green', 'Gold'],
     conference: 'Colonial',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2729.png',
   },
   {
     id: 355,
@@ -4966,7 +4614,6 @@ export const data = [
     mascot: 'Eagles',
     colors: ['Garnet', 'Gold'],
     conference: 'Big South',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2737.png',
   },
   {
     id: 356,
@@ -4980,7 +4627,6 @@ export const data = [
     mascot: 'Badgers',
     colors: ['Cardinal', 'White'],
     conference: 'Big Ten',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/275.png',
   },
   {
     id: 357,
@@ -4994,7 +4640,6 @@ export const data = [
     mascot: 'Terriers',
     colors: ['Old Gold', 'Black'],
     conference: 'Southern',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2747.png',
   },
   {
     id: 358,
@@ -5008,7 +4653,6 @@ export const data = [
     mascot: 'Raiders',
     colors: ['Green', 'Gold'],
     conference: 'Horizon League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2750.png',
   },
   {
     id: 359,
@@ -5022,7 +4666,6 @@ export const data = [
     mascot: 'Cowboys',
     colors: ['Brown', 'Gold'],
     conference: 'Mountain West',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2751.png',
   },
   {
     id: 360,
@@ -5036,7 +4679,6 @@ export const data = [
     mascot: 'Musketeers',
     colors: ['Blue', 'White'],
     conference: 'Big East',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2752.png',
   },
   {
     id: 361,
@@ -5050,7 +4692,6 @@ export const data = [
     mascot: 'Bulldogs',
     colors: ['Blue', 'White'],
     conference: 'Ivy League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/43.png',
   },
   {
     id: 362,
@@ -5064,6 +4705,38 @@ export const data = [
     mascot: 'Penguins',
     colors: ['Red', 'White'],
     conference: 'Horizon League',
-    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2754.png',
   },
 ];
+
+const logoScraper = async () => {
+  const team = data[0];
+  const teamLogo = await fetch(`https://api.collegefootballdata.com/teams`, {
+    headers: {
+      Authorization:
+        'Bearer Zq7b7x2k6JRWo/80S87ncGnQyGqvWZ0arSSatK+R1ijES1NUGqroQP31ap3m48T2',
+    },
+  }).then((res) => res.json());
+
+  //loop through data and find matching team
+  //if match, add logo to team object
+  for (let i = 0; i < data.length; i++) {
+    for (let j = 0; j < teamLogo.length; j++) {
+      if (data[i].name === teamLogo[j].school) {
+        if (teamLogo[j].logos !== null) {
+          data[i].logo = teamLogo[j].logos[0];
+        }
+      }
+    }
+    if (!data[i].hasOwnProperty('logo')) {
+      data[i].logo = null;
+    }
+  }
+  const dataString = JSON.stringify(data);
+
+  fs.writeFile('images.json', dataString, (err) => {
+    if (err) throw err;
+    console.log('The file has been saved!');
+  });
+};
+
+logoScraper();
