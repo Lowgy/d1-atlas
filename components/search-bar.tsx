@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Search, Settings } from 'lucide-react';
@@ -45,10 +46,18 @@ export default function SearchBar({ data, handleMarkerClick }: Props) {
               return (
                 <div
                   key={college.id}
-                  className="flex flex-col p-2 border-gray-100 hover:bg-gray-100 hover:rounded-md hover:cursor-pointer"
+                  className="flex flex-row p-2 border-gray-100 hover:bg-gray-100 hover:rounded-md hover:cursor-pointer"
                   onClick={() => handleSearchClick(college)}
                 >
-                  <span className="text-gray-800">{college.name}</span>
+                  <div className="flex items-center space-x-2">
+                    <span className="text-gray-800">{college.name} </span>
+                    <Image
+                      src={college.logo}
+                      width={30}
+                      height={30}
+                      alt={`${college.name} Logo`}
+                    />
+                  </div>
                 </div>
               );
             })}

@@ -179,7 +179,11 @@ export default function Home() {
               </DialogHeader>
             </DialogContent>
           </Dialog>
+
+          {/* TODO: Make Help Settings button work */}
           <SearchBar data={data} handleMarkerClick={handleMarkerClick} />
+
+          {/* TODO: Make Help button work */}
           <TopRightBar />
           <GoogleMap
             mapContainerStyle={{ height: '100vh', width: '100%' }}
@@ -195,6 +199,10 @@ export default function Home() {
                   lng: college.location.lng,
                 }}
                 onClick={() => handleMarkerClick(college)}
+                icon={{
+                  url: `${college.logo}`,
+                  scaledSize: new window.google.maps.Size(50, 50),
+                }}
               />
             ))}
           </GoogleMap>
