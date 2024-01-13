@@ -1,8 +1,10 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { useTheme } from 'next-themes';
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 import { data } from './data/colleges';
+import { mapStyle } from './data/map-styles';
 
 import {
   Dialog,
@@ -39,90 +41,11 @@ type College = {
 };
 
 export default function Home() {
+  const { theme, resolvedTheme } = useTheme();
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!,
   });
-  // const mapStyles = [
-  //   { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
-  //   { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
-  //   { elementType: 'labels.text.fill', stylers: [{ color: '#746855' }] },
-  //   {
-  //     featureType: 'administrative.locality',
-  //     elementType: 'labels.text.fill',
-  //     stylers: [{ color: '#d59563' }],
-  //   },
-  //   {
-  //     featureType: 'poi',
-  //     elementType: 'labels.text.fill',
-  //     stylers: [{ color: '#d59563' }],
-  //   },
-  //   {
-  //     featureType: 'poi.park',
-  //     elementType: 'geometry',
-  //     stylers: [{ color: '#263c3f' }],
-  //   },
-  //   {
-  //     featureType: 'poi.park',
-  //     elementType: 'labels.text.fill',
-  //     stylers: [{ color: '#6b9a76' }],
-  //   },
-  //   {
-  //     featureType: 'road',
-  //     elementType: 'geometry',
-  //     stylers: [{ color: '#38414e' }],
-  //   },
-  //   {
-  //     featureType: 'road',
-  //     elementType: 'geometry.stroke',
-  //     stylers: [{ color: '#212a37' }],
-  //   },
-  //   {
-  //     featureType: 'road',
-  //     elementType: 'labels.text.fill',
-  //     stylers: [{ color: '#9ca5b3' }],
-  //   },
-  //   {
-  //     featureType: 'road.highway',
-  //     elementType: 'geometry',
-  //     stylers: [{ color: '#746855' }],
-  //   },
-  //   {
-  //     featureType: 'road.highway',
-  //     elementType: 'geometry.stroke',
-  //     stylers: [{ color: '#1f2835' }],
-  //   },
-  //   {
-  //     featureType: 'road.highway',
-  //     elementType: 'labels.text.fill',
-  //     stylers: [{ color: '#f3d19c' }],
-  //   },
-  //   {
-  //     featureType: 'transit',
-  //     elementType: 'geometry',
-  //     stylers: [{ color: '#2f3948' }],
-  //   },
-  //   {
-  //     featureType: 'transit.station',
-  //     elementType: 'labels.text.fill',
-  //     stylers: [{ color: '#d59563' }],
-  //   },
-  //   {
-  //     featureType: 'water',
-  //     elementType: 'geometry',
-  //     stylers: [{ color: '#17263c' }],
-  //   },
-  //   {
-  //     featureType: 'water',
-  //     elementType: 'labels.text.fill',
-  //     stylers: [{ color: '#515c6d' }],
-  //   },
-  //   {
-  //     featureType: 'water',
-  //     elementType: 'labels.text.stroke',
-  //     stylers: [{ color: '#17263c' }],
-  //   },
-  // ];
 
   const [schoolData, setSchoolData] = useState<College[]>(data);
   const [selectedSchool, setSelectedSchool] = useState<College>({
@@ -146,13 +69,16 @@ export default function Home() {
   const [prevFilter, setPrevFilter] = useState(filter);
   const [schoolSheetOpen, setSchoolSheetOpen] = useState(false);
 
+  const [mapStyles, setMapStyles] = useState(mapStyle['light']);
+
   const [mapZoom, setMapZoom] = useState(5);
   const [mapCenter, setMapCenter] = useState({
     lat: 40.999436,
     lng: -98.706041,
   });
+
   const mapOptions = {
-    // styles: mapStyles,
+    styles: mapStyles,
     disableDefaultUI: true,
     clickableIcons: true,
     scrollwheel: true,
@@ -181,7 +107,6 @@ export default function Home() {
 
   useEffect(() => {
     setPrevFilter(filter);
-    console.log('Previous Filter', prevFilter);
     let filteredData = schoolData;
 
     if (filter.conference !== 'all' && filter.state !== 'all') {
@@ -215,6 +140,15 @@ export default function Home() {
     setSchoolData(filteredData);
     setMapZoom(5);
   }, [filter]);
+
+  useEffect(() => {
+    if (resolvedTheme && resolvedTheme === 'dark') {
+      //@ts-ignore
+      setMapStyles(mapStyle['dark']);
+    } else {
+      setMapStyles(mapStyle['light']);
+    }
+  }, [resolvedTheme]);
 
   return (
     <div>

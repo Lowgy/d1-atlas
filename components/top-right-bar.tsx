@@ -6,7 +6,6 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
@@ -28,11 +27,9 @@ export default function TopRightBar() {
           <DropdownMenuItem onClick={() => setTheme('light')}>
             Light
           </DropdownMenuItem>
+          <DropdownMenuSeparator />
           <DropdownMenuItem onClick={() => setTheme('dark')}>
             Dark
-          </DropdownMenuItem>
-          <DropdownMenuItem onClick={() => setTheme('system')}>
-            System
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>

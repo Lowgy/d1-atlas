@@ -43,6 +43,7 @@ export default function SearchBar({
   };
 
   const filterClick = (value: string) => {
+    //TODO: Fix this to work with both filters, only works with conference
     handleFilterChange({ conference: value, state: 'all' });
   };
 
@@ -90,31 +91,62 @@ export default function SearchBar({
         {!showFilters ? <Settings /> : <XIcon />}
       </Button>
       {showFilters && (
-        <Select onValueChange={filterClick}>
-          <SelectTrigger className="w-[180px]">
-            <SelectValue placeholder="Select Conference" />
-          </SelectTrigger>
-          <SelectContent align="end">
-            <SelectItem value="all">All Conferences</SelectItem>
-            {/* Filter Duplicate Conferences and order alphabetically */}
-            {data
-              .filter(
-                (college: any, index: number, self: any) =>
-                  index ===
-                  self.findIndex(
-                    (c: any) => c.conference === college.conference
-                  )
-              )
-              .sort((a: any, b: any) => (a.conference > b.conference ? 1 : -1))
-              .map((college: any) => {
-                return (
-                  <SelectItem key={college.id} value={college.conference}>
-                    {college.conference}
-                  </SelectItem>
-                );
-              })}
-          </SelectContent>
-        </Select>
+        <>
+          <Select onValueChange={filterClick}>
+            <SelectTrigger className="w-[180px]">
+              <SelectValue placeholder="Select Conference" />
+            </SelectTrigger>
+            <SelectContent align="end">
+              <SelectItem value="all">All Conferences</SelectItem>
+              {/* Filter Duplicate Conferences and order alphabetically */}
+              {data
+                .filter(
+                  (college: any, index: number, self: any) =>
+                    index ===
+                    self.findIndex(
+                      (c: any) => c.conference === college.conference
+                    )
+                )
+                .sort((a: any, b: any) =>
+                  a.conference > b.conference ? 1 : -1
+                )
+                .map((college: any) => {
+                  return (
+                    <SelectItem key={college.id} value={college.conference}>
+                      {college.conference}
+                    </SelectItem>
+                  );
+                })}
+            </SelectContent>
+          </Select>
+          <Select onValueChange={filterClick}>
+            <SelectTrigger className="w-[180px]">
+              <SelectValue placeholder="Select State" />
+            </SelectTrigger>
+            <SelectContent align="end">
+              <SelectItem value="all">All States</SelectItem>
+              {/* Filter Duplicate Conferences and order alphabetically */}
+              {data
+                .filter(
+                  (college: any, index: number, self: any) =>
+                    index ===
+                    self.findIndex(
+                      (c: any) => c.location.state === college.location.state
+                    )
+                )
+                .sort((a: any, b: any) =>
+                  a.location.state > b.location.state ? 1 : -1
+                )
+                .map((college: any) => {
+                  return (
+                    <SelectItem key={college.id} value={college.location.state}>
+                      {college.location.state}
+                    </SelectItem>
+                  );
+                })}
+            </SelectContent>
+          </Select>
+        </>
       )}
     </div>
   );
