@@ -123,7 +123,7 @@ export const data = [
     mascot: 'Eagles',
     colors: ['Red', 'Blue'],
     conference: 'Patriot League',
-    logo: '',
+    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/44.png',
   },
   {
     id: 10,
@@ -682,7 +682,7 @@ export const data = [
     },
     mascot: 'Bearcats',
     colors: ['Red', 'Black'],
-    conference: 'AAC',
+    conference: 'Big 12',
     logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2132.png',
   },
   {
@@ -906,6 +906,7 @@ export const data = [
     },
     mascot: 'Wildcats',
     colors: ['Red', 'Black'],
+    conference: 'Atlantic 10',
     logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/2166.png',
   },
   {
@@ -1059,7 +1060,7 @@ export const data = [
     },
     mascot: 'Pirates',
     colors: ['Purple', 'Gold'],
-    conference: 'AAC',
+    conference: 'American Athletic',
     logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/151.png',
   },
   {
@@ -1591,7 +1592,7 @@ export const data = [
     },
     mascot: 'Cougars',
     colors: ['Red', 'White'],
-    conference: 'AAC',
+    conference: 'American Athletic',
     logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/248.png',
   },
   {
@@ -2281,7 +2282,7 @@ export const data = [
     logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/120.png',
   },
   {
-    idL: 164,
+    id: 164,
     name: 'Maryland-Eastern Shore',
     location: {
       city: 'Princess Anne',
@@ -2319,7 +2320,7 @@ export const data = [
     },
     mascot: 'Tigers',
     colors: ['Blue', 'Gray'],
-    conference: 'AAC',
+    conference: 'American Athletic',
     logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/235.png',
   },
   {

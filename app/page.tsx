@@ -1,12 +1,7 @@
 'use client';
 
-import { useState } from 'react';
-import {
-  GoogleMap,
-  useJsApiLoader,
-  Marker,
-  OverlayView,
-} from '@react-google-maps/api';
+import { useEffect, useState } from 'react';
+import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 import { data } from './data/colleges';
 
 import {
@@ -40,6 +35,7 @@ type College = {
   mascot: string;
   colors: string[];
   conference: string;
+  logo: string;
 };
 
 export default function Home() {
@@ -128,20 +124,7 @@ export default function Home() {
   //   },
   // ];
 
-  const mapOptions = {
-    // styles: mapStyles,
-    disableDefaultUI: true,
-    clickableIcons: true,
-    scrollwheel: true,
-  };
-
-  const [mapCenter, setMapCenter] = useState({
-    lat: 40.999436,
-    lng: -98.706041,
-  });
-
-  const [schoolSheetOpen, setSchoolSheetOpen] = useState(false);
-  const [mapZoom, setMapZoom] = useState(5);
+  const [schoolData, setSchoolData] = useState<College[]>(data);
   const [selectedSchool, setSelectedSchool] = useState<College>({
     id: 203,
     name: 'North Dakota',
@@ -154,7 +137,26 @@ export default function Home() {
     mascot: 'Fighting Hawks',
     colors: ['Green', 'White'],
     conference: 'Summit League',
+    logo: 'http://a.espncdn.com/i/teamlogos/ncaa/500/155.png',
   });
+  const [filter, setFilter] = useState({
+    conference: 'all',
+    state: 'all',
+  });
+  const [prevFilter, setPrevFilter] = useState(filter);
+  const [schoolSheetOpen, setSchoolSheetOpen] = useState(false);
+
+  const [mapZoom, setMapZoom] = useState(5);
+  const [mapCenter, setMapCenter] = useState({
+    lat: 40.999436,
+    lng: -98.706041,
+  });
+  const mapOptions = {
+    // styles: mapStyles,
+    disableDefaultUI: true,
+    clickableIcons: true,
+    scrollwheel: true,
+  };
 
   const handleMarkerClick = (college: any) => {
     console.log(college);
@@ -163,6 +165,56 @@ export default function Home() {
     setMapCenter({ lat: college.location.lat, lng: college.location.lng });
     setMapZoom(16);
   };
+
+  const handleFilterChange = ({
+    conference,
+    state,
+  }: {
+    conference?: string;
+    state?: string;
+  }) => {
+    setFilter({
+      conference: conference || filter.conference,
+      state: state || filter.state,
+    });
+  };
+
+  useEffect(() => {
+    setPrevFilter(filter);
+    console.log('Previous Filter', prevFilter);
+    let filteredData = schoolData;
+
+    if (filter.conference !== 'all' && filter.state !== 'all') {
+      filteredData = filteredData.filter(
+        (college) =>
+          college.conference === filter.conference &&
+          college.location.state === filter.state
+      );
+    }
+    if (filter.state !== 'all') {
+      filteredData = filteredData.filter(
+        (college) => college.location.state === filter.state
+      );
+    }
+    if (filter.conference !== 'all') {
+      filteredData = filteredData.filter(
+        (college) => college.conference === filter.conference
+      );
+    }
+
+    if (filter.conference === 'all' && filter.state === 'all') {
+      filteredData = data;
+    }
+
+    if (prevFilter.conference !== 'all' && filter.conference !== 'all') {
+      filteredData = data;
+      filteredData = filteredData.filter(
+        (college) => college.conference === filter.conference
+      );
+    }
+    setSchoolData(filteredData);
+    setMapZoom(5);
+  }, [filter]);
 
   return (
     <div>
@@ -181,7 +233,11 @@ export default function Home() {
           </Dialog>
 
           {/* TODO: Make Help Settings button work */}
-          <SearchBar data={data} handleMarkerClick={handleMarkerClick} />
+          <SearchBar
+            schoolData={schoolData}
+            handleMarkerClick={handleMarkerClick}
+            handleFilterChange={handleFilterChange}
+          />
 
           {/* TODO: Make Help button work */}
           <TopRightBar />
@@ -191,7 +247,7 @@ export default function Home() {
             zoom={mapZoom}
             options={mapOptions}
           >
-            {data.map((college) => (
+            {schoolData.map((college) => (
               <Marker
                 key={college.name}
                 position={{

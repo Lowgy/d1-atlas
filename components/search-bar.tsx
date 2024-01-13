@@ -1,22 +1,36 @@
+import { useState } from 'react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Search, Settings } from 'lucide-react';
-import { useState } from 'react';
+import { Search, Settings, XIcon } from 'lucide-react';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
+import { data } from '../app/data/colleges';
 
 interface Props {
-  data: any;
+  schoolData: any;
   handleMarkerClick(college: any): void;
+  handleFilterChange(filter: { conference?: string; state?: string }): void;
 }
 
-export default function SearchBar({ data, handleMarkerClick }: Props) {
+export default function SearchBar({
+  schoolData,
+  handleMarkerClick,
+  handleFilterChange,
+}: Props) {
   const [searchResults, setSearchResults] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [showFilters, setShowFilters] = useState(false);
 
   const handleSearch = (value: string) => {
     setSearchTerm(value);
     //Filter college data for values that match the search
-    const filteredData = data.filter((college: any) => {
+    const filteredData = schoolData.filter((college: any) => {
       return college.name.toLowerCase().includes(value.toLowerCase());
     });
     setSearchResults(filteredData);
@@ -26,6 +40,10 @@ export default function SearchBar({ data, handleMarkerClick }: Props) {
     handleMarkerClick(college);
     setSearchTerm('');
     setSearchResults([]);
+  };
+
+  const filterClick = (value: string) => {
+    handleFilterChange({ conference: value, state: 'all' });
   };
 
   return (
@@ -67,9 +85,37 @@ export default function SearchBar({ data, handleMarkerClick }: Props) {
       <Button
         size="icon"
         className="dark:bg-black bg-white text-gray-500 dark:text-white hover:text-white"
+        onClick={() => setShowFilters(!showFilters)}
       >
-        <Settings />
+        {!showFilters ? <Settings /> : <XIcon />}
       </Button>
+      {showFilters && (
+        <Select onValueChange={filterClick}>
+          <SelectTrigger className="w-[180px]">
+            <SelectValue placeholder="Select Conference" />
+          </SelectTrigger>
+          <SelectContent align="end">
+            <SelectItem value="all">All Conferences</SelectItem>
+            {/* Filter Duplicate Conferences and order alphabetically */}
+            {data
+              .filter(
+                (college: any, index: number, self: any) =>
+                  index ===
+                  self.findIndex(
+                    (c: any) => c.conference === college.conference
+                  )
+              )
+              .sort((a: any, b: any) => (a.conference > b.conference ? 1 : -1))
+              .map((college: any) => {
+                return (
+                  <SelectItem key={college.id} value={college.conference}>
+                    {college.conference}
+                  </SelectItem>
+                );
+              })}
+          </SelectContent>
+        </Select>
+      )}
     </div>
   );
 }
