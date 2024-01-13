@@ -33,8 +33,8 @@ export const data = [
     location: {
       city: 'Akron',
       state: 'Ohio',
-      lat: 41.754,
-      lng: -81.51275,
+      lat: 41.07384,
+      lng: -81.50933,
     },
     mascot: 'Zips',
     colors: ['Blue', 'Gold'],
