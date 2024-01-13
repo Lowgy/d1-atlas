@@ -4712,8 +4712,7 @@ const logoScraper = async () => {
   const team = data[0];
   const teamLogo = await fetch(`https://api.collegefootballdata.com/teams`, {
     headers: {
-      Authorization:
-        'Bearer Zq7b7x2k6JRWo/80S87ncGnQyGqvWZ0arSSatK+R1ijES1NUGqroQP31ap3m48T2',
+      Authorization: `Bearer ${process.env.NEXT_PUBLIC_COLLEGE_API_KEY} `,
     },
   }).then((res) => res.json());
 
