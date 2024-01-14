@@ -119,13 +119,12 @@ export default function SearchBar({
                 })}
             </SelectContent>
           </Select>
-          <Select onValueChange={filterClick}>
+          {/* <Select onValueChange={filterClick}>
             <SelectTrigger className="w-[180px]">
               <SelectValue placeholder="Select State" />
             </SelectTrigger>
             <SelectContent align="end">
               <SelectItem value="all">All States</SelectItem>
-              {/* Filter Duplicate Conferences and order alphabetically */}
               {data
                 .filter(
                   (college: any, index: number, self: any) =>
@@ -145,7 +144,7 @@ export default function SearchBar({
                   );
                 })}
             </SelectContent>
-          </Select>
+          </Select> */}
         </>
       )}
     </div>
